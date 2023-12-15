@@ -57,6 +57,7 @@ Veterans and family members of Veterans must currently download and fill out the
 - Objective: Faster delivery of benefits for Veterans and their families
   - Key result: Reduce processing and approval time 
   - Key result: Reduce time to notification of submission
+  - Key result: Ensure testing and alert monitoring to catch any errors
 
 
 ---
@@ -92,6 +93,7 @@ Veterans and family members of Veterans must currently download and fill out the
 
 ### Questions
 
+- auth states
 - notifications?
 - end to end data submission processes/storage and error handling
 - existing metrics

@@ -49,10 +49,10 @@ How might we provide an online experience where the Veteran can quickly and easi
 
 | Product KPI | Historical | Target | Post-Launch 1 week |Post-Launch 1 month|
 |------------- |---------|-------------- |-------------- |-------------- |
-|Paper Submissions |TBD |TBD | TBD |TBD |
-|Online Submissions |NEW |TBD | TBD |TBD |
-|Submission Failures |NEW |TBD | TBD |TBD |
-|Veteran Validation errors |NEW |TBD | TBD |TBD |
+|Paper Submissions |15,000 |4,000 (25%) | TBD |TBD |
+|Online Submissions |NEW |11,000 (75%) | TBD |TBD |
+|Submission Failures |NEW |None | TBD |TBD |
+|Veteran Validation errors |NEW |None | TBD |TBD |
 
 
 #### **Key Result #2:** Capture 75% of form submissions in a single session
@@ -63,14 +63,14 @@ How might we provide an online experience where the Veteran can quickly and easi
 
 | Product KPI | Historical  | Target | Post-Launch 1 week |Post-Launch 1 month|
 |------------- |---------|-------|-------------- |-------------- |
-|Single-session submissions |NEW |75% of submitted forms | TBD |TBD |
+|Single-session submissions |NEW |75% of submitted forms (8,250)| TBD |TBD |
 
 
 #### **Key Result #3:** Reduce number of EZR form downloads from VA.gov
 
 | Product KPI | Historical  | Target | Post-Launch 1 week |Post-Launch 1 month|
 |------------- |---------|-------|-------------- |-------------- |
-|EZR PDF Downloads |avg 10,400 monthly |3,000 monthly | TBD |TBD |
+|EZR PDF Downloads |avg 10,400 monthly |2,600 monthly (25%) | TBD |TBD |
 
 
 ---
@@ -165,7 +165,7 @@ In future iterations, we plan to review for alternative locations and other syst
 
 ### Current Status
 - New form being built online
-     - 9/11/2023: In Design and foundational development concurrently
+     - 12/12/2023 - ES Fix for dependents info should be deployed to SQA today, we should be able to complete our E2E testing.
 
 #### Key deliverables
 
@@ -191,7 +191,7 @@ In future iterations, we plan to review for alternative locations and other syst
      - MVP: Build a pre-filled 10-10EZR form online so that a Veteran can review and edit the pre-filled data, submitting successfully.
      - In-Scope: 
           - Authenticated flow
-          - Display all data fields with the applicable pre-filled data, if any
+          - Display all data fields with the applicable pre-filled data, if any (exception Dependents & Insurance)
           - Provide context/alert informing the Veteran that data has been pre-filled for them (existing on EZ)
           - Veteran name, DOB & SSN information will be displayed as read-only (existing on EZ)
           - Dependents and Insurance screens will utilize the multiple response pattern (existing in Dependents page on EZ)
@@ -211,7 +211,8 @@ In future iterations, we plan to review for alternative locations and other syst
 - Oct: Usability testing kickoff
 - Nov: Complete QA
 - Nov: Complete UAT
-- End of Nov: Launched to ???% of users
+- Dec: Complete E2E testing
+- Dec: Launched to ???% of users
 ---
    
 ## Screenshots

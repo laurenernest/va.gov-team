@@ -1,4 +1,4 @@
-![image](https://github.com/department-of-veterans-affairs/va.gov-team/assets/129431463/f6d472cc-0a2b-4c0d-b73b-fcda985c8e00)# Project outline: Profile hub MVP
+# Project outline: Profile hub MVP
 
 **Last Updated: September 12, 2023 -- Updated KPIs**
 
@@ -86,20 +86,34 @@ To solve for these problems, we are building a profile hub page, which resolves 
 |dd214|||||||
 |direct deposit|||||||
 
+## Analytics 
+Analytics for hub vs menu nav clicks can be found on [this board](https://analytics.google.com/analytics/web/?authuser=0#/dashboard/DRqBrmiyTD6l8L75rei0fw/a50123418w177519031p176188361/_u.date00=20231119&_u.date01=20231128/)
+
+<details>
+  <summary>example screen grab of the relevant section</summary>
+not maintained 
+
+![image](https://github.com/department-of-veterans-affairs/va.gov-team/assets/129431463/63d4760b-3136-4f84-bc33-ef7624df91ea)
+
+
+</details>
 
 ## Key deliverables
 
 (This is just a starting list. Feel free to add whatever is relevant here.)
 
 - [Project epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40593)
-- [Usability Testing](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Research/2023-09-profile-hub-usability) 
-- Release plan
+- [Usability Testing](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Research/2023-10-profile-hub-usability) 
+- [Release plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/hub/mvp/hubReleasePlan.md)
 
 ## Key dates
 
 - July 2023: Initial discussions; project kickoff
 - August 2023: Design and design intent review
 - September 2023: Build
+- October 2023: Usability Testing
+- November 2023: Build corrections
+- December 2023: Launch
 
 ## Design
 <details>
@@ -124,7 +138,7 @@ To solve for these problems, we are building a profile hub page, which resolves 
 <details>
   <summary>Before Hub Launch </summary>
   
-![image](https://github.com/department-of-veterans-affairs/va.gov-team/assets/129431463/1ef8e7b3-8d71-4f31-8a60-26cb52beb97b)
+![image](https://github.com/department-of-veterans-affairs/va.gov-team/assets/129431463/f6d472cc-0a2b-4c0d-b73b-fcda985c8e00)
 
 </details>
 
@@ -132,7 +146,9 @@ To solve for these problems, we are building a profile hub page, which resolves 
 ### After
 <details>
   <summary>After Hub Launch </summary>
+  
 Not maintained, see sketch files
+
 ![image](https://github.com/department-of-veterans-affairs/va.gov-team/assets/129431463/0c7f3df6-500e-4d2a-b480-ebe52ad36010)
 
 </details>

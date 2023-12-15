@@ -86,7 +86,7 @@ Before we start, I want to go over a few things:
 *After checking that transcription is working, close the Transcript panel by clicking **Close Full Transcript** in the Show Captions menu.*
 
 ## Screen sharing instructions (if needed)
-- In the Zoom application on your computer, you'll see a row of buttons at the bottom. In the center is a button that says Share *(on phone, may need to scroll sideways)* or Share Screen *(on computer, button is green).*
+- In the Zoom application on your computer, you'll see a row of buttons at the bottom. In the center is a button that says Share *(on phone, may need to scroll sideways or click **More...**)* or Share Screen *(on computer, button is green).*
   - If you don't tap the screen for a while, all the buttons at the bottom will hide. To get them back, you can tap/click anywhere on the screen, and they'll show up again.
   - (If you have more than one screen, the row of buttons may be on the screen that's being shared)
 
@@ -160,17 +160,16 @@ Thank you for your time in having this call. I honor your decision to stop and w
 ## Warm-up Questions - 5 minutes
 Let’s start with a few questions... 
 
-1. I understand you are a (*Veteran / Family member).* Is that right? 
-	- *(If Family member, confirm:)* Are you a family member of a Veteran? Are you also a Veteran yourself?
-	- Thanks for confirming that.
+1. I understand you are a (*Veteran / Family member / Caregiver).* Is that right? 
+    - Thanks for confirming that.
 
 1. What kind of device are you using today? *(Computer / Tablet / Smartphone)*
     - *(If not the expected device, ask to rejoin that way)*
 
-1. I will be sharing a web page link with you during the session. How would you prefer to receive the URL? I could dictate it to you, or put it in the Zoom chat. *(RECORD)* 
+1. I will be sharing a web page link with you during the session. How would you prefer to receive the URL? I could dictate it to you, put it in the Zoom chat, or *(for smartphone only)* my colleague could text it to you. *(RECORD)* 
 
 1. What VA benefits, if any, do you have experience with? 
-    - *RECORD: health care / education / career services / disability / housing loans / pension / life insurance / burial benefits / __________*
+    - *RECORD: health care / education / career services / disability / home loan / pension / life insurance / burial benefits / __________*
 
 1. How do you typically get information and benefits from the VA? 
     - *(Google / Facebook / MHV / eBenefits / Contact center call/email / VA.gov / ________________________)*
@@ -189,11 +188,12 @@ I'd like you to look at a web page that I'm going to share with you.
 
 *Decide which prototype to show based on device that participant is using during this session: smartphone = mobile, computer/tablet = desktop.*
 
-I will *[dictate/put into the Zoom chat]* the URL: 
+I will *[text/dictate/put into the Zoom chat]* the URL: 
 - Smartphone: **https://bit.ly/3RJL5vb** 
 - Desktop/tablet: **https://bit.ly/3t6rbRt**
+- *(If text)* Could the notetaker please text the link?
+- *(If asked, reassure that this is a legitimate link to what I want you to test)*
 - *(Might need to hold tablet horizontally so easier to read)*
-- *(If asked, reassure that this is a legitimate link to what I want you to test. Could instead provide the full link)*
 
 Did you get the link? 
 
@@ -207,6 +207,7 @@ I would like you to take some time to look over this web page from top to bottom
 Please **talk aloud** about what you're thinking BEFORE clicking on anything.
 
 *RECORD everything they say, especially anything +/-/neutral about...*
+- life insurance
 - USA at top of page 
 - USA in footer 
 - VA seal in header
@@ -225,7 +226,7 @@ I'd like you to imagine that you're planning a trip to another city, and you wan
 
 *RECORD navigation: **desktop header > Find a VA location** / search / **mobile header > search > Find a VA location*** / footer
 
-*RECORD: directly / indirectly successful / needed help / unsuccessful*
+*RECORD: directly / indirectly successful (incl. search) / needed help / unsuccessful*
 
 *(NOTE: if wrong page ever opens, ask p to refresh page)*
 
@@ -235,7 +236,7 @@ Pretend that lately you've been having difficulty with your hearing, and you thi
 
 *RECORD navigation: header > **megamenu > Disability > Eligibility** / footer / search / mobile search*
 
-*RECORD: directly / indirectly successful / needed help / unsuccessful*
+*RECORD: directly / indirectly successful (incl. search) / needed help / unsuccessful*
 
 
 ### Task 5: [Find a Form]
@@ -243,17 +244,17 @@ Let's say that you're considering going back to school to get your degree, and y
 
 *RECORD navigation: header > megamenu > Education and training > How to apply / **footer > VA forms** / search / **mobile header > search > Find a VA form***
 
-*RECORD: directly / indirectly successful / needed help / unsuccessful*
+*RECORD: directly / indirectly successful (incl. search) / needed help / unsuccessful*
 
 - *(IF TIME & if didn't use Find a Form)* Is there another way that you could do this task from this web page?
-- *(If need more prompting)* You're looking for the application to fill out online.
+- *(If need more prompting)* You're looking for the application form to fill out online.
 
 ### Task 6: [Careers at VA]
 I want you to pretend that you're job hunting, and you're wondering if you could get a job at the VA. How might you do that from this web page?
 
 *RECORD navigation: header > megamenu > Careers and employment > Find VA careers and support / **footer > Careers at VA** / search / mobile search*
 
-*RECORD: directly / indirectly successful / needed help / unsuccessful*
+*RECORD: directly / indirectly successful (incl. search) / needed help / unsuccessful*
 
 - *(IF TIME & if didn't use footer)* Is there another way that you could do this task from this web page?
 
@@ -263,7 +264,7 @@ Say that after using this website for a while, you didn't get all of your questi
 
 *RECORD navigation: **header > Contact** or search / **footer > chatbot or AskVA or call** / mobile header > Menu > Contact us*
 
-*RECORD: directly / indirectly successful / needed help / unsuccessful*
+*RECORD: directly / indirectly successful (incl. search) / needed help / unsuccessful*
 
 ### Task 8: [FOIA]
  Say that you heard of the Freedom of Information Act, and you want to learn more about it. How might you do that from this web page?
@@ -274,10 +275,12 @@ Say that after using this website for a while, you didn't get all of your questi
 
 *RECORD any feedback about the black/white footer area*
 
-*RECORD: directly / indirectly successful / needed help / unsuccessful*
+*RECORD: directly / indirectly successful (incl. search) / needed help / unsuccessful*
 
 ### Task 9: [Update your contact information with VA]
-Let's say that you recently moved and want to make sure that your mail and benefit information from the VA gets to your new address. How would you do this using this web page?  
+Could you please refresh the current page in your browser? *(so login works)*
+
+Let's say that you recently moved and want to make sure that your mail and benefit information from the VA gets to your new address. I’d like you to update your address from this web page. 
 
 *RECORD navigation: **header > Sign in** / footer / search / mobile search*
 
@@ -285,28 +288,33 @@ Let's say that you recently moved and want to make sure that your mail and benef
 
 *(If needed, prompt participant to use Login.gov, click to enter info)*
 
-*(See previous page and* My Tools *or* Sign Out *in top right corner)*
+*(See previous page and* Cameron/Sign Out *in top right corner)*
+
+- *(If p is confused by Cameron)* Pretend that instead of “Cameron”, *your* first name was there.
 
 *RECORD navigation: 
-- *(desktop) **My Tools > Profile*** 
-- *(mobile) **Menu > My Tools > Profile***
-- *Any feedback about their name as menu (for Auth)*
+- *(desktop) **Cameron > Profile*** 
+- *(mobile) **Menu > Cameron > Profile***
+- *Any feedback about name as menu (for Auth)*
 
 *(After participant says they want to click "Profile", ask them to stop there. We want to know if Auth menu and Profile are findable.)*
 
-*RECORD: directly / indirectly successful / needed help / unsuccessful*
+*RECORD: directly / indirectly successful (incl. search) / needed help / unsuccessful*
 
 
 ## Post-Task Interview - 7 minutes
 
 *Type into #feedback-backchannel: "Any questions you want me to ask?"*
 
-1. What do you think this page is for or about?
 1. What stands out to you on this page that indicates this is an official government website?
     - *(More prompts if needed...)* 
     - Can you tell me about the very top of this page? *(USA Government)*
     - Can you talk about what's below that? *(VA seal and dept. name)*
     - Can you scroll down and tell me what you see there? *(Footer--blue and black parts)* 
+
+1. How often do you use VA.gov?
+1. Do you use the VA mobile app? If so, how often?
+
 1. Overall, about everything you've seen in this session...What worked *well* for you?
 1. What was *unclear or didn't work well* for you?
 1. What would you like to *change or add*?

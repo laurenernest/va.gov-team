@@ -123,7 +123,7 @@ When asked later in the session about _Emergency contact,_
 
 ---
 
-### 4) 4. Most participants (6 of 9) associated _Next of kin_ with family and initially did not differentiate between _Medical emergency contact_ and _Next of kin contact_.
+### 4) Most participants (6 of 9) associated _Next of kin_ with family and initially did not differentiate between _Medical emergency contact_ and _Next of kin contact_.
 
 Participants frequently interpreted _Next of kin_ as a family member designated emergency contact. Once on the _Personal health care contacts_ page, participants relied on the hint text to distinguish between the two concepts. 
 
@@ -144,7 +144,7 @@ Once on the _Personal health care contacts_ page participants stated,
 ![Next of kin info](https://github.com/department-of-veterans-affairs/va.gov-team/assets/58444931/e2dc3250-e3a9-4a83-b039-1478a547818d)
 
 ---
-### 5) 5. Participants wanted a way to edit both _Medical emergency contact_ and _Next of kin contact_ information on the _Personal health care contacts_ page.
+### 5) Participants wanted a way to edit both _Medical emergency contact_ and _Next of kin contact_ information on the _Personal health care contacts_ page.
 
 All 9 participants wanted functionality to edit and add contacts on the page.
 
@@ -231,7 +231,7 @@ When asked if this information is related to other benefits, participants commen
 (Supported by finding 1 and 2)
 - 6 of 7 participants went to the _Personal health care contacts_ to view their emergency contact and next of kin information
 
-### Remove "Medcial" from _Medical emergency contact_ 
+### Remove "Medical" from _Medical emergency contact_ 
 (Supported by finding 3)
 - A couple participants thought _Medical emergency contact_ was similar to 911. All participants understood the concept of _Emergency contact_
 
@@ -239,7 +239,7 @@ When asked if this information is related to other benefits, participants commen
 (Supported by finding 5)
 - All 9 participants wanted functionality to edit and add contacts on the page.
 
-### Allow users to add multiple _Emegency_ and _Next of kin_ contacts
+### Allow users to add multiple _Emergency_ and _Next of kin_ contacts
 (Supported by finding 7) 
 - 9 of 9 participants wanted at least two (a primary and secondary) _Medical emergency contacts_ and most participants (7 of 9) wanted two _Next of kin_ contacts listed.
   
