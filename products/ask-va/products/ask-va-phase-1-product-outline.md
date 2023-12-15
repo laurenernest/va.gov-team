@@ -1,5 +1,5 @@
 # Ask VA Phase 1 - Product Outline
-Last updated by @beckyphung on December 13, 2023
+Last updated by @tygindraux on December 15, 2023
 
 **Jump to:**
 - [Overview](#overview)
@@ -8,7 +8,7 @@ Last updated by @beckyphung on December 13, 2023
 - [Measuring Success](#measuring-success)
 - [Solution Approach](#solution-approach)
 - [Launch Strategy](#launch-strategy)
-- [Screenshots of Drafted Design Updates](#screenshots-of-drafted-design-updates)
+- [Examples of Design Updatess](#examples-of-design-updates)
 - [Team and Stakeholders](#team-and-stakeholders)
 
 ## Overview
@@ -127,13 +127,13 @@ Transitioning the Ask VA front-end to VA.gov design, content, and accessibility 
 - *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
   - TBD
    
-## Screenshots of Drafted Design Updates
+## Examples of Design Updates
 
-![Screenshot 2023-10-25 at 1 45 53 PM](https://github.com/department-of-veterans-affairs/va.gov-team/assets/135031740/35191692-b186-48d3-ae37-f8f13a097bff)
+These examples represent our designs as of December 15, 2023.
 
-![Screenshot 2023-10-25 at 1 46 00 PM](https://github.com/department-of-veterans-affairs/va.gov-team/assets/135031740/6b7c8a1d-716a-4776-91f6-3f2e3d919051)
-
-![Screenshot 2023-10-25 at 1 46 06 PM](https://github.com/department-of-veterans-affairs/va.gov-team/assets/135031740/0cf35d27-5e39-4757-bc7c-d45f2000f525)
+![Homepage-design-changes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/research/Notes/Images/Homepage-design-changes-Dec-23.png)
+![Topic-design-changes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/research/Notes/Images/Topic-design-changes-Dec-23.png)
+![Dashboard-design-changes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/research/Notes/Images/Dashboard-design-changes-Dec-23.png)
 
 ## Team and Stakeholders
 ### Communications
