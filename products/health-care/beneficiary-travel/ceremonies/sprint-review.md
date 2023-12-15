@@ -6,7 +6,6 @@
 - Review [sprint goals](./sprint-goals.md#12042023---12152023) (Lauren)
 - Demo: Boiler plate code (Kevin)
 - Artifact: Service blueprint (Micah, Cara)
-- Medallia/Reddit feedback (Cara)
 - General updates: 12/29 review, 2024 invites (Lauren) 
 
 [Meeting Recording](https://adhocteam-us.zoom.us/rec/share/d1WUqhjow_bTU_5YJlNDhCr-1xZP2xOL7UHwbfCHS4Ia5zYxxKY1JR8T6XB-QZiI.GskLqxFjyC28_sdf?pwd=frdJYkU0VZkGKP5ZrdsN0fdALyuwCnjM)
