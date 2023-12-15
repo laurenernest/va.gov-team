@@ -7,7 +7,7 @@
 - Demo: Boiler plate code (Kevin)
 - Artifact: Service blueprint (Micah, Cara)
 - Medallia/Reddit feedback (Cara)
-- General updates: 12/29 review, 2024 series (Lauren) 
+- General updates: 12/29 review, 2024 invites (Lauren) 
 
 
 ## 11/20/2023 - 12/01/2023
