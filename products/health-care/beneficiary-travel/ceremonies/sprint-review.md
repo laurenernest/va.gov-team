@@ -1,5 +1,14 @@
 # BTSSS on VA.gov Sprint Review
 
+## 12/04/2023 - 12/15/2023
+
+**Agenda**
+- Review [sprint goals](./sprint-goals.md#12042023---12152023) (Lauren)
+- Demo: Boiler plate code (Kevin)
+- Artifact: Service blueprint (Micah, Cara)
+- Medallia/Reddit feedback (Cara)
+
+
 ## 11/20/2023 - 12/01/2023
 
 **Agenda**
