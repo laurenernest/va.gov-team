@@ -7,7 +7,8 @@
 - Decision: Assumption for where the status of a claim will display
 
 ### Notes
-- Limited capacity with Christmas holiday and additional team PTO.
+- Limited capacity with Christmas holiday and additional team PTO
+  - Sprint review cancelled for holiday OOO so work will be incorporated in next sprint review
 
 ## 12/04/2023 - 12/15/2023
 ### Goals
