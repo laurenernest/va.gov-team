@@ -146,7 +146,8 @@ Please follow up by phone with prospective participants with these (4) questions
 1. We want to confirm that you use a screen reader due to low vision or blindness
 2. What is the name of the screen reader technology you are using?
 3. Are you comfortable joining a Zoom call using your screen reader technology?
-4. We’ll have an accessibility specialist on the call. Are there any other accommodations that would be helpful during this session? 
+4. We’ll have an accessibility specialist on the call. Are there any other accommodations that would be helpful during this session?
+5. (If participant uses Dolphin) Are you able to join the study on two devices, one for Zoom, and one to navigate to the webpages for this session?
 
 **Secondary criteria (nice-to-haves) What criteria would strengthen your results?**
 Note: The following demographic criteria is our goal, but we understand that historically it's been challenging to recruit participants who use screenreaders.
@@ -197,4 +198,7 @@ Please list the people who will be serving in each role. Include the primary pho
 -   Accessibility specialist (for sessions where support for screen readers may be needed): TBD
 -   Note-takers: Ruben Sun / Eileen Chi, Sade Ragsdale  
 -   Observers: List email addresses for those who should attend and observe the sessions: VA Stakeholders, engineering team members, design team members, any other people who might find this research relevant to their work. Spread observers across sessions so that there are no more than 5-6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side)
+  - Sade Ragsdale
+  - Ruben Sun
   - David Kennedy
+  - Julie Strothman

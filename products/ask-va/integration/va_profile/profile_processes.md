@@ -19,24 +19,31 @@ No information can be prefilled for unauthenticated users of the AVA Form.
   * Inquiry information that is specific to the submitter can be stored
   * Inquiry information can be updated implicitly when the submitter submits their inquiry
 
+## Identity ID sourcing
+| Prefilled field | Source | Source field |
+|:--|:--|:--:|
+| Submitter CSP UUID | VA.gov Profile - identity | uuid |
+| Submitter ICN | VA.gov Profile - MPI | icn |
+| Submitter EDIPI | VA.gov Profile - MPI | edipi |
+
 ## Prefilled field sourcing
 | Prefilled field | Source | Source field |
 |:--|:--|:--:|
-| Submitter Home Address | VA Profile | addressLine1, addressLine2, addressLine3| 
-| Submitter Home City | VA Profile | cityName | 
-| Submitter Home State | VA Profile | state.stateName or province.provinceName | 
-| Submitter Home Zip  | VA Profile | zipCode5 | 
-| Submitter Phone  | VA Profile | countryCode, areaCode, phoneNumber, phoneNumberExt | 
-| Submitter Email  | VA Profile | emailAddressText | 
+| Submitter SSN | VA.gov Profile - MPI | ssn |
+| Submitter First Name | VA.gov Profile - identity | first_name |
+| Submitter Middle Name | VA.gov Profile - identity | middle_name |
+| Submitter Last Name | VA.gov Profile - identity | last_name |
+| Submitter Suffix | VA.gov Profile - identity | suffix |
+| Submitter Home Address | VA.gov Profile  - MPI | address.street & address.street2| 
+| Submitter Home City | VA.gov Profile  - MPI | address.city | 
+| Submitter Home State | VA.gov Profile  - MPI | address.state | 
+| Submitter Home Zip  | VA.gov Profile  - MPI | address.zip | 
+| Submitter Phone  | VA.gov Profile  - MPI | home_phone | 
+| Submitter Email  | VA.gov Profile - identity | email | 
+| Submitter Gender | VA.gov Profile - identity | gender |
+| Submitter DoB | VA.gov Profile - identity | birth_date |
 | Preferred Name | VA Profile | genderIdentityTraits.preferredName | 
 | Pronouns | VA Profile | genderIdentityTraits.pronoun.pronounName |
-| Submitter DoB | VA Profile | * |
-| Submitter SSN | VA Profile | * |
-| Submitter First Name | VA Profile | * |
-| Submitter Middle Name | VA Profile | * |
-| Submitter Last Name | VA Profile | * |
-| Submitter Suffix | VA Profile | * |
-| Submitter Gender | VA Profile | * |
 | Submitter Branch of Service  | VA Profile | * | 
 | Submitter Service Number  | AVA Profile | patient.submitter_provided_service_number | 
 | Submitter School Facility Code  | AVA Profile | patient.school_facility_code | 
@@ -100,8 +107,8 @@ flowchart TB
 sequenceDiagram
     VA-gov->>IDP: Initiate Login Process
     IDP->>VA-gov: success
-    VA-gov->>VA-profile: Initiate retrieval of user profile information
-    VA-profile->>VA-gov: Authenticated User's Profile Information
+    VA-gov->>MPI: Initiate retrieval of user profile information
+    MPI->>VA-gov: Authenticated User's Profile Information
     VA-gov->>AVA_Form: User directs to AVA_Form
 ```
 
