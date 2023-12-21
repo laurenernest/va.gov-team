@@ -1,29 +1,97 @@
-# Medallia feedback (April - October 2023)
+# My HealtheVet Medallia feedback 
 
-Overall: 93 total responses
-* Desktop users: 70
-* Mobile users: 20
-* Tablet users: 3
+<table>
+  <caption><b>Overall metrics by date range</b></caption>
+  <tr>
+    <td></td>
+    <th scope="col">4/1/23-10/31/23</th>
+    <th scope="col">11/1/23-12/15/23</th>
+  </tr>
+  <tr>
+    <th scope="row">Total responses</th>
+    <td>93</td>
+    <td>118</td>
+  </tr>
+  <tr>
+    <th scope="row">A11 Intercept Survey</th>
+    <td>56 responses</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">VFS Feedback Button Survey</th>
+    <td>37 responses</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Desktop users</th>
+    <td>70</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Mobile users</th>
+    <td>20</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Tablet users</th>
+    <td>3</td>
+    <td>--</td>
+  </tr>
+</table>
 
-Two different surveys: 
-* A11 questionnaire: 56 users
-* VFS questionnaire: 37 users
 
-## A11 Questionnaire – Intercept survey
 
-Key c-sat score name: "VA.gov experience"
-Delivery: Intercept modal (randomly offered to a small percentage of users; appears in report for URL where modal appeared)
+## Details: A11 Intercept survey
 
-TOTAL RESPONSES: 56
+* Key c-sat score name: "VA.gov experience"
+* Delivery: Intercept modal (randomly offered to a small percentage of users; appears in report for URL where modal appeared)
+* Customer scoring rubric: respondents score their overall experience on a scale of 1 to 5, where 5 is high. 
 
-_On a scale of 1-5, where 5 is high._
-* 1 (19 users)
-* 2 (5 users)
-* 3 (6 users)
-* 4 (10 users)
-* 5 (16 users)
+<table>
+  <caption><b>Customer satisfaction by date range</b></caption>
+  <tr>
+    <td></td>
+    <th scope="col">4/1/23-10/31/23</th>
+    <th scope="col">11/1/23-12/15/23</th>
+  </tr>
+  <tr>
+    <th scope="row">Total responses</th>
+    <td>56</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Overall CSAT</th>
+    <td>46%</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Score 1 (of 5)</th>
+    <td>19 users</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Score 2 (of 5)</th>
+    <td>5 users</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Score 3 (of 5)</th>
+    <td>6 users</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Score 4 (of 5)</th>
+    <td>10 users</td>
+    <td>--</td>
+  </tr>
+    <tr>
+    <th scope="row">Score 5 (of 5)</th>
+    <td>16 users</td>
+    <td>--</td>
+  </tr>
+</table>
 
-Summary: roughly a 50/50 split on “good” vs. “bad” experience with My HealtheVet
+Summary: roughly a 50/50 split on “good” vs. “bad” experience with My HealtheVet, with a CSAT of 46%
 * Low scores: 1 & 2  (24)
 * High scores: 4 & 5 (26)
 
@@ -31,22 +99,69 @@ Other:
 * Users who give low scores for their overall experience also gave low scores around their familiarity with VA.gov, their general trust of VA, and experience with the VA writ large.
 * Users who give high scores for their overall experience also gave higher scores regarding their familiarity with VA.gov, were more trustworthy of the VA, and reported higher scores for their experience with the VA writ large.
 
-## VFS Questionnaire - Feedback button
+## Details - VFS Feedback Button survey
 
-Key c-sat score name: "What is your overall satisfaction with this site?"
-Delivery: Feedback button at bottom of page
+* Key c-sat score name: "What is your overall satisfaction with this site?"
+* Delivery: Feedback button at bottom of page
+* Customer scoring rubric: respondents score their overall experience on a scale of 1 to 5, where 5 is high. 
 
-TOTAL RESPONSES: 37 
 
-**Question 1: Were you able to do your task today? **
-* No: 31 users  (83%)
-* Yes: 4 users  (11%)
-* _no answer_: 2 users (6%)
+<table>
+  <caption><b>Customer satisfaction by date range</b></caption>
+  <tr>
+    <td></td>
+    <th scope="col">4/1/23-10/31/23</th>
+    <th scope="col">11/1/23-12/15/23</th>
+  </tr>
+  <tr>
+    <th scope="row">Total responses</th>
+    <td>37</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Overall CSAT</th>
+    <td>8%</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Score 1 (of 5)</th>
+    <td>21 users</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Score 2 (of 5)</th>
+    <td>6 users</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Score 3 (of 5)</th>
+    <td>2 users</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Score 4 (of 5)</th>
+    <td>3 users</td>
+    <td>--</td>
+  </tr>
+    <tr>
+    <th scope="row">Score 5 (of 5)</th>
+    <td>none</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th scope="row">Could user complete their task?</th>
+    <td>
+     <li>No (31 users / 83%)</li>
+     <li>Yes (4 users / 11%)</li>
+    </td>
+    <td>--</td>
+  </tr>
+</table>
 
-**Question 2: What is your overall satisfaction with this site? **
-_On a scale of 1-5, where 5 is high._
+Summary: 3/37 users gave a 4 or 5: 8% CSAT Score
 * For users who could not complete their task, the average score was: 1.25 
 * For users who did complete their task, the average score was: 3.5 
+
 
 Question 3: What task were you trying to do today? 
 * Schedule appointment

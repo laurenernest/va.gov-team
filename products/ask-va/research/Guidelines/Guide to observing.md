@@ -1,6 +1,6 @@
 # Observing research on the Ask VA Integration team
 
-Last updated by @tygindraux: July 7, 2023
+Last updated by @tygindraux: December 20, 2023
  
 This guide is based on:
 * [VA.gov Platform: Guide to conducting research sessions](https://depo-platform-documentation.scrollhelp.site/research-design/conducting-research-sessions#ConductingResearchSessions-Moderatingtips)
@@ -13,10 +13,8 @@ This guide is based on:
 * Remind yourself of the research objectives.
 * Clear your space, find your headphones and mute distractions, like Slack notifications.
 * Sign in to Zoom and change the display name to your first or preferred name.
-* Open (or join) `#feedback-backchannel` on DSVA Slack and find the thread for your session.
-* If you signed up to take notes during the session:
-    * open the notes board in Mural (you can find a link in the meeting invitation or `#feedback-backchannel` thread)
-    * find your session on the board
+* Open (or join) `#feedback-backchannel` on DSVA Slack. Find the thread for your session.
+* Open the notes board in Mural (you can find a link in the meeting invitation or `#feedback-backchannel` thread). Find your session.
 
 ## At the start of the session
 
@@ -29,13 +27,8 @@ This guide is based on:
 
 ## Throughout the session
 
-* Don't use the Zoom chat. Instead, use your session's 🧵 in `#feedback-backchannel`.
-* If you signed up to take notes:
-    * take (as close to as possible) verbatim notes
-    * delay interpreting what's happening or jumping to solutions
-    * use a new sticky note for each moment or idea
-    * don't worry about typos or mistakes
-    * try to capture everything, but if you miss something (1) don't stress and (2) make note of this so the moderator can go back and fill in the details
+* Instead of using Zoom chat, write to your team in the session 🧵 in `#feedback-backchannel`.
+* While taking notes or adding observations to Mural, use a new sticky note for each moment or idea.
 
 ### If something goes wrong
 
@@ -51,8 +44,7 @@ This guide is based on:
 
 ## After the session
 
-* After each session, we will have an optional 10 minute debrief. Please rejoin the same meeting link.
-* If you signed up to take notes:
-  * add details or decode acronyms in your notes, if needed
-  * write your top 3-5 key takeaways at the top of your notes
+* After each session, we will have an optional 10 minute debrief. Please leave and rejoin the same meeting link.
+* If you choose not to join the debrief, take a couple minutes to add details or decode acronyms in your notes, if needed.
+* Write your top 3-5 key takeaways at the top of your notes.
 * If you have further questions or comments for the moderator, reach out to them directly.

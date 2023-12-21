@@ -39,8 +39,8 @@
 | Artifact | Endpoint | Source | AVA CRM | AVA FE | Phase | Notes |
 |---|---|---|:---:|:---:|---|---|
 Status | [GET /ping](crm_api/Status_Ping.md) | Dynamics | 🟩 | 🟩 | complete |  | 
-Form | [GET /topics?{id}](crm_api/Form_GetTopics.md) | Dynamics | 🟨 | ⬜ | development | CRM team waiting on new team to start pair programing later this week | 
-Form | [GET /announcements](crm_api/Form_RetrieveAnnouncements.md) | Dynamics | 🟨 | ⬜ | development | CRM team to complete design of all endpoints by 12/21| 
+Form | [GET /topics?{id}](crm_api/Form_GetTopics.md) | Dynamics | 🟩 | 🟨 | development | CRM team handed off to FE team for integration | 
+Form | [GET /announcements](crm_api/Form_RetrieveAnnouncements.md) | Dynamics | 🟨 | ⬜ | development | | 
 Dashboard | [GET /inquiries](crm_api/Dashboard_RetrieveInquiries.md) | Dynamics | 🟨 | ⬜ | development | | 
 Form | [GET /inquirystatus?{inquiryNumber}](crm_api/Form_GetInquiryStatus.md) | Dynamics | 🟨 | ⬜ | development | | 
 Dashboard | [GET /inquiry/{id}/replies](crm_api/Dashboard_RetrieveReplies.md) | Dynamics | 🟨 | ⬜ | development | |
@@ -53,6 +53,6 @@ Form | [GET /zipcodes?{prefix}](lighthouse/Form_ZipCodes.md) | Lighthouse | N/A 
 Form | [GET /states](lighthouse/Form_States.md) | Lighthouse | N/A | ⬜ | design | |  
 Form | [GET /countries](lighthouse/Form_GetCountries.md) | Lighthouse | N/A | ⬜ | design | | 
 Form | [GET /facilities?{code}](lighthouse/Form_MedicalFacilities.md)  | Lighthouse | N/A | ⬜ | design |  | 
-Dashboard | [GET /profile](va_profile/Dashboard_ProfileSyncing.md)   | VA Profile | 🟦 | ⬜ | design | VA Profile | 
-Form | [GET /optionset?{name}](crm_api/Form_GetOptionSet.md) | Dynamics | 🟦 | ⬜ | design | CRM Lookups | 
+Dashboard | [GET /profile](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/integration/va_profile/profile_processes.md)   | VA Profile / Dynamics | 🟦 | ⬜ | design | CRM/FE teams to complete design by 1/2 | 
+Form | [GET /optionset?{name}](crm_api/Form_GetOptionSet.md) | Dynamics | 🟦 | ⬜ | design | CRM/FE teams to complete design by 12/21 | 
 

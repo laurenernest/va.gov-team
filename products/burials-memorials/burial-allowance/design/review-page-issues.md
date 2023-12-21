@@ -78,13 +78,13 @@ Section errors that get triggered due to adding additional benefits stay persist
 - Resolve the error(s) triggered by adding all required information on the new section(s) that appeared
 - Click "Update page". This will trigger errors in the "Additional information" section
 - Remove the new benefits that were added
-- Click "Update page". This should remove the errors in the "Additional information" section, but there section errors stay persistent
+- Click "Update page". This should remove the errors in the "Additional information" section, but the section errors stay persistent
 
 #### Possible Solution
 1) Removing benefits in the "Benefits selection" section, should also remove any triggered errors in other interconnected sections
 <br>
 
-## Issue 4 
+## ~Issue 4~ 
 When updating the "Date of death" and "Date of burial" of the deceased Veteran, the claimant does not get informed if these dates are more than 2 years from our current date.
 
 #### Steps to replicate
@@ -96,8 +96,7 @@ When updating the "Date of death" and "Date of burial" of the deceased Veteran, 
 <img src="https://github.com/department-of-veterans-affairs/va.gov-team/assets/91498500/8bb88a1d-44a1-4846-9143-93e2b0df6a1d" width="60%">
 
 #### Possible Solution
-Add the existing note on step 2 to the corresponding section on the Review page. [Design for this solution](https://www.sketch.com/s/de782a35-e147-4c32-a2a8-ba53071ec8e7/a/OeYMxak)
-
+Based on the feedback we got during our midpoint review, we will remove this alert and add it as additional instructions to this page.
 
 
 ## Issue 5
@@ -148,7 +147,7 @@ The claimant here is not informed that they need to upload a new file that is re
 #### Possible Solution
 1) Adding content to let the claimant know that they need to upload a file. [Designs for this solution](https://www.sketch.com/s/de782a35-e147-4c32-a2a8-ba53071ec8e7/v/QQrV9x/a/zyZLKGM)
 
-## Issue 7 - Nice to have
+## Issue 7
 <img width="35%" align="right" alt="image" src="https://github.com/department-of-veterans-affairs/va.gov-team/assets/91498500/74587196-f203-418b-8b55-fdf453788f6e">
 
 The global error alert at the bottom of the page is too generic, and the claimant is not informed of the sections that need to be fixed.

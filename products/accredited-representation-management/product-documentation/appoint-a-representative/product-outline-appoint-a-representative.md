@@ -115,21 +115,13 @@ Based on user research findings and navigation/traffic analytics, consider:
 - **Team Name**: Accredited Representation Management
 - **GitHub Label**: accredited-representation-management-team
 - **Slack channel**: #benefits-representation-management
-- Product POCs:
-- Stakeholders: Dr. Brandi Taylor (Office of Business Strategy)
 
 #### Team Members
  
- - **DEPO Lead**: Zach Goldfine
+ - **DEPO Lead**: Jennifer Bertsch
  - **PM**: Lindsay Li-Smith
  - **Engineering**: Holden Hinkle
  - **Research/Design**: Janelle Finnerty
 
 #### Stakeholders
-
-<details>
- 
-_What offices/departments are critical to make this initiative successful?_
- 
-</details>
-
+ - Dr. Brandi Traylor (Office of Business Strategy)

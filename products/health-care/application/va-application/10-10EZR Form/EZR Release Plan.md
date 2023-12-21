@@ -1,5 +1,5 @@
 # 10-10EZR Health benefits update form - Release Plan 
-- Last updated: 12/15/2023
+- Last updated: 12/19/2023
 
 
 ## Step 1: Development
@@ -18,12 +18,12 @@ Before enabling your feature toggle in production, you'll need to:
 - [x] Follow [best practices for QA](https://depo-platform-documentation.scrollhelp.site/developer-docs/qa-and-accessibility-testing).
   - [x] [Link to Test cases/Test Rail](https://dsvavsp.testrail.io/index.php?/suites/view/11&group_by=cases:section_id&group_order=asc&display_deleted_cases=0)
 - [x] Have your team perform as much validation in staging as possible. Validation may be challenging for some teams and systems due to downstream requirements, but the staging system should mimic the production system as much as possible.
-- [ ] Work any downstream or dependant systems proactively to ensure that the feature is ready for use once it hits production.
-   - [ ] Confirm with Joshua Faulkner and team on End to End testing
-   - [ ] Link to confirmation of successful transmission/processing
-- [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
-  - [ ] review the plan with your DEPO/OCTO representative.
-  - [ ] review the release plan with your team.
+- [x] Work any downstream or dependant systems proactively to ensure that the feature is ready for use once it hits production.
+   - [x] Confirm with Joshua Faulkner and team on End to End testing
+   - [x] Link to confirmation of successful transmission/processing
+- [x] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
+  - [x] review the plan with your DEPO/OCTO representative.
+  - [x] review the release plan with your team.
 
 ## Step 3: Production rollout
 
@@ -31,6 +31,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 - PM and Data Analyst will monitor analytics. If they see a spike in errors or unexpected behavior, they will contact the engineering team to disable the toggle and begin triage.
 - We have a content widget for the static page that can be disabled with the feature toggle, in comjunction with the EZR form.
+- Have Content Team (Aliyah Blackmore) revert the Static Page to previous version, removing mention of online EZR
 
 ### Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)
 
@@ -63,7 +64,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Rollout Planning
 
 - Desired date range:
-     - 12/19/23 - 01/12/23
+     - 12/20/23 - 01/11/23
 - How will you make the product available in production while limiting the number of users who can find/access it:
      - Feature Toggle limiting % of traffic to the application
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?: 
@@ -115,7 +116,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Planning
 
 - Length of time:
-     - 12/18/2023-1/2/2024
+     - 12/20/2023-1/2/2024
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 10% of authenticated Veterans
      - About 10 submissions per day
@@ -138,6 +139,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
      - 1/2-1/7/2024
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 25% of authenticated Veterans
+     - about 25 submissions per day
 
 #### Results
 
@@ -158,6 +160,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
      - 1/8-1/10/2024
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 75% of authenticated Veterans
+     - about 75-100 submissions per day
 
 #### Results
 
@@ -175,6 +178,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
      - 1/11/2024
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 100% of authenticated Veterans
+     - about 1,000 per week
 
 #### Results
 

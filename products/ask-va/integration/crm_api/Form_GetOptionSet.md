@@ -4,26 +4,27 @@
 
 **Method**: GET
 
-**Path**: /optionset?{name}
+**Path**: /optionset?{name}&[message_id]
 
 **Parameters**:
 | Name | Type | Description |
 |---|---|---|
 |name|string|the key of the  optionset to retrieve|
+|message_id|string|an optional guid for correlating events for troubleshooting|
 
 **Allowed Values:**
 
-1. inquiryabout
-2. inquirysource
-3. inquirytype
-4. levelofauthentication
-5. suffix
-6. veteranrelationship
-7. branchofservice
-8. country
-9. dependentrelationship
-10. getintouch
-11. province
+1. iris_inquiryabout
+2. iris_inquirysource
+3. iris_inquirytype
+4. iris_levelofauthentication
+5. iris_suffix
+6. iris_veteranrelationship
+7. iris_branchofservice
+8. iris_country
+9. iris_dependentrelationship
+10. iris_getintouch
+11. iris_province
 
 **Headers**:
 
@@ -34,7 +35,7 @@
 |Authorization|JWT?|Token for access to the CRM API|
 |ICN|string|The logged in user's ICN|
 
-## Response [NEEDS UPDATE]
+## Response ~[NEEDS JOE Updates]~
 
 <table>
 <tr>
@@ -48,26 +49,25 @@
 { 
     "status": { 
         "code": 200, 
-        "message": "OK", 
+        "message": "OK",
+        "message_id": "f3acbf6e-8d55-4d99-895c-86e4c41f8aa2", 
         "data": [
             {
-                "allowAttachments": true,
-                "requiresAuthentication": true,
-                "id": "b7c3af1b-ec8c-ee11-8178-001dd804e106",
-                "name": "topic 1",
-                "displayName": "topic 1",
-                "rankOrder": 999,
-                "parentId": "a6c3af1b-ec8c-ee11-8178-001dd804e106"
+                "id": 1,
+                "name": "orange"
             },
             {
-                "allowAttachments": false,
-                "requiresAuthentication": true,
-                "id": "c8c3af1b-ec8c-ee11-8178-001dd804e106",
-                "name": "topic 2",
-                "displayName": "topic 2",
-                "rankOrder": 999,
-                "parentId": "d9c3af1b-ec8c-ee11-8178-001dd804e106"
+                "id": 2,
+                "name": "grape"
             },
+            {
+                "id": 3,
+                "name": "apple"
+            },
+            {
+                "id": 4,
+                "name": "Other"
+            }
         ] 
     }
 }
@@ -77,6 +77,12 @@
 </tr>
 </table>
 
-## Notes [NEEDS UPDATE]
+## Notes [NEEDS CRM REVIEW]
 
-None.
+* The response will include a `message_id` to help track specific transactions. This is __**included in all responses**__ from all endpoints, and is accepted as a parameter in requests. If an id is specified in the request, it will be returned in the response. If no id is specified, it will be generated automatically and passed back in the response.
+
+## Action Items
+
+- [x] JOE: Include the "iris_" prefix for names, but not automatically
+- [ ] JOE: Verify that this matches what JD sent in Teams!!
+- [ ] JOE: Add `message_id` to all responses?

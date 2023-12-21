@@ -55,6 +55,7 @@ What are you trying to learn from this research?
 1. We hypothesize that the copy of the submission page will be usable by Veterans using screen readers. They will be able to understand it and save it.
 2. We hypothesize that there is a need for Veterans, including those using screen readers, to save a copy of their submission.
 3. We hypothesize that Veterans using screen readers would want to return to copy of submission page at a later time.
+4. We hypothesize that two of the four methods of storing results (PDF and printing) will be less valuable if a Veteran is blind and/or rely on a screen reader.
 
 ## Methodology
 -   Accessibility testing with a usability study approach
@@ -132,9 +133,9 @@ Primary criteria (must-haves) What demographics, experience, and scenarios do yo
  c) I am still learning how to use screen readers  
 
 9. **Select the statement(s) that apply to you: (Check all that apply)**  
-  a) I have submitted a claim  
+  a) I have submitted a benefits claim  
   b) I have submitted a decision review / appeal  
-  c) I have not submitted a benefits claim
+  c) I have not submitted a benefits claim (disqualify)
 
 10. **Select the statement(s) that apply to you: (Check all that apply)**  
    a) I submitted a form on VA.gov by myself  
@@ -156,13 +157,24 @@ Note: The following demographic criteria is our goal, but we understand that his
 Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.
 
 ### Prepare
+
+Before recruitment starts, we would like to **request a kickoff call with Perigean** to align on recruitment criteria and terminology for screnner questions in the survey and emails that will be sent to Veterans. We would also like to discuss the relative priorities of recruitment criteria and how the criteria are prioritized when recruiting replacements for participants who cancel in advance.
+
+Eileen is available for a kickoff call during any of these times:
+- 1/4 4PM ET
+- 1/4 2-5PM ET
+
+Please invite Eileen (eileen.chi@coforma.io) and Sade (sade.ragsdale@coforma.io) to the kickoff call.
+
+**Prior to the kickoff call, we would like a link or screenshot of the recruitment survey** for this study so we can review it beforehand.
+
 A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.
 -   Pilot participant email: 
 -   Date and time of pilot session: 
 
 ### Research sessions
 Planned dates of research: 
-- 1/9 - 1/17
+TBD
 
     
 ### Length of sessions
@@ -181,12 +193,7 @@ When would you like sessions scheduled? Please list exact dates and times in EAS
 
 Please request enough dates and at least double the amount of time slots for the number of requested participants. (e.g. Monday 9-1, 3-6; Tuesday 9-6, etc.; 12 time slots for 6 participants). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
 
-- 1/9 Tuesday 9-1, 2-4, 5-6
-- 1/10 Wednesday 9-1, 2-4, 5-6
-- 1/11 Thursday 9-1, 2-4, 5-6
-- 1/12 Friday 9-1, 2-4, 5-6
-- 1/16 Tuesday 9-1, 2-4, 5-6
-- 1/17 Wednesday 9-1, 2-4, 5-6
+TBD
 
 ## Team Roles
 Please list the people who will be serving in each role. Include the primary phone number for moderator and the emails for moderator, notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker
