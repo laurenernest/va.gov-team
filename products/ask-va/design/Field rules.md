@@ -1,8 +1,8 @@
 # Field rules
 
-Last updated by @tygindraux: December 11, 2023
+Last updated by @tygindraux: January 2, 2024
 
-This document is for our design team to communicate field rules to our engineering and product folks.
+This document is for our design team to communicate field rules. The primary audience is engineering and product folks on our team.
 
 **Jump to:**
 - [Gender identity](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Field%20rules.md#gender-identity)
@@ -64,10 +64,8 @@ This document is for our design team to communicate field rules to our engineeri
 ## School fields
 |If|Then|Unless|
 |:--|:--|:--|
-|Category = `Education benefits and work study` and relationship to the Veteran = Personal (eg. GI Bill Beneficiary)|Require `State of school`||
-|Category = `Education benefits and work study` and relationship to the Veteran = Personal (eg. GI Bill Beneficiary)|Require `State of residency`||
-|Category = `Education benefits and work study` and relationship to the Veteran = Business (eg. SCO)|Require `State of school`||
-|Category = `Education benefits and work study` and relationship to the Veteran = Business (eg. SCO)|Require `School facility`||
+|Category = `Education benefits and work study` and relationship to the Veteran = Personal (eg. GI Bill Beneficiary)|Require `State of school` or `State of residency`||
+|Category = `Education benefits and work study` and relationship to the Veteran = Business (eg. SCO)|Require `State of school` or `School facility`||
 |All other categories|Don't include school fields||
 
 ## `Medical facility`
