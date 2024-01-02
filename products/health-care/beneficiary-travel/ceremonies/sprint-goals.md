@@ -6,7 +6,7 @@
 - Decision: Assumption for where the status of a claim will display
 
 ### Notes
-
+- Collab cycle - partial Research Review (with Shane)
 
 ## 12/18/2023 - 12/29/2023
 ### Goals
