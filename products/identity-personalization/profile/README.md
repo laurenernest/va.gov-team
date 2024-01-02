@@ -1,6 +1,6 @@
 # Section Outline: The VA.gov Profile
 
-**Last Updated: October 10, 2023 -- updated completed projects**
+**Last Updated: 12/27/2023 -- updated projects**
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@
 
 ### POCs
 
-- **Slack channel**: [#accountexp-authexp](https://dsva.slack.com/channels/accountexp-authexp); [#va-profile](https://dsva.slack.com/channels/va-profile)
+- **Slack channel**: [#accountexp-authexp](https://dsva.slack.com/channels/accountexp-authexp)
 
 #### Roles  
   
@@ -36,13 +36,13 @@ The [VA.gov profile](https://staging.va.gov/profile) provides a centralized plac
 |Profile product/feature| Description | Backend tool | Backend tool contact info|
 |---------------|-------------|--------------|--------------------------|
 |[Nametag](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/nametag) - Full name| Shows  the full name for all LOA3 users.| MPI| [#vsp-identity](https://dsva.slack.com/channels/vsp-identity) |
-|[Nametag](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/nametag) - Disability rating| Shows someone's disability rating, if applicable.| EVSS | [#benefits-disability-experience](https://dsva.slack.com/channels/benefits-disability-experience)| 
+|[Nametag](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/nametag) - Disability rating| Shows someone's disability rating, if applicable.| Lighthouse | [#benefits-disability-experience](https://dsva.slack.com/channels/benefits-disability-experience)| 
 |[Nametag](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/nametag) - Military info|Shows someone's military branch, if applicable.|VA Profile | [#va-profile](https://dsva.slack.com/channels/va-profile) or Mike Richard (Michael.Richard2@va.gov)|
-|Profile Hub|Current work in progress|n/a|n/a|
-[Personal information](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/personal-information)| Shows full name, date of birth, preferred name, gender identity, and disability rating| MPI for full name; VA Profile for gender identity and preferred name; EVSS for disability rating| MPI ([#vsp-identity](https://dsva.slack.com/channels/vsp-identity)); [#va-profile](https://dsva.slack.com/channels/va-profile) or Mike Richard (Michael.Richard2@va.gov); EVSS ([#evss-prod](https://dsva.slack.com/channels/evss-prod))|
+|[Profile Hub](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/hub/README.md)|Main hub for linking to profile pages and content|n/a|n/a|
+[Personal information](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/personal-information)| Shows full name, date of birth, preferred name, gender identity, and disability rating| MPI for full name; VA Profile for gender identity and preferred name; Lighthouse for disability rating| MPI ([#vsp-identity](https://dsva.slack.com/channels/vsp-identity)); [#va-profile](https://dsva.slack.com/channels/va-profile) or Mike Richard (Michael.Richard2@va.gov); Lighthouse ([#lighthouse-delivery-platform-support](https://dsva.slack.com/channels/lighthouse-delivery-platform-support))|
 |[Contact information](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/contact-information)| Shows home and mailing addresses, phone numbers, and email address| VA Profile| [#va-profile](https://dsva.slack.com/channels/va-profile) or Mike Richard (Michael.Richard2@va.gov)|
 |[Military information](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/military-information)| Shows military branch(es) of service and service period(s)| VA Profile | [#va-profile](https://dsva.slack.com/channels/va-profile) or Mike Richard (Michael.Richard2@va.gov)
-|[Direct deposit information: Comp & Pen](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/direct-deposit)| Allows comp & pen payment recipients to update their direct deposit information| EVSS, but moving to Lighthouse | EVSS ([#evss-prod](https://dsva.slack.com/channels/evss-prod)); Lighthouse ([#vfs-evss-service-migration](https://dsva.slack.com/channels/vfs-evss-service-migration)) or Nichole Harris (harris_nichole@bah.com)
+|[Direct deposit information: Comp & Pen](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/direct-deposit)| Allows comp & pen payment recipients to update their direct deposit information| Lighthouse |  Lighthouse ([#lighthouse-delivery-platform-support](https://dsva.slack.com/channels/lighthouse-delivery-platform-support)) or Nichole Harris (harris_nichole@bah.com)
 |[Direct deposit information: Education](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/direct-deposit)| Allows education payment recipients to update their direct deposit information| BGS | Linda Ciston (linda.ciston@va.gov)|
 |[Notification preferences](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/notification-preferences)| Allows people to update whether they'd like to receive particular notifications, and in what format| VA Profile| [#va-profile](https://dsva.slack.com/channels/va-profile) or Mike Richard (Michael.Richard2@va.gov)|
 |[Account security](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/account-security/README.md)| Allows people to verify their identity and add 2FA | N/A | If there is an identity-related issue, contact [#vsp-identity](https://dsva.slack.com/channels/vsp-identity)|
@@ -98,10 +98,21 @@ We don’t want the profile to become such a de facto place for Veteran informat
 
 ### Current projects
 
+Current projects are actively managed in the AE Profile Github project. See [this page of the project for the roadmap by phase](https://github.com/orgs/department-of-veterans-affairs/projects/926/views/39), or see [this page for a classic gantt chart roadmap](https://github.com/orgs/department-of-veterans-affairs/projects/926/views/10). 
+
 |Project|Status|
 |----|----|
-|[Profile hub MVP](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/hub/mvp/README.md)|Preparing for Staging Review|
-|Enhanced Military Information|Discovery/Initial Design|
+|Alert Consistency|Discovery|
+|Enhanced Military Information|Design|
+|Authenticated Menu Expansion (as part of Redesigned Header/Footer)|Preparing for Usability Testing|
+|MHV Migration / Email as a Channel|Dev|  
+|Maintenance Period Alerts|Dev|
+|CICD (tech debt)|Dev|
+|USWDS V3 Component Updates (technical debt)|Dev|
+|Migrate to Figma (design technical debt)|Dev|
+|DD C&P migration from EVSS to LH|Post Launch|
+|Editing as a subtask|Post Launch|
+|Default Send/Checkboxes|Post Launch|
 
 ### Completed projects & enhancements
 
@@ -113,19 +124,20 @@ We don’t want the profile to become such a de facto place for Veteran informat
 
 |Project or enhancement|Launch/Completion date|
 |----|----|
+|[Profile hub MVP](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/hub/mvp/README.md)|December 19, 2023|
 |[Authenticated Menu Updates (adding Letters and Dependents)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/authenticated-menu/add-dependents-letter)|October 4, 2023|
 |[Disability rating EVSS > Lighthouse migration](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/nametag/evssMigrationToLH/README.md) |September 2023 |
 |[Semantic list improvements](https://github.com/department-of-veterans-affairs/va.gov-team/issues/19618)|March 2023|
 |[MHV Profile research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/mhv-profile-research#readme)|Presented to stakeholders June 2022|
-|[Updated layout and button styles for better screen reader experience](https://github.com/department-of-veterans-affairs/va.gov-team/issues/23665) | Launched July 2021 | 
-|[Profile 2.0](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account) | Launch completed October 2020|
+|[Updated layout and button styles for better screen reader experience](https://github.com/department-of-veterans-affairs/va.gov-team/issues/23665) | July 2021 | 
+|[Profile 2.0](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account) |  October 2020|
 |[Dashboard/Profile/Account MVPs](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/my-va-mvp) | Launch completed Spring 2018 |
 
 #### Personal information
 
 |Project or enhancement|Launch/Completion date|
 |----|----|
-|[Personal Info page: Add full name and disability rating fields](https://github.com/department-of-veterans-affairs/va.gov-team/issues/49651)| Launched January 19, 2023|
+|[Personal Info page: Add full name and disability rating fields](https://github.com/department-of-veterans-affairs/va.gov-team/issues/49651)| January 19, 2023|
 |[Ability to view and update preferred name and gender identity in the VA.gov profile](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/personal-information/personal-information-revision/README.md)| June 2022|
 |[Remove "Gender" (aka sex assigned at birth) from the profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/36009) | February 2022 |
 
@@ -207,7 +219,7 @@ The following information comes from **VA Profile**:
 - Military information
 - Notification preferences
 
-The following information comes from **EVSS**:
+The following information comes from **Lighthouse**:
 
 - Direct deposit for comp & pen
 

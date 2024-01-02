@@ -10,13 +10,11 @@ ________________________________________________________________________________
 #### SPRINT GOALS
  - **GOAL: Support Production**
  - **GOAL: Address Usage Issues**
-     - **Sub Goal: Exclude VVC and CVT from eCheck-in**
      - **Sub Goal: Change wording for wait time after checking in**
+     - **Sub Goal: Content & Design Discovery for adding VVC and CVT Support**
      - **Sub Goal: Handle VVC Appointments**
      - **Sub Goal: Handle CVT Appointments**
      - **Sub Goal: Let Veterans Know when BTSSS is Down** 
- - **GOAL: Make Travel Claims Easier**    
-    - **Sub Goal: Cross-Product Discovery - File a Mileage-only Claim for a Past Appointment**
 - **GOAL: Increase Usage of PCI**
      - **Sub Goal: Unified Check-in: Priority 1 - New Landing Page & Associated Changes**
      - **Sub Goal: Analyze current metrics to see what they tell us** 
@@ -26,7 +24,7 @@ ________________________________________________________________________________
      - **Sub Goal: Switch Components to Design System v. 3**
  
 #### PLANNED RELEASES 
-- NONE
+- Change wording for wait time after checking in
   
 #### SPRINT TICKETS
 - **GOAL: Support Production**
@@ -34,34 +32,37 @@ ________________________________________________________________________________
     - ❗ 🟦🟩 [[ONGOING] Production Support](https://github.com/department-of-veterans-affairs/va.gov-team/issues/44446)
     - ❗ 🟩 [[FE] ONGOING: Review, Update, Fix, and Log Offending Cypress Tests](https://github.com/department-of-veterans-affairs/va.gov-team/issues/66680)  
  - **GOAL: Address Usage Issues**
-     - **Sub Goal: Exclude VVC and CVT from eCheck-in**
-         - TBD
      - **Sub Goal: Change wording for wait time after checking in**
-         - TBD
-     - **Sub Goal: Handle CVT Appointments**
-         - TBD
-     - **Sub Goal: Handle VVC Appointments**
-         - TBD
-     - **Sub Goal: Let Veterans Know when BTSSS is Down** 
-         - TBD
-- **GOAL: Make Travel Claims Easier**   
-   - **Sub Goal: [Cross-Product Discovery - File a Mileage-only Claim for a Past Appointment](https://github.com/department-of-veterans-affairs/va.gov-team/issues/65385)**       
-        - TBD
+         - 🟩 [[FE] Make changes per the new wireframes](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72617)
+         - 🟥 [Update Product Artifacts for Release](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72618)
+         - 🟥 [Update Design Artifacts for Release](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72619)
+     - **Sub Goal: [Content & Design Discovery for adding VVC and CVT Support](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72581)**
+         - 🟥 [[UX] [Content] Decide whether to have modality-specific error pages or modality-agnostic error pages](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72429)
+         - 🟥 [[UX] [Content] Decide whether to have modality-specific accordion content or modality-agnostic accordion content](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72431) 
+     - **Sub Goal: [Handle CVT Appointments](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/44210)**
+         - 🟥 [[UX][Design] Create Final Wireframes & Content for CVT appt card in appt list](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72594)
+         - 🟥 [[UX][Design] Create Final Wireframes & Content for CVT appt detail page](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72595)
+         - 🟩 [SPIKE: Determine if Both Veteran & Provider Appointments Must Be Marked as Checked-in when the Veteran Checks In](https://github.com/department-of-veterans-affairs/va.gov-team/issues/726207)
+         - 🟩🟦 [[FE][BE] Create Task Tickets for Implementing Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72638)
+         - Begin frontend & CHIP work to make progress
+     - **Sub Goal: [Handle VVC Appointments](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72238)**
+         - 🟥 [[UX][Design] Create Final Wireframes & Content for Video appt card in appt list](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72598)
+         - 🟥 [[UX][Content][Design] Create Final Wireframes & Content for Video appt detail page](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72599)
+         - 🟩🟦 [[FE][BE] Create Task Tickets for Implementing Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72636)
+         - Begin frontend & CHIP work to make progress
 - **GOAL: Increase Usage of PCI**
     - **Sub Goal: [Unified Check-in: Priority 1 - New Landing Page & Associated Changes](https://github.com/department-of-veterans-affairs/va.gov-team/issues/61390)**
        - 🟥 [[UX] Discuss Options for Displaying Check-in Status for Today's Appointments in the Appointments List](https://github.com/department-of-veterans-affairs/va.gov-team/issues/70796)
-       - 🟦 [[BE] Implement Facilities API Payload Serializer](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71790)
-       - 🟦 [[BE] Implement VAOS Appointment Serializer](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71787)
-       - 🟦 [[BE] Implement Controller](https://github.com/department-of-veterans-affairs/va.gov-team/issues/68698)
+       - 🟦 [[BE] Update Sequence Diagram for Upcoming Appointments](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71783)
+       - 🟦 [[BE] Implement Facilities API Client Class](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71788)
+       - 🟦 [[BE] Implement Service class for Facilities API](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71789)
   - **Sub Goal: Analyze current metrics to see what they tell us**               
+       - 🟩 [[BUG] [FE] Check if 45MR GA event is appending correctly](https://github.com/department-of-veterans-affairs/va.gov-team/issues/7267172)
+       - 🟩 [[BUG] [FE] Adjust "no" demo GA event values for 45MR](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72662)
        - 🟥 [Research] Analyze GA Metrics
-       - 🟥 [[Research] Analyze VSignals Data](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/71838)
+       - 🟥 [[Research] Analyze VSignals Data](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72314)
 - **GOAL: Address Tech Debt**            
-     - **Sub Goal: [Switch Components to Design System v. 3](https://github.com/department-of-veterans-affairs/va.gov-team#workspaces/check-in-experience-61fc23a2cb8a14001132e102/board)**
-        - 🟩 [[FE] Switch headings and body and icons to v3](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71840)
-        - 🟩 [[FE] DS v3 #5: Update buttons](https://github.com/department-of-veterans-affairs/va.gov-team/issues/65597)
-    - **Sub Goal: Migrate Sktech Files to Figma**
-        - 🟥 [[UX] [Design] [Spike] Test run moving files to Figma](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72466)
+     - **Sub Goal: Migrate Sktech Files to Figma**
         - 🟥 [[UX] [Design] Move files to Figma](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71690)
         - 🟥 [[UX] [Design] Identify what needs to be cleaned up in files](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71691)
     - **Sub Goal: [Adhere to VA Content Guidelines for heading character counts](https://github.com/department-of-veterans-affairs/va.gov-team/issues/70676)** 
@@ -70,18 +71,14 @@ ________________________________________________________________________________
 ------- END FUTURE / TENTATIVE ------
 </details>
 
-<details>
-<summary>FUTURE SPRINT - 12/27 through 1/9 </summary>
 ______________________________________________________________________________________________________________________________________________________
 
-## 12/27/2023 - 1/9/2024  ------- FUTURE FUTURE / TENTATIVE ------
+## 12/27/2023 - 1/9/2024  
 #### SPRINT GOALS
  - **GOAL: Support Production**
  - **GOAL: Address Usage Issues**
      - **Sub Goal: Exclude VVC and CVT from eCheck-in**
      - **Sub Goal: Change wording for wait time after checking in**
-     - **Sub Goal: Handle VVC Appointments**
-     - **Sub Goal: Handle CVT Appointments**
      - **Sub Goal: Let Veterans Know when BTSSS is Down** 
  - **GOAL: Make Travel Claims Easier**    
     - **Sub Goal: Cross-Product Discovery - File a Mileage-only Claim for a Past Appointment**
@@ -89,7 +86,6 @@ ________________________________________________________________________________
      - **Sub Goal: Unified Check-in: Priority 1 - New Landing Page & Associated Changes**
      - **Sub Goal: Analyze current metrics to see what they tell us** 
 - **GOAL: Address Tech Debt**
-     - **Sub Goal: Migrate Sktech Files to Figma**
      - **Sub Goal: Adhere to VA Content Guidelines for heading character counts**       
      - **Sub Goal: Switch Components to Design System v. 3**
  
@@ -104,12 +100,13 @@ ________________________________________________________________________________
     - ❗ 🟩 [[FE] ONGOING: Review, Update, Fix, and Log Offending Cypress Tests](https://github.com/department-of-veterans-affairs/va.gov-team/issues/66680)  
  - **GOAL: Address Usage Issues**
      - **Sub Goal: Exclude VVC and CVT from eCheck-in**
-         - ❗ 🟩 [[FE] Exclude VVC and CVT from eCheck-in](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72261) 
+         - ✔️ ❗ 🟩 [[FE] Exclude VVC and CVT from eCheck-in](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72261)
+         - ❗ 🟥 [Update Product Artifacts for Release](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72615)
      - **Sub Goal: Change wording for wait time after checking in**
          - ❗ 🟥 [[Content] Create Content to tell Veterans to see staff at their appt time if they haven't been called back yet](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72247)
-         - ❗ 🟥 [[Design] Create Final Wireframes in production Sketch file for confirmation pages to use pattern from unified check in experience's confirmation pages](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72243) 
+         - ✔️ ❗ 🟥 [[Design] Create Final Wireframes in production Sketch file for confirmation pages to use pattern from unified check in experience's confirmation pages](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72243) 
      - **Sub Goal: Let Veterans Know when BTSSS is Down** 
-         - ❗ 🟥 [Determine if there is a Pattern for In-App System Down Messages](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72046)
+         - ✔️ ❗ 🟥 [Determine if there is a Pattern for In-App System Down Messages](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72046)
          - ❗ 🟥 [[Design] Create Final Wireframes & Content for Letting Veteran Know BTSSS is Down](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72047)
 - **GOAL: Make Travel Claims Easier**   
    - **Sub Goal: [Cross-Product Discovery - File a Mileage-only Claim for a Past Appointment](https://github.com/department-of-veterans-affairs/va.gov-team/issues/65385)**       
@@ -117,24 +114,25 @@ ________________________________________________________________________________
 - **GOAL: Increase Usage of PCI**
     - **Sub Goal: [Unified Check-in: Priority 1 - New Landing Page & Associated Changes](https://github.com/department-of-veterans-affairs/va.gov-team/issues/61390)**
         - 🟥 [[Content] Create content for canceled appts for check in](https://github.com/department-of-veterans-affairs/va.gov-team/issues/70820)
+        - 🟦 [[BE] Determine JSON response format for appointments and facilities info to vets-website](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72557)
+        - 🟦 [[BE] Solution design for upcoming appointments](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72703)
         - 🟦 [[BE] - Figure out which facilities endpoint to use](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72147)
-        - 🟦 [[BE] Update Sequence Diagram for Upcoming Appointments](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71783)
-        - 🟦 [[BE] Implement Facilities API Client Class](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71788)  
+        - 🟩 [[FE] - Add review button to pre-check-in details page](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71267)
+        - 🟩 [[FE] - Unified demographics fail](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72443)
     - **Sub Goal: Analyze current metrics to see what they tell us**               
        - 🟥 [[Analytics] [UX] Add GA event with a 45MR param in GA Dashboard widget](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/71632)
        - 🟥 [Research] Analyze GA Metrics
-       - 🟥 [[Research] Analyze VSignals Data](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72314)
 - **GOAL: Address Tech Debt**            
      - 🟥 [[UX] Get Local Review Environment Functioning](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71439)
      - **Sub Goal: [Switch Components to Design System v. 3](https://github.com/department-of-veterans-affairs/va.gov-team#workspaces/check-in-experience-61fc23a2cb8a14001132e102/board)**
-        - 🟩 [[FE] SPIKE: Investigate how we would Switch headings and body and icons to v3](https://github.com/department-of-veterans-affairs/va.gov-team/issues/69829)
+        - ✔️ 🟩 [[FE] SPIKE: Investigate how we would Switch headings and body and icons to v3](https://github.com/department-of-veterans-affairs/va.gov-team/issues/69829)
+        - 🟩 [[FE] Switch icons to v3](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71840)
         - 🟩 [[FE] DS v3 #3: Update slim alerts](https://github.com/department-of-veterans-affairs/va.gov-team/issues/65493)
+        - 🟩 [[FE] DS v3 #5: Update buttons](https://github.com/department-of-veterans-affairs/va.gov-team/issues/65597)
     - **Sub Goal: [Adhere to VA Content Guidelines for heading character counts](https://github.com/department-of-veterans-affairs/va.gov-team/issues/70676)** 
        - 🟩 [[FE] Update Production and Unified h1 headings to align with Design System requirements of 52 characters or less and one sentence headings](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72266)
-    - 🟩 [[FE] Perform Accessibility Testing & Create Artifact](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71867)
+    - ✔️ 🟩 [[FE] Perform Accessibility Testing & Create Artifact](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71867)
 
-------- END FUTURE / TENTATIVE ------
-</details>
 _____________________________________________________________________________________________________________________________________________________
 
 ## 12/13/2023 - 12/26/2023 
@@ -170,10 +168,12 @@ ________________________________________________________________________________
     - **Sub Goal: [Unified Check-in: Priority 1 - New Landing Page & Associated Changes](https://github.com/department-of-veterans-affairs/va.gov-team/issues/61390)**
         - ✔️ 🟦🟩 [[FE] [BE] Design Feature Implementation and Create All Task Tickets](https://github.com/department-of-veterans-affairs/va.gov-team#workspaces/check-in-experience-61fc23a2cb8a14001132e102/board?epics=Z2lkOi8vcmFwdG9yL0VwaWMvMTA4MjIyNg)
         - 🚧 🟦 [[BE] - Figure out which facilities endpoint to use](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72147)
+        - 🟦 [[BE] Determine JSON response format for appointments and facilities info to vets-website](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72557)  
         - ✔️ 🟩 [[FE] - Add travel review page to unified](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/71432)
-        - ✔️ 🟩 [[FE] - Unified e2e tests - day-of - group 4](https://github.com/department-of-veterans-affairs/va.gov-team/issues/70322)
-        - ✔️ 🟩 [[FE] - Unified demographics fail](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72443)
+        - ✔️ 🟩 [[FE] - Unified e2e tests - day-of - group 4](https://github.com/department-of-veterans-affairs/va.gov-team/issues/70322)           
+        - 🚧  🟩 [[FE] - Unified demographics fail](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72443)
            - Added halfway through sprint
+           - Roll over because no one around to code review
         - ✔️ 🟥 [[Content] Ensure content for cancelled appt alert (from prod) during pre-check-in is consistent with unified check in messaging](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71166)
   - **Sub Goal: Analyze current metrics to see what they tell us**        
        - ✔️ 🟩 [[Analytics] [FE] Append GA event with a 45MR param in check in](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/71440)

@@ -4,7 +4,7 @@
 
 ### Facility Locator
 - [Product folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/facility-locator/product)
-- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/product/facility-locator-product-outline.md)
+- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/facility-locator-product-outline.md)
 
 ### VAMC modernized pages
 - [Product folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/medical-centers)
@@ -12,7 +12,7 @@
 
 ### Vet Centers
 - [Product folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/vet-centers)
-- [Product outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/vet-centers/product/product-brief.md)
+- [Product outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/vet-centers/product-brief.md)
 
 
 ## Transition documents
