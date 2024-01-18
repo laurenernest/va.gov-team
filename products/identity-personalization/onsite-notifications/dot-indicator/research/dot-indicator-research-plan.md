@@ -1,4 +1,5 @@
-# Research Plan for Authenticated Experience My VA - Dot Indicator, October 2023
+# Research Plan for Authenticated Experience My VA - Dot Indicator, January 2024
+_This plan includes revisions of the original plan created by Angela Agosto in October 2023_
 
 ## Background
 The Authenticated Experience and MHV landing page teams recently shared a common need for an indicator on our pages for unread or unseen things. We realized that both authenticated landing pages could benefit from a badge-like component that is either a dot or a number to indicate this next to certain links. [The Authenticated Experience team conducted an experiment](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/onsite-notifications/dot-indicator/create-dot-indicator#project-outline-create-dot-indicator) with a red dot next to our "Go to your inbox" link to indicate unread messages in September 2023 and saw a [47% increase in clicks](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/onsite-notifications/dot-indicator/create-dot-indicator#measuring-success) as compared to our previous unread messages link. 
@@ -9,7 +10,7 @@ With the initial experiment deemed a success, we are looking to potentially expa
 
 ### OCTO Priorities 
 
-Especially since My VA is now the next destination when a Veteran logs into VA.gov, it is critical that we present the most relevant updates as quickly and clearly as possible on the page. Accomplishing this through the use of indicators, if successful, would fulfill [OCTO prioritie](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202023.md)s of solidifying the VA.gov platform and enhancing Veterans’ personalized online experiences.
+Especially since My VA is now the next destination when a Veteran logs into VA.gov, it is critical that we present the most relevant updates as quickly and clearly as possible on the page. Accomplishing this through the use of indicators, if successful, would fulfill [OCTO priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202023.md) of solidifying the VA.gov platform and enhancing Veterans’ personalized online experiences.
 
 ### Veteran Journey
 Since Veterans can apply for and manage their benefits any time after getting out of the military, this work impacts the [Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf) from Starting Up and beyond.
@@ -78,10 +79,10 @@ TBD
 	
 ## Team Roles	
 Please list the people who will be serving in each role.
-- Moderator: Angela Agosto (angela.agosto@adhocteam.us, 570-807-0619)
-- Research guide writing and task development: Angela Agosto	
+- Moderator: Matt Marino (matt.marino@adhocteam.us)
+- Research guide writing and task development: Matt Marino and Angela Agosto	
 - Participant recruiting & screening: Perigean
-- Project point of contact: Angela Agosto
+- Project point of contact: Matt Marino
 - Participant(s) for pilot test: TBD
 - Accessibility specialist (for sessions where support for assistive technology may be needed):	TBD
 - Note-takers: TBD
@@ -89,4 +90,4 @@ Please list the people who will be serving in each role.
 samara.strauss@va.gov
 ana@adhocteam.us
 allison@cityfriends.tech
-derrick.ellerbie@agile6.com
+daniel.miller@agile6.com

@@ -1,3 +1,130 @@
+## Meeting Notes for CRM Sync on 01/16/2024
+
+Medallia Updates
+
+### Attendees:
+
+* **AVA FE Team:** ...
+* **AVA CRM Team:** ...
+
+### Key Takeaways:
+
+1. Natalie updated on Medallia ATO
+   * potential inquest may take 6-9 months to access data on Medallia portal (according to experience)
+   * Natalie needs to confirm this though by talking to ISSO.
+  
+### Action Items:
+
+- [X] ~Becky to connect Natalie with Medallia team to answer questions~
+- [ ] Natalie provide update to Medallia after speaking with ISSO and Medallia team
+- [ ] Becky to help escalate Natalie's issue with accessing ZenHub
+- [ ] Natalie + team to provide name of research observers from CRM team by EOD 1/17
+
+- [ ] JOE: Rename Tuesday Sync to FE/CRM rather than AVA/AVA CRM (in Google & VA Calendars)
+   * Blocked - still working on final naming that better reflects our teams’ roles
+- [X] ~Chris: Send reroute data to Joe/Jacob/Becky~
+- [ ] Shelby: Check in with dev team & aiming for next sync call (1/16) for answers on form changes
+- [ ] Adding field to form (“Missing field in CRM” slide)
+- [ ] Adding an option to a list (“Relationship lists” slide)
+- [ ] Update gender field with optionset or could be a new field (“Changed Gender value” slide)
+- [X] ~Chris & Joe: Discuss empty string or a null string~ (empty string)
+
+
+
+## Meeting Notes for CRM Sync on 01/11/2024
+
+Brief brief; Access Status; API Status
+
+### Attendees:
+
+* **AVA FE Team:** ...
+* **AVA CRM Team:** ...
+
+### Key Takeaways:
+
+1. Training / 0-token / resource-access status in progress for both teams
+   * For CRM, access is needed for API work, blocking
+   * For FE, access is needed for analytics, specifically baseline metrics
+2. API docs review, `/profile` documentation needs tweaks from CC.
+  
+### Action Items:
+
+- [ ] JOE: Rename Tuesday Sync to FE/CRM rather than AVA/AVA CRM (in Google & VA Calendars)
+   * Blocked - still working on final naming that better reflects our teams’ roles
+
+
+
+## Meeting Notes for CRM Sync on 01/09/2024
+
+Rerouting Data in App Insights; UX Change CRM Impact Slides
+
+### Attendees:
+
+* **AVA FE Team:** ...
+* **AVA CRM Team:** ...
+
+### Key Takeaways:
+
+1. Approach for Pulling Rerouting Data from Existing App
+   * PowerBI dashboard cites reroute data. How is that data summarized?
+2. UX Slides Presented [Commments in Deck](https://docs.google.com/presentation/d/11C53YOx5APOuG9_0j-0bGlIhxPnUSP339IRwcHK-2Yc/edit#slide=id.p) copy in AVA Teams
+  
+### Action Items:
+
+- [ ] JOE: Rename Tuesday Sync to FE/CRM rather than AVA/AVA CRM (in Google & VA Calendars)
+   * Blocked - still working on final naming that better reflects our teams’ roles
+- [ ] Beck and Holly provide roadmap from zenhub 1/17/24
+- [ ] Chris: Send reroute data to Joe/Jacob/Becky
+- [ ] Shelby: Check in with dev team & aiming for next sync call (1/16) for answers on form changes
+- [ ] Adding field to form (“Missing field in CRM” slide)
+- [ ] Adding an option to a list (“Relationship lists” slide)
+- [ ] Update gender field with optionset or could be a new field (“Changed Gender value” slide)
+- [ ] Chris & Joe: Discuss empty string or a null string
+
+## Meeting Notes for CRM Sync on 01/04/2024
+
+Reviewed Action Items; Reminder of UX Slides
+
+### Attendees:
+
+* **AVA FE Team:** ...
+* **AVA CRM Team:** ...
+
+### Key Takeaways:
+
+1. Short meeting
+2. Reviewed Agenda Items
+3. UX Slides for CRM Impact coming
+  
+### Action Items:
+
+- [ ] JOE: Rename Tuesday Sync to FE/CRM rather than AVA/AVA CRM (in Google & VA Calendars)
+   * Blocked - still working on final naming that better reflects our teams’ roles
+- [ ] Beck and Holly provide roadmap from zenhub 1/17/24
+
+## Meeting Notes for CRM Sync on 01/02/2024
+
+Profile discussed; UX CRM Impact; 0-Tokens; ZenHub Timeline
+
+### Attendees:
+
+* **AVA FE Team:** Khoa, Joe Hall, Eddie, Becky Phung, Hemesh, Holly, Jacob Cheriathundam
+* **AVA CRM Team:** Bharat Parihar, Tina, Shelby, Chris, JD, ...
+
+### Key Takeaways:
+
+1. UX Changes Review for CRM Impact is coming
+2. Wrapped up discussion on `GET /profile` endpoint. Endpoint will include all data, FE will use the subset it needs.
+3. Kyle will be PoC for App Insights data when he gains access.
+4. FE and CRM teams are in the process of getting 0-token and access to resources.
+5. FE Team working on Timeline, converting to ZenHub, will share more in a future sync.
+  
+### Action Items:
+
+- [ ] JOE: Update all API endpoints to include the message_id, etc. (ETA 1/4)
+- [ ] JOE: Rename Tuesday Sync to FE/CRM rather than AVA/AVA CRM (in Google & VA Calendars)
+   * Blocked - still working on final naming that better reflects our teams’ roles
+
 ## Meeting Notes for CRM Sync on 12/21/2023
 
 OptionSet wrapped; Profile pushed

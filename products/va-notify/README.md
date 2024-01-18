@@ -1,8 +1,3 @@
-# ❗Important End of Year Scheduling Info for New Notifications
-As we reach the end of the year please be aware that VA Notify will not be starting any new notification intakes in December as we focus on supporting those in progress and wrapping up 2023 initiatives. Kick-off meetings for new intake forms submitted during December will be scheduled in January.
-
-Please be mindful of launching new notifications in December before the holidays unless there is a business critical deadline. There is a [VA platform code freeze 12/22 - 1/2/2024](https://depo-platform-documentation.scrollhelp.site/developer-docs/deployment-policies#DeploymentPolicies-Holidayreleasefreezeschedule), which also includes limited support.
-
 # VA Notify, Enterprise Notification Platform
 
 **Mission**
@@ -168,16 +163,11 @@ Tech Stack
 ### Tips for using Postman
 
 You must populate the following variables:
-- service-api-key = [api key we provided via encrypted email]
-- service-id = [id for your service in the Self Service Portal, we can provide this to you]
-- sms-sender-id = [this will be provided to you if you are using SMS]
+- service-api-key = [VA Notify team will provide this via encrypted VA email. Please keep secure!]
+- service-id = [ID for your service, viewable in the Self Service Portal]
+- sms-sender-id = [VA Notify team will be provided to you if you are using SMS]
     - Helps identify what phone number to send from along with other relevant metadata
-- template-id = [template id, which you can find in the Self Service Portal]
-    - Check which variable is referenced in the applicable POST
-- email-template-id = [template id, which you can find in the Self Service Portal]
-    - Check which variable is referenced in the applicable POST
-- sms-template-id = [template id, which you can find in the Self Service Portal]
-    - Check which variable is referenced in the applicable POST
+- template-id = [Unique ID per notification template, viewable in the Self Service Portal]
 
 **Sample Email request with personalisation**
 `{{notification-api-url}}/v2/notifications/email`

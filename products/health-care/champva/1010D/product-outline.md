@@ -50,19 +50,18 @@ Veterans and family members of Veterans must currently download and fill out the
 
 ### Objectives and Key results (OKRs)
 
-- Objective: Veterans and their families can easily and quickly apply for health care benefits 
-  - Key result: Increase % of Veterans and families who update their health care benefits online
-  - Key result: Veterans and families are able to find and access information on how to apply online
+- Objective: Veterans and their families can easily apply online for health care benefits 
+  - Key result: Increase % of Veterans and families who apply for health care benefits online
   - Key result: Increase number of form submissions 
+  - Key result: Reduce time it takes to fill out application
 - Objective: Faster delivery of benefits for Veterans and their families
   - Key result: Reduce processing and approval time
-  - Key result: Reduce time it takes to fill out application
+  - Key result: Reduce delay due to number of resubmissions 
   - Key result: Reduce time to notification of submission
 - Objective: Veterans and their families are updated and informed of statuses
   - Key result: Ensure testing and alert monitoring to catch any errors
   - Key result: Accurate status is relayed to applicants
 
- 
 
 
 ---
@@ -74,8 +73,9 @@ Veterans and family members of Veterans must currently download and fill out the
 
 ## Solution Approach
 - We are currently in the research and design phase. We will speak with users and will be building out a prototype for testing as well.
-- Connect with CAIA on migration effort happening in parallel (CAIA kickoff scheduled 11/29)
-
+- Connect with CAIA on migration effort happening in parallel 
+- In Scope:
+- Out of Scope:
 --- 
 
 ## Launch Dates
@@ -86,6 +86,14 @@ Veterans and family members of Veterans must currently download and fill out the
 - *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
   - tbd
 
+- Collaboration Cycle
+  - [x] CAIA kickoff: 11/29/23
+  - [x] Design Intent: 1/9/24
+  - [ ] Research:
+  - [ ] Midpoint:
+  - [ ] Analytics:
+  - [ ] Staging:
+  - [ ] Security:
 ---
 
 ## Solution Narrative
@@ -103,7 +111,7 @@ Veterans and family members of Veterans must currently download and fill out the
 - end to end data submission processes/storage and error handling
 - existing metrics
   
-  
+
 ### Key Decisions
 
 ---
@@ -112,7 +120,7 @@ Veterans and family members of Veterans must currently download and fill out the
 
 
 - Team Name: IVC
-- GitHub Label: champ-vfmp-forms (?)
+- GitHub Label: ivc-forms
 - Slack channel: #ivc-forms
 - Product POCs: Bo Altes, Mary Wang
 - Stakeholders: Lauren Alexanderson, Eunice Garcia

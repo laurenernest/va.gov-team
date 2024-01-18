@@ -1,4 +1,4 @@
-# Research Plan for Usability Testing, Federal Standardized Header/Footer--Phase 2 (Assistive Tech users), February 2024
+# Research Plan for Usability Testing, Federal Standardized Header/Footer--Phase 2 (Assistive Tech users), January 2024
 
 ## Background
 OFCIO and GSA (USWDS) designed a new federal standardized header and footer in an effort to standardize across all federal agencies. This new header and footer includes a new “USA” logomark that has yet to be released to the American public. A federal standardized header and footer directly contributes to the requirements of the [21st Century IDEA](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf). The Department of Veterans Affairs has volunteered to be the first high-impact service provider (HISP) to attempt to adopt this new header and integrate into the department’s design system. 
@@ -7,7 +7,7 @@ Initial research will test with Veterans and beneficiaries to validate that it c
 
 [Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/header-footer/federal-standardized-header-footer)
 
-[Link to card in research repo TBD]()
+[Link to card in research repo](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/465)
 
 ### OCTO Priorities 
 
@@ -79,7 +79,7 @@ There will be 2 phases of research:
 
 - **Phase 2: Assistive technology users** 
   - Both desktop and mobile users 
-  - 1 coded prototype that's accessible and responsive (CodePen likely) 
+  - 1 coded prototype that's accessible and responsive (CodePen) 
   - 90-minute sessions 
   - [research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/header-footer/federal-standardized-header-footer/research/phase2-AT)
 
@@ -88,22 +88,28 @@ NOTE: We will consult with AuthExp team to have them lead usability testing for 
 ## Phase 2 (Assistive tech) ONLY below...
 
 ### Research materials
-- [Link to conversation guide TBD]()
-- [Link to prototype TBD]()
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/federal-standardized-header-footer/research/phase2-AT/conversation-guide.md)
+- [Link to prototype](https://cdpn.io/pen/debug/gOEPoyo/43fa8051200887cb97f5b154ed54c8a3)
 - [Mural notetaking board TBD]()
 	
 ## Recruitment
-  -  Perigean to recruit **14 Veterans, caregivers, and family member**s of Veterans who meet the below criteria in order to get a minimum of 8 completed sessions. Criteria are also in this [recruitment intake ticket TBD]().
+  -  Perigean to recruit **11 Veterans, caregivers, or family members** of Veterans who meet the below criteria in order to get a minimum of **8 completed sessions**. Criteria are also in this [recruitment intake ticket TBD]().
  
 
 ### Required criteria (in decreasing order of priority)
   - *Primary criteria:*
-    - **ALL** must use a screen reader or screen magnifier every time they access the Internet 
-    - **At least 3** have a smartphone or tablet and are willing to use it for the session and... 
-      - Have Zoom downloaded to their mobile device prior to the session and know how to share their screen 
-      - Are willing to share over Zoom a web browser window on their mobile device 
-      - Have a working microphone on their mobile device 
-    - **At least 5** have a computer and are willing to use it for the session  
+    - **ALL** must use a screen reader or screen magnifier **every time** they access the Internet 
+      - **5** must use a screen reader
+      - **5** must use a screen magnifier
+     - **At least 5** have a computer and are willing to use it for the session
+     - **At least 3** have a smartphone and are willing to use it for the session 
+     - **ALL** 
+        - Have Zoom downloaded to their device prior to the session and know how to share their screen 
+        - Are willing to share over Zoom a web browser window 
+        - Have a working microphone on their device 
+      
+    - **At least 8** are Veterans
+
   - *Secondary criteria:*
      - At least 2 people are age 55 or older 
      - At least 2 people 35 or under 
@@ -116,59 +122,61 @@ NOTE: We will consult with AuthExp team to have them lead usability testing for 
 
 ### Screening Questions
 
-1. Do you use screen reader or screen magnifier technology **every time** you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies.
-    1. No *(disqualify)*
+1. Do you use a screen reader or screen magnifier **every time** you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies.
+    1. No *(DISQUALIFY)*
     2. Yes *(ask next question)*
 
-1. Are you willing to join the Zoom session using this assistive technology? 
-    1. No *(disqualify)* 
+1. Are you willing to join the Zoom session using your screen reader or screen magnifier? 
+    1. No *(DISQUALIFY)* 
     1. Yes *(ask next question)*  
 
-1. How long have you been using this screen reader or screen magnifier technology? 
-    1. Less than 2 years *(disqualify)* 
+1. How long have you been using this screen reader or screen magnifier? 
+    1. Less than 2 years *(DISQUALIFY)* 
     1. 2-5 years *(ask next question)*
     1. More than 5 years *(ask next question)* 
 
 1. What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session? *(open text field--RECORD what they say AND ask rest of questions)*
+    - *DISQUALIFY if they say something non-digital like "magnifying glass"* 
+    - *Acceptable responses include "ZoomText", "increase font size", "zoom in the browser, "JAWS", "VoiceOver", "Talkback"*
+    - *If unsure whether someone qualifies, please ask Cindy*
 
 1. For this meeting, you'll need a device with Zoom installed that can screen share and has a working microphone. What kind of device will you be using? *(RECORD)*
     1. Smartphone  
     1. Computer 
     1. Tablet 
 
-1. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these. 
+1. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
      1. No
-     2. Yes *(RECRUIT and RECORD as having a cognitive disability)*
+     2. Yes *(RECRUIT 2 and RECORD as having a cognitive disability)*
 
 1. Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve. 
      1. No  
-     1. Yes *(RECRUIT 2)*
+     1. Yes *(RECRUIT 2 and RECORD as LGBTQ+)*
 
 
-## Timeline--TBD
+## Timeline
 
 ### Prepare
 Before recruitment starts, we would like to **request a kickoff call with Perigean** to align on recruitment criteria and terminology for screener questions in the survey and emails that will be sent to Veterans. We would also like to discuss the relative priorities of recruitment criteria and how the criteria are prioritized when recruiting replacements for participants who cancel in advance.  
 
 Cindy is available for a kickoff call during any of these times: 
-- **TBD** 12 - 5 pm ET
-- **TBD** 12 - 5 pm ET
+- **Jan 18** 12 - 2 pm ET
+- **Jan 19** 12 - 3 pm and 3:30 - 5 pm ET
 
 Please invite Cindy (cindy.merrill@adhocteam.us) and Amanda (amanda.klausmeier@va.gov) to the kickoff call.
 
 **Prior to the kickoff call, we would like a link or screenshot of the recruitment survey** for this study so we can review it beforehand.
 
-We will schedule 1-2 **pilot tests**:
-- Pilot 1: **TBD at TIME TBD ET** with TBD (tbd@adhocteam.us)
-- Pilot 2: **TBD at TIME TBD ET** with TBD (tbd@adhocteam.us)
+We will schedule a **pilot test (or two)**:
+- **Jan 23, 24, or 25 at TIME TBD ET** with TBD (tbd@company.com)
 
 ### Research sessions
-* Planned dates of research: TBD, 2024**
+Planned dates of research: **Jan 29 - Feb 7, 2024**
 
 We would like to request that **Perigean calls each participant** to remind them about the session, in addition to emailing them. And please include the session time **in each participant's own time zone** (from their address).
 
 ### Length of sessions
-* Session length: **90 minutes** (assistive tech users)
+* Session length: **90 minutes** 
 * Buffer time between sessions: 1 hour
 * Maximum sessions per day: 3
 
@@ -176,7 +184,14 @@ We would like to request that **Perigean calls each participant** to remind them
 
 Team Availability | Time Slots (ET)
 ------------------|--------------
-TBD, 2024 | 12-1:30, 2:30-4, TBD pm
+Jan 29, 2024 | 12-1:30, 3:30-5, 6-7:30 pm
+Jan 30, 2024 | 12-1:30, 3:30-5, 6-7:30 pm
+Jan 31, 2024 | 12-1:30, 3:30-5, 6-7:30 pm
+Feb 1, 2024 | 12-1:30, 3:30-5, 6-7:30 pm
+Feb 2, 2024 | 12-1:30, 3:30-5, 6-7:30 pm
+Feb 5, 2024 | 12-1:30, 3:30-5, 6-7:30 pm
+Feb 6, 2024 | 12-1:30, 3:30-5, 6-7:30 pm
+Feb 7, 2024 | 3:30-5, 6-7:30 pm
 
 
 ## Team Roles	
@@ -186,10 +201,10 @@ Please list the people who will be serving in each role.
 - Participant recruiting & screening: Perigean	
 - Project point of contact: Cindy Merrill 
 - Participant(s) for pilot test: TBD
-- Accessibility specialist: TBD 	
+- Accessibility specialist: Laura Flannery or someone from CAIA 	
 - **Note-takers: Perigean (in github)**
 - Observers: Will need to sign up so we can limit the number of observers per session, and Cindy will add them to the invites that she receives from Perigean. (Will invite to sign up: Amanda Klausmeier, Dave Conlon, OFCIO, USWDS.) 
 
 ## Approvals
-- Dave Conlon (PO) on Nov 7, 2023
-- Shane Strassberg (VA Research Ops) on TBD
+- Amanda Klausmeier (Sitewide UX/UI Lead) on January 4, 2024
+- Shane Strassberg (VA Research Ops) on January 17, 2024

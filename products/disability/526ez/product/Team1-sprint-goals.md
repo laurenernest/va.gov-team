@@ -1,5 +1,71 @@
 # Sprint goals for Benefits Disability Experience Team1 (DBEX-TREX)
 
+## Sprint 23
+Period - 01/17/2024 - 01/30/2024
+### Sprint goals 
+- **Expedited**
+- **Non-negotiable**
+   - eVSS to Lighthouse Migration - Engineering
+       - PPIU - Direct Debit 
+         - [ ] Launch 25% and next based on the progress 
+      - Benefits Claims Service 
+        - [ ] Launch 25% and next based on the progress 
+      - Submit endpoint
+        - [ ] Discovery on submit migration options for sync and async response for established claims
+      - PCIU 
+        - [ ] Start removing EVSS calls from 526 for PCIU
+   - 526ez sync with paper version 
+       - Toxic Exoposure 
+           - [ ] Front-end - continue build
+           - [ ] Finalize design for date entries for 15 B, C, and D
+       - Audit for 526ez for all paper to digital form changes - Start discovery
+- **Research**
+  - Shadow Research
+    - [ ] Additional shareout with additional stakeholders
+- **Misc**
+  - Migrate sketch files to Figma 
+
+- **Design Debt**
+    - Front-end - Discovery on scope of the change for v3 components
+      
+- **Stretch Goals**
+  - Shadow Research
+    - [ ] Look at what's  next from the research findings
+  - Migrate sketch files to Figma
+    
+## Sprint 22
+Period - 01/03/2024 - 01/16/2024
+### Sprint goals 
+- **Expedited**
+ - [ ] Add date stamps on form 0781 - Complete testing
+- **Non-negotiable**
+   - eVSS to Lighthouse Migration - Engineering
+       - PPIU - Direct Debit 
+         - [ ] Launch 1% and next based on the progress 
+      - Benefits Claims Service 
+        - [ ] Launch 1% and next based on the progress 
+      - Submit endpoint
+        - [ ] Discovery on IDs in claim submission
+        - [ ] Discovery on rerouting submit with async polling
+      - PCIU 
+        - [ ] Discovery - continued
+   - 526ez sync with paper version 
+       - Toxic Exoposure 
+           - [ ] Front-end - start build
+           - [ ] Design
+             - [ ] Accessibility updates for MVP
+             - [ ] New Toxic Exposure validation/error screen mocks
+             - [ ] Complete document clean up
+- **Research**
+  - Shadow Research
+    - [ ] Draft report
+- **Misc**
+  - Migrate sketch files to Figma - Identify scope and create tickets for migration
+    
+- **Stretch Goals**
+     - Migrate sketch files to Figma - continued
+     - Audit for 526ez for all paper to digital form changes - Start discovery
+
 ## Sprint 21
 Period - 12/20/2023 - 01/02/2024
 ### Sprint goals 
@@ -7,10 +73,6 @@ Period - 12/20/2023 - 01/02/2024
  - [ ] Add date stamps on form 0781 
 - **Non-negotiable**
    - eVSS to Lighthouse Migration - Engineering
-       - PPIU - Direct Debit 
-         - [ ] Launch 1% and next based on the progress 
-      - Benefits Claims Service 
-        - [ ] Launch 1% and next based on the progress 
       - Submit endpoint
         - [ ] Integration testing with LH release in sandbox - continued
       - PCIU 

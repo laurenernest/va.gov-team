@@ -1,10 +1,10 @@
-# Conversation Guide for Authenticated Experience My VA team - Dot Indicator, October 2023
+# Conversation Guide for Authenticated Experience My VA team - Dot Indicator, January 2024
+- [ ] __Make sure password has been changed from previous session for staging account__
+- [ ] __Start a thread in feedback backchannel with a link to observations document and observer instructions__
+- [ ] __Turn on closed captioning in order to use Zoom transcription__
 
-- [ ] Make sure password has been changed from previous session for staging account
-- [ ] Start a thread in feedback backchannel with a link to observations document and observer instructions
-- [ ] Turn on closed captioning in order to use Zoom transcription
-
-- [Link to Sketch prototype](https://www.sketch.com/s/9b0e6efc-423a-4354-9db3-ab2083d566c9/a/P1WQemr) - use if there are any issues with staging
+- [Link to Figma __desktop__ prototype](https://www.figma.com/proto/15yOY4VEzitxm5tRMDiAzz/My-VA?type=design&node-id=196-26640&t=cDBQ1pG5noiJPEC5-1&scaling=scale-down-width&page-id=196%3A26639&mode=design) (use as a backup only - share link for prototype)
+- [Link to Figma __mobile__ prototype](https://www.figma.com/proto/15yOY4VEzitxm5tRMDiAzz/My-VA?type=design&node-id=222-2228&t=Ly98ZWGK70aAsDJk-1&scaling=min-zoom&page-id=196%3A26639&starting-point-node-id=222%3A2228&show-proto-sidebar=1&mode=design) (use as a backup only - share link for prototype)
 
 ## Starting the session
 - _Keep observers in waiting room to ask participant if they still consent to having observers in the session. Tell them to have their camera on with full name displayed for a brief introduction to participant when they are admitted to the session._
@@ -13,7 +13,7 @@
 
 ## Intro - 5 minutes
 
-Thanks for joining us today! My name is Angela. Today we're going to be reviewing some new features being considered for VA.gov.
+Thanks for joining us today! My name is Matt. Today we're going to be reviewing some new features being considered for VA.gov.
 
 Before we start, a few things I want to mention:
 
@@ -38,14 +38,22 @@ Now I'm going to ask you to open a new tab in your chosen browser and go to stag
 Okay great, I can see your screen. Now please click the "sign in" button in the top right corner and I'll put the credentials you should use to log in in the chat. 
 
 - *Once the full page has loaded* Now that you've logged in, what's standing out to you first?
-- *If they don't mention the indicators* Did you notice the dot or the notification badge with the number in it that are in the Health care section?
-- *For colorblind participants* Do you have any trouble seeing the dot or the badge with the number in it? What color do they appear to be to you?
-- *For colorblind participants* How do you experience notifications on other websites and on your phone? Are there some types of notifications that are difficult or impossible for you to interpret? Is there any website or app that does it particularly well from a colorblihndness standpoint?
-- *For magnicifcation participants - observe if they seem to notice links off to the right on desktop without being prompted. If they don't, ask:* Can you explain why you didn't initially notice the red dot or the red badge with the number in it? 
+- *If they don't mention the indicators* Go to the Health care section. 
+
+- __*For colorblind participants* Do you have any trouble seeing the dot or the badge with the number in it? What color do they appear to be to you?
+- *For colorblind participants* How do you experience notifications on other websites and on your phone? Are there some types of notifications that are difficult or impossible for you to interpret? Is there any website or app that does it particularly well from a colorblindness standpoint?
+
+- *For magnicifcation participants - observe if they seem to notice links off to the right on desktop without being prompted. If they don't, direct them to where they are located*
+
+*for colorblind participants - don't use the word red*
 - What do you think each of these red indicators mean?
+
 - How do you think each of these red dots would disappear? What about the badge with the number in it?
+
 - What would you expect to see if you clicked the link that says "Request travel reimbursement" and it has a red dot next to it?
+
 - What would you expect to see if you clicked "Get your VA medical records and lab and test results" and it has a red dot next to it?
+
 - Is there anywhere on this view of the website that we're looking at now where you expect to see a red notification like this but you don't?
 
 ## Thanks and Closing - 2 minutes

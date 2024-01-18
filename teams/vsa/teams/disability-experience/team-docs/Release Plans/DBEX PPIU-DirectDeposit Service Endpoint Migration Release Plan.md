@@ -41,6 +41,7 @@ Lighthouse has been made aware of these risks. Our focus for this test plan will
 - [ ] Post-launch questions
 
 ## Notes
+- Since other teams have completed migrations to LH for this API, sill expedite the early ramp-up of this rollout. Planning on 3 days for 1% and 5%, and then progerssing to 25%
 
 - Potential Risks:
   - If LH breaks or our implementation is wrong, the user might not be able to submit because the translate action happens on the controller side. We would see it right away because we'd see user feedback right away because they wouldn't be able to submit. This is going to be part 2 of our dashboard (the #submit_all_claim dashboard would see that it's failed, and we could look to see if it's the direct_deposit call that's failing.) We'd see it right away because it's part of the foreground controller level rather than in a background job or prefill, etc. Mitigation would depend on the issue. Our only mitigation is our dashboards to see if a controller-level submission is failing. The code doesn't have any exception handling. 
@@ -144,13 +145,19 @@ Links to dashboard(s) showing "success criteria" metrics: [Benefits DBex EVSS-to
 
 ### Stage A: Monitoring phase 
 #### Planning  
-- Date Started:
-- ZH Tracking:
-- Length of time: 1 week
-- Percentage of Users (and roughly how many users do you expect this to be): 0.5%
+- Date Started: 1/4/2024
+- ZH Tracking: https://app.zenhub.com/workspaces/disability-experience-63dbdb0a401c4400119d3a44/issues/gh/department-of-veterans-affairs/va.gov-team/70826
+- Length of time: 3 days
+- Percentage of Users (and roughly how many users do you expect this to be): 1%
 #### Results:  
 - Anomalies
 - Rollbacks:
+    -       Rollback reason: Window of no traffic recorded, slightly higher overall error rate than expected based on EVSS side
+            Date: 1/5/24
+            Severity/Impact: Low
+            Ticket(s) created to address:
+            - [x] Has the issue been resolved?
+            - Found this was due to a calculation error for LH error volume. Composite error volume has not changed
 
 <br>
 
@@ -163,14 +170,19 @@ Links to dashboard(s) showing "success criteria" metrics: [Benefits DBex EVSS-to
 - Percentage of Users (and roughly how many users do you expect this to be): 5% 
 #### Results:  
 - Anomalies:
+    - AE team noted PPIU activity directing to EVSS via the v0 controller. Notably, we currently don't direct anything through the controller, nor does the AE team. Need to investigate.
+        -  The referrer for these logs is the 526 form, possible we may have missed a controller call.
+    - Noting a drop in activity on 1/14, checking if there was maintenance or an outage
+        - It appears that activity wasn't entirely blocked as a few requests made it through
 - Rollbacks:
+
 
 <br>
 
 
 ### Stage C: Another moderate ramp up
 #### Planning
-- Date Started:
+- Date Started: Skipped
 - ZH Tracking: https://app.zenhub.com/workspaces/disability-experience-63dbdb0a401c4400119d3a44/issues/gh/department-of-veterans-affairs/va.gov-team/64555
 - Length of time:
 - Percentage of Users (and roughly how many users do you expect this to be): 10% 
@@ -183,13 +195,20 @@ Links to dashboard(s) showing "success criteria" metrics: [Benefits DBex EVSS-to
 
 ### Stage D: Final moderate ramp up
 #### Planning  
-- Date Started:
+- Date Started: 1/16/24
 - ZH Tracking: https://app.zenhub.com/workspaces/disability-experience-63dbdb0a401c4400119d3a44/issues/gh/department-of-veterans-affairs/va.gov-team/64556
 - Length of time: 1 week
 - Percentage of Users (and roughly how many users do you expect this to be): 25% 
 #### Results  
 - Anomalies:
 - Rollbacks:
+    -       Rollback reason: 
+            Date: 1/17/24
+            Severity/Impact: Medium
+            Ticket(s) created to address:
+            - [] Has the issue been resolved?
+            - Composite errors rose ~1%, notably with a volume of `#initialize_payment_information Failed to retrieve PPIU data from LighthousePPIUProvider: undefined method `gsub' for nil:NilClass`
+
 
 <br>
 

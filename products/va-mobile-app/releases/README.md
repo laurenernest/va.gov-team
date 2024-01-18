@@ -44,26 +44,7 @@ See full release calendar <a href="https://docs.google.com/spreadsheets/d/14jYcB
 
 
 <table>
-  <tr>
-   <td><strong>General Release</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-<ul>
   
-<li>All committed issues have been coded and marked as closed in ZenHub by the end of the sprint - Engineering 
- 
-<li>Ensure all tickets are tagged appropriately (epic, labels, release date, etc)  - Engineering
-
-<li>QA testing has been completed - QA 
-   
-<li>Follow up on any open issues/concerns - Relevant PMs 
-   
-</li>
-</ul>
-   </td>
-  </tr>
   <tr>
    <td><strong>Product Manager</strong>
    </td>
@@ -71,20 +52,24 @@ See full release calendar <a href="https://docs.google.com/spreadsheets/d/14jYcB
   <tr>
    <td>
 <ul>
+
+<li> App Store for Va.gov image and content updates - outside of Release ticket  <a href="https://github.com/department-of-veterans-affairs/va-mobile-app/issues/2555])">App Store Process Doc</a>
   
-<li> App Store (Va.gov, Apple, Android) content and image updates 
+<li> App Store (Apple, Android) image updates - outside of Release ticket  <a href="https://github.com/department-of-veterans-affairs/va-mobile-app/issues/2555])">App Store Process Doc</a>
+
+<li> App Store (Apple, Android) content - Team PMs to create a separate ticket to determine content that will be included in the Release ticket process   <a href="https://github.com/department-of-veterans-affairs/va-mobile-app/issues/2555])">App Store Process Doc</a>
  
-<li> Call Center Guide 
+<li> Call Center Guide Updates if applicable - Outside of Release Ticket  <a href="https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/releases/Call%20Center%20Docs">Call Center Process Doc</a>
 
-<li> In-App Whats New Alert Box content 
-
-<li> Determining what bugs need to be completed pre-MVP and those that are not 
+<li> In-App Whats New Alert Box content  Team PMs to create a separate ticket to determine content that will be included in the Release ticket process <a href="https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/releases">Whats New Content Process Docc</a>
+	
+<li> Determining what bugs need to be completed pre-MVP and those that are not by - Team PMs to review and assess this pre-launch - Sev 2 and higher should be worked prior to production launch
    
-<li> Close out the epic checklist list 
+<li> Close out the epic checklist list by Team PMs outside of Release process - Team PMs to review their Project Checlist which is found on their Epic ticket 
 
-<li> Coordinate with POs on updates (including external POs) 
+<li> Coordinate with POs on updates (including external POs) - Team PMs responsible for ensuring POs are aware of what is being released, what is not, and any concerns or other relevant information 
 
-<li> Release approval after QA approval
+<li> Release approval after QA approvalby Team PMs in communication thread - Team PMs who have code going into product will need to communicate their approval in DSVA Slack Thread for that release 
 </li>
 
 </ul>
@@ -105,6 +90,10 @@ See full release calendar <a href="https://docs.google.com/spreadsheets/d/14jYcB
 <li>All development documentation has been updated
 
 <li>All unit test code has been updated
+	
+<li>Ensure all tickets are tagged appropriately (epic, labels, release date, etc) 
+
+<li>All committed issues have been coded and marked as closed in ZenHub by the end of the sprint 
 
 <li>All reviews have been completed
 </li>
@@ -131,7 +120,8 @@ See full release calendar <a href="https://docs.google.com/spreadsheets/d/14jYcB
  
 <li>New issues that are found outside of acceptance criteria a ‘new’ ticket is created
  
-<li>Full Regression  
+<li>QA testing needs have all be completed including Full Regression  
+
 <ul>
   
 <li>In depth testing to ensure the existing functionalities haven’t been adversely affected. 
@@ -145,7 +135,39 @@ See full release calendar <a href="https://docs.google.com/spreadsheets/d/14jYcB
 </ul>
    </td>
   </tr>
+  <td>
+    <strong>Release Manager</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ul>
+
+<li> App Store (Apple, Android) content - based on Team's Tickets
+ 
+<li> In-App Whats New Alert Box content - based on Team's Tickets
+
+<li> Managing and coordinating all aspects of the release ticket. Example completed <a href="https://github.com/department-of-veterans-affairs/va-mobile-app/issues/2555">ticket</a>
+
+<li> Release communications involving QA tests, engineering validation of tickets, approvals (QA, Eng, PM, PO) in the ticket and DSVA slack 
+
+<li> Monitoring the release is successful post approval till app store release 
+
+<li> Close the sprint 
+
+<li> Document approriate change management and decisions made if applicable
+</li>  
+</ul>
+ 
+<li>Document findings in TestRail
+</li> 
+</ul>
+</li> 
+</ul>
+   </td>
+  </tr>
 </table>
+
 
 
 
@@ -176,7 +198,7 @@ Owner:  Engineering, the release version update is automated.  No action needed 
 <p>
 Owner: Release Manager responsible, Flagship Team accountable 
 <p>
-- QA release testing is completed and approvals of the release; if it fails PMs to determine if release should proceed
+- QA release testing is completed and approvals of the release; if it fails Release Manager to determine if release should proceed
 <p>
 - Pull in What's New Text for the App store from the ticket 
 <p>
@@ -292,9 +314,9 @@ We recorded a presentation to VA stakeholders in April 2023 that included a brie
 | Call center guide updates with new production changes | Call Center guide needs to be updated for any production chagnes so that VA Customer Service has most recent document in order to serve Veterans inquirying in | Flagship PM | Flagship PM | UX, VA Call Center | QA and Release, PO | [Call Center Process doc](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/releases/Call%20Center%20Docs) |
 | Apple App Store Whats New Content| Determine if there are content changes needed within the Apple Store App. Flagship PM to create ticket and coordinate with other PMs for a consolidate copy amongst all changes. Release manager will pull content from ticket to release ticket. | Release Manager | Flagship PM | Content | PO | [App Store Process doc](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/releases) |
 | Apple App Store Phone Images | Images within the app store need to be updated if visuals have changed. This is needed for iPad and iPhone | Flagship PM | Flagship PM | UX, Front-End Engineering | QA and Release, PO | [Images process doc](https://department-of-veterans-affairs.github.io/va-mobile-app/docs/Operations/Updating%20the%20App%20Stores/) |
-| Google App Store Whats New Content | Determine if there are content changes needed within the Apple Store App. Flagship PM to create ticket and coordinate with other PMs for a consolidate copy amongst all changes.  Release manager will pull content from ticket to release ticket.| Release Manager | Flagship PM | Content | PO | | [App Store Process doc](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/releases) |
+| Google App Store Whats New Content | Determine if there are content changes needed within the Apple Store App. Flagship PM to create ticket and coordinate with other PMs for a consolidate copy amongst all changes.  Release manager will pull content from ticket to release ticket.| Release Manager | Flagship PM | Content | PO | [App Store Process doc](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/releases) |
 | Google Phone Images | Phone images within the app store need to be updated if visuals have changed | Flagship PM | Flagship PM | UX, Front-End Engineering | QA and Release, PO | [Images process doc](https://department-of-veterans-affairs.github.io/va-mobile-app/docs/Operations/Updating%20the%20App%20Stores/) |
-| Va.gov App Store Content | Determine if there are content changes needed within the Apple Store App. Flagship PM to create ticket and coordinate with other PMs for a consolidate copy amongst all changes. | Release Manager | Flagship PM | Content| PO | | [Va.gov App Store Doc ](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/VA.Gov%20App%20Store) |
+| Va.gov App Store Content | Determine if there are content changes needed within the Apple Store App. Flagship PM to create ticket and coordinate with other PMs for a consolidate copy amongst all changes. |Flagship PM | Flagship PM | Content, Engineering, UX | PO | [Va.gov App Store Doc ](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/VA.Gov%20App%20Store) |
 | VA.gov Images | Determine if the VA.Gov app store needs to be updated with copy / images.  | Flagship PM | Flagship PM | Content, Engineering, UX | PO |  [Va.gov App Store Doc ](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/VA.Gov%20App%20Store) |
 | In-App Whats New Content | Determine if the in-app Alert Box needs to be shown in the Flagship App for Veterans to see and also what copy should be displayed. Ticket is needed for this | QA and Release | Flagship PM | Content, PO | | [Whats New Content Process Doc](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/releases)
 | Orchestrating Release Ticket Management |  Intent is to push out code Flagship App has built so this is coordinating the release ticket informatio and process based on what Flagship App, Github, and reporting data. Coordinating releases and having the final go no go say. | Release Manager | Release Manager | Flagship PM,  Engineering, QA, Content  | Mobile Team | [Mobile App Release Proces](https://docs.google.com/document/d/1Ws-R12rEnekHmVVl23KQeiAYathlZsL5/edit#heading=h.6hlc2oouewhp) | 

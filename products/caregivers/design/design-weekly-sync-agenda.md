@@ -1,5 +1,36 @@
 # Design Weekly Sync Agenda
 
+## 2024-01-16
+Attendees: Angela, Hieu, Jessica, Katelyn, Heather, and Kristen.
+
+- Toxic Exposure
+    - We already have the Mural and a PACT Act wizard (check eligible then apply  for 10-10).
+    - Kristen mentioned that the OCTO team had some recent related research with Nina synthesizing this week and Kristen will do a first path.
+    - Step 1 is to gather all the information.
+    - There are talks of adding this information to the 526. If that is the case, how can that information be captured so the Veteran does not have to fill out the same information in the 10-10. Is there another backend system that connects this information? Is the Enrollment System ready for this information?
+    - "If the answer is YES for X, does it mean they don't have to answer the following question?" Map the workflow after the initial discovery step.
+    - The veteran wants to be asked the questions again when the definition of Toxic exposure changes.
+- OCTO Presentation
+    - Print PDF to Kristen.
+    - Re-word the text for HEC focused on wanting to stay true to the paperform.
+    - Note that it is a new FORM, step 1 is MVP, with the following steps including Notification workflow.
+- Registration-only Update
+    - Jessica started a rough script, Angela will read it.
+
+
+## 2024-01-08
+Attendees: Angela, Hieu, Jessica, Katelyn, And Heather
+
+- Error Matrix - The team decide that Github would only hold the link while the Mural would have the Source of Truth.
+
+- Team discussed the use of the UX ticket spreadsheet has a place to organize and plan the tickets.
+
+- EZR MVP UAT presentation for HEC
+    - Angela presented the current slide deck.
+    - Team discuss the possible Next Steps to present: EZR V2 including short-form (Recommendation 1), the Review/Sub-task flow (Recommendation 3), and the Post-MVP usability research (recommendation 2). Angela will talk to Alex in regards to the overall priorities, including NoK/EC. And we should include that all of these features will be incrementally released. 
+
+- Team discuss the possibility of presenting the Registration Only work to the OCTO. There were two schools of thought; present sooner to show the struggle with a reluctant stakeholder or present later in hopes of capturing some progress through workshops. 
+
 ## 2023-12-18
 Attendees: Angela, Hieu, Jessica, Katelyn, And Kristen
 

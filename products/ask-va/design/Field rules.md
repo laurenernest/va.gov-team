@@ -14,6 +14,7 @@ This document is for our design team to communicate field rules. The primary aud
 - [School fields](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Field%20rules.md#school-fields)
 - [Medical facility](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Field%20rules.md#medical-facility)
 - [Contact options](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Field%20rules.md#when-contact-options-are-enableddisabled)
+- [Tell us the reason you're contacting us](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Field%20rules.md#tell-us-the-reason-youre-contacting-us)
 
 ## `Gender identity`
 |If|Then|Unless|
@@ -21,7 +22,6 @@ This document is for our design team to communicate field rules. The primary aud
 |All categories|Require submitter's `Gender identity` in `Chapter 3`||
 
 - Submitter can be the Veteran, a family member, or another third party.
-- **Update 10/23:** We recommend that this field is removed. This document will be updated once the decision is final.
 
 ## `Pronouns`
 |If|Then|Unless|
@@ -79,3 +79,7 @@ This document is for our design team to communicate field rules. The primary aud
 
 ## When contact options are enabled/disabled
 * Review [List of contact options](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/List%20of%20contact%20options.md)
+
+## Tell us the reason you're contacting us
+
+* This field is required. We're currently exploring whether we can recommend it for removal.
