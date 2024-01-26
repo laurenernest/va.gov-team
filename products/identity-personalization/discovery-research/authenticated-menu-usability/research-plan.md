@@ -6,7 +6,7 @@ VA.gov is piloting a new design for a standard header later this year, which inc
 
 This new design coincides with continued expansion work our team is planning for this menu. Last year, we observed high engagement with two links we added: Letters and Dependents. We want to explore how we can further increase engagement and improve Veteran’s access to their most important tasks.
 
-- [Standardized header/footer product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/federal-standardized-header-footer/README.md), and [Phase 2 research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/federal-standardized-header-footer/research/phase2-AT/research-plan.md)
+- [Standardized header/footer product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/initiatives/2024-federal-standardized-header-footer/README.md), and [Phase 2 research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase2-AT/research-plan.md)
 - [Authenticated menu product brief](%5B%EF%BF%BC%5D%28https%3A//github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/authenticated-menu/README.md%29)
 
 ### OCTO Priorities 
@@ -52,7 +52,7 @@ The sessions will be conducted remotely via Zoom.
 
 ### Research materials
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/discovery-research/authenticated-menu-usability/conversation-guide.md)
-- [Link to prototype](url goes here)
+- [Link to prototype](https://cdpn.io/pen/debug/JjzNWbR)
 
 ## Recruitment	
 
@@ -105,7 +105,7 @@ Recruit 12 Veterans for a total of 8 completed sessions.
 > Response options: yes or no
 > (Answering yes would qualify the participant to meet criteria for cognitive impairments)
 
-4. Do you need to use screen reader technology to use your phone or computer such as VoiceOver on an iPhone, TalkBack on an Android, or JAWS? **Note:** We ask this question because we want to make sure that our website works for people who rely on these types of technologies.
+4. Do you need to use screen reader technology to use your phone or computer such as VoiceOver, TalkBack, or JAWS? **Note:** We ask this question because we want to make sure that our website works for people who rely on screen readers.
 
 > Response options: yes or no
 
@@ -132,13 +132,13 @@ Recruit 12 Veterans for a total of 8 completed sessions.
 
 Availability for a kick-off call, in Eastern times: 
 * Jan 19: 9:45-10:30am, 2-3:30pm
-* Jan 20: 
+* Jan 22: 9:45am-10am, 11am-12pm, 12:30-1pm, 2-3:30pm
 
 **We’re collaborating with the Sitewide team on the prototype.** 
 The majority of the prototype will be complete by January 17, but refinements will continue until our pilot session.
 
 * Pilot participant email: TBD
-* Date and time of pilot session: Targeting 1/24
+* Date and time of pilot session: 1/24, 12:30 PM
 
 ### Research sessions
 * Planned dates of research: Jan 29-Feb 1

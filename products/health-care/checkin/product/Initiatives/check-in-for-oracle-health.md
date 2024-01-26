@@ -17,7 +17,9 @@ eCheck-in is NOT available to VA facilities that use Oracle Health EHR software.
 ## Measuring Success
 
 ### Key Performance Indicators (KPIs)
-Favorable feedback from Veterans who use eCheck-in at OH facilities
+- Steady increase of eCheck-in usage at OH facilities
+- At least 70% check in completion rate once a Veteran authenticates their identity
+- Favorable feedback from Veterans who use eCheck-in at OH facilities
 
 ## Launch Planning
 - Pilot - mid April 2024
@@ -28,28 +30,37 @@ Favorable feedback from Veterans who use eCheck-in at OH facilities
 ### Included in the MVP
 - Veteran can text "check in" to receive an eCheck-in link for an OH appointment that is within the check-in window
     - **We will create a new Initiate Check-in endpoint for VeText to call to initiate check-in for OH appointments**
-    - **We will return a check-in link for telehealth or telephone appointments** 
-- Veteran will be asked to verify their personal, emergency, and next-of-kin contact information while checking in for an OH appointment
-    - **We will retrieve contact information from the VA Profile Contact and Profile services via MAP instead of from Vista**
-    - **We will update timestamps for contact information database records (personal, emergency, NOK) in VA Profile Contact and Profile services via MAP instead of in  Vista**
+    - **NOTE: we will NOT return a check-in link for telehealth or telephone appointments** 
+- Veteran will **NOT** be asked to verify their demographics
+    - **For Vista appts - we will still ask to verify**
 - Veteran will have the opportunity to submit a travel reimbursement while checking in for an OH appointment
-- Veteran can complete check in
-    - **We will send a status update to OH to let staff know the Veteran has arrived for their OH appointment**
+- Veteran will be asked to "check in
+    - For OH appointments
+        - **We will submit their travel claim**
+        - **We will tell the Veteran to go to the desk when they get to the waiting room**
+        - **We will NOT send a status update to OH** (not resolved)
+    - For Vista appointments
+        - **We will submit their travel claim**
+        - **Per current functionality, we will send a status update to Vista that the Veteran has completed the check-in process**
 
 ### Not Included in the MVP
-- Veteran will NOT receive a Pre-Check-in link
-- Veteran wll NOT receive a reminder with an eCheck-in link 45 minutes before their OH appointment
-- Veteran will receive a eCheck-in link regardless of whether their insurance needs to be reviewed (STILL AN OPEN QUESTION ON THIS)
-- We will not send a status update when the Veteran has started the check-in workflow
+- Telehealth & phone appointments (i.e. we will NOT return a check-in link for telehealth or telephone appointments) 
+- Pre-Check-in (i.e. Veterans will NOT receive a Pre-Check-in link)
+- 45-minute Reminders (i.e. Veterans wll NOT receive a reminder with an eCheck-in link 45 minutes before their OH appointment)
+- Insurance Check (i.e. Veteran will receive a eCheck-in link regardless of whether their insurance needs to be reviewed) 
+- Status update upon starting check-in workflow (i.e. we will not send a status update when the Veteran has started the check-in workflow)
      
 ## Questions 
 - Does IVC want VeText to check for insurance update?
+    - Answer: No
 - How are we sending the arrived status to OH? (via MAP services?, VeText?)
+    - Answer: we will pursue setting the status via a vets-api call that interfaces with CES
 
 ## Workflows
 
 ### Veteran Workflow
-![image](https://github.com/department-of-veterans-affairs/va.gov-team/assets/86678742/70ef3cf1-5709-4dfa-9a70-ab90d3812904)
+- [FINAL TECH NOTES_ WORKING DRAFT of PCI Oracle Cerner Integration Pre-Check-In and E-Check-In Workflows v.01_KL (1).pdf](https://github.com/department-of-veterans-affairs/va.gov-team/files/14054574/FINAL.TECH.NOTES_.WORKING.DRAFT.of.PCI.Oracle.Cerner.Integration.Pre-Check-In.and.E-Check-In.Workflows.v.01_KL.1.pdf)
+- PCI Blueprint including OH and VistA appointments [Download Service Blueprint PDF](https://github.com/department-of-veterans-affairs/va.gov-team/files/14058249/PCI.Service.Blueprint.2024.pdf) ([Review Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1696788763395/d3aa60a7420ece422a6f6b84659c33350279b782?sender=u37bb983bd3fc3cc00c7d3286))
 
-### MSA Workflow
-![image](https://github.com/department-of-veterans-affairs/va.gov-team/assets/86678742/1b973b57-1689-4c6c-a7da-3a6f01f157c3)
+
+

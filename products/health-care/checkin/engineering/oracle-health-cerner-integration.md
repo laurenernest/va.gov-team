@@ -19,13 +19,17 @@ For appointment refresh, we are going to need a new endpoint from veTEXT and upd
 - Telehealth appointments out of scope
 
 ## Assumptions
-- VA Profile endpoint can be accessed using MAP token via Mobile Profile Service (proxy service) from vets-api using low-risk authentication 
+- VA Profile endpoint can be accessed using MAP token via Mobile Profile Service (proxy service) from vets-api using low-risk authentication
+- Staffs will verify patient's insurance after they mark their appointments as ARRIVED in cerner (as there is no programmatic way to verify insurance for cerner patient data)
   
 ## Design Decisions
 - Implement new endpoint in CHIP to initate check-in for cerner appointments 
 - CHIP modifies the received cerner appointment payload to comply with existing vista appointment data in LoROTA
 
 ## Design
+## Container Diagram
+![Check In Experience - OH Appointments](architecture-diagrams/containerDiagram_checkInExp_oracleHealth-container-diagram.drawio.png)
+
 ### Initiate Cerner Checkin
 ```mermaid
 sequenceDiagram
@@ -44,6 +48,7 @@ sequenceDiagram
 ```
 
 ### Veteran clicks link returned from VeText
+#### Option 1 : Cerner Check-in using MAP Token
 ```mermaid
 sequenceDiagram
     actor vet as Veteran
@@ -99,7 +104,7 @@ sequenceDiagram
         api--)-web: returns success
         web-->>-vet: renders appointment information
         vet->>+web: clicks check-in
-        web->>+api: POST check-in
+        web->>+api: POST cerner-check-in
         alt if no map token in cache
             api->>+token: GET token
             token--)-api: returns token
@@ -109,21 +114,179 @@ sequenceDiagram
         api--)-web: returns success
         web-->>-vet: displays check-in completed message
 ```
+#### Option 2 : Cerner Check-in using MAP Token via CES
+```mermaid
+sequenceDiagram
+    actor vet as Veteran
+    participant web as vets-website
+    participant api as vets-api
+    participant ch as CHIP
+    participant l as LoROTA
+    box grey MAP
+        participant token as Token
+        participant proxy as Proxy
+        participant pro as VA Profile
+    end
+    participant ces as CES
+    participant oh as Oracle Health (cerner)
+        vet->>web: Clicks link to start CIE <br> and validates last & dob
+        activate web
+        web->>api: POST /sessions
+        api->>+l: POST /token
+        l--)-api: valid session
+        api--)web: return 'read.full'
+        web->>+api: GET patient data
+        alt same day multiple appointments
+            api->>+ch: POST /refresh_appointments
+            ch->>+veText: GET appointments
+            veText->>oh: GET appointments
+            oh--)veText: return appointments
+            veText--)-ch: return appointments
+            ch->>+l: update new appointments
+            l--)-ch: return success
+            ch--)-api: return success
+        end
+        api->>+l: GET patient data
+        l--)-api: return patient data
+        api->>+token: GET token/{patientIcn}
+        token--)-api: returns token
+        api->>+api: cache token by uuid (LoROTA)
+        api->>+proxy: GET demographics data
+        proxy->>+pro: GET demographics data
+        pro--)-proxy: return demographics data
+        proxy--)-api: return demographics data
+        api--)-web: return payload of <br> appointments and demographics
+        web->>+vet: renders demographics information to veteran
+        deactivate web
+        vet->>+web: confirms demographics information
+        web->>+api: PATCH demographics timestamp
+        alt if no map token in cache
+            api->>+token: GET token
+            token--)-api: returns token
+        end
+        api->>+proxy: POST timestamp
+        proxy->>+pro: POST timestamp
+        pro--)-proxy: returns success
+        proxy--)-api: returns success
+        api--)-web: returns success
+        web-->>-vet: renders appointment information
+        vet->>+web: clicks check-in
+        web->>+api: POST cerner-check-in
+        alt if no map token in cache
+            api->>+token: GET token
+            token--)-api: returns token
+        end
+        api->>+ces: POST set appointment status to arrived
+        ces->>+oh: PATCH set appointment status
+        oh--)ces: returns success
+        ces--)-api: returns success
+        api--)-web: returns success
+        web-->>-vet: displays check-in completed message
+```
+#### Option 3 : Cerner Check-in using VeText
+```mermaid
+sequenceDiagram
+    actor vet as Veteran
+    participant web as vets-website
+    participant api as vets-api
+    participant ch as CHIP
+    participant l as LoROTA
+    box grey MAP
+        participant token as Token
+        participant proxy as Proxy
+        participant pro as VA Profile
+    end
+    participant ces as CES
+    participant oh as Oracle Health (cerner)
+        vet->>web: Clicks link to start CIE <br> and validates last & dob
+        activate web
+        web->>api: POST /sessions
+        api->>+l: POST /token
+        l--)-api: valid session
+        api--)web: return 'read.full'
+        web->>+api: GET patient data
+        alt same day multiple appointments
+            api->>+ch: POST /refresh_appointments
+            ch->>+veText: GET appointments
+            veText->>oh: GET appointments
+            oh--)veText: return appointments
+            veText--)-ch: return appointments
+            ch->>+l: update new appointments
+            l--)-ch: return success
+            ch--)-api: return success
+        end
+        api->>+l: GET patient data
+        l--)-api: return patient data
+        api->>+token: GET token/{patientIcn}
+        token--)-api: returns token
+        api->>+api: cache token by uuid (LoROTA)
+        api->>+proxy: GET demographics data
+        proxy->>+pro: GET demographics data
+        pro--)-proxy: return demographics data
+        proxy--)-api: return demographics data
+        api--)-web: return payload of <br> appointments and demographics
+        web->>+vet: renders demographics information to veteran
+        deactivate web
+        vet->>+web: confirms demographics information
+        web->>+api: PATCH demographics timestamp
+        alt if no map token in cache
+            api->>+token: GET token
+            token--)-api: returns token
+        end
+        api->>+proxy: POST timestamp
+        proxy->>+pro: POST timestamp
+        pro--)-proxy: returns success
+        proxy--)-api: returns success
+        api--)-web: returns success
+        web-->>-vet: renders appointment information
+        vet->>+web: clicks check-in
+        web->>+api: POST cerner-check-in
+        api->>+veText: POST set appointment status to arrived
+        veText->>+oh: PATCH set appointment status
+        oh--)veText: returns success
+        veText--)-api: returns success
+        api--)-web: returns success
+        web-->>-vet: displays check-in completed message
+```
 ## Questions / Open Items
 (answers added from Stephen in [slack thread](https://dsva.slack.com/archives/C02G6AB3ZRS/p1705426133031669))
-- How do we connect to Oracle Health (cerner) via MAP token to set the arrived status?
+- Does the BTSSS endpoint work for OH stations? - CLOSED
+    - (from Mark & Blaise) - Mark: Yes I am told BTSSS already works for OH. They are using DAS to get the  appointment data based on the facility. Blaise: Yes, that is correct. We pull EHRM appointments through Cerner associated to the facility 
+- How do we connect to Oracle Health (cerner) via MAP token to set the arrived status? - OPEN
     - Plan to use a MAP service that is being built now. That will use the same MAP token. If for some reason that does not work we will need VeText to provide an endpoint to set the appointment status. Edit:  I actually cant remember where we landed for this connection, but both MAP and potentially VeText can provide this
-- Who is our POC for the Oracle Health (cerner) MAP service?
+    - Which OH API do we need to use for connecting OH via MAP?  Do we need to check with Brad?  Is there any docs available to know more about the API? - OPEN
+- Who is our POC for the Oracle Health (cerner) MAP service? - CLOSED
     - @Brad Crosby can answer questions about this service. 
-- Can we connect to Profile for data and setting timestamp via MAP token? (Stephen is asking)
+- Can we connect to Profile for data and setting timestamp via MAP token? (Stephen is asking) - OPEN
     - This appears to be the best way. @Kay and I are confirming what onboarding we need to do with MAP.   we will also need to work with VA Profile to get an application ID that will be used in the call to MAP. 
-- Will we still need to update demographics timestamps in Vista if we are setting the single timestamp in VA Profile?
+- Will we still need to update demographics timestamps in Vista if we are setting the single timestamp in VA Profile? - OPEN
     - For VistA appointments, I think so, based on VSE CS currently looking at those timestamps.  This one probably needs some more thought and understanding to be sure. 
-- What does a Oracle Health (cerner) appointment payload look like? (veTEXT will provide a sample)
+- What does a Oracle Health (cerner) appointment payload look like? (veTEXT will provide a sample) - OPEN
     - [veTEXT ticket](https://github.com/department-of-veterans-affairs/vetext/issues/2275) for the work 
-- How will the staffs know about patient workflow status when cie application shows contact staff message incase of check-in failure or invalid contact information?
+- How will the staffs know about patient workflow status when cie application shows contact staff message incase of check-in failure or invalid contact information? - CLOSED
     - Staff at OH will not know about any of the statuses that are currently set by PCI and viewed by staff in VSE CS. OH staff will not use VSE CS.  If the Veteran is not able to complete check in they should be directed to check in with the clerk. 
-- Are all cerner appointments echeckin enabled by default or do we need to enable/disable echeck-in for sites/clinics?
-    - I think where this landed is that we only need to be able to enable/disable based on appointment type (video, in-person, telephone :point_left: not real statuses, for example use only) @Kay can you confirm this please? 
-- Decision from business if insurance verification required for cerner appointments
-    - There is currently not a way to programmatically determine if a Veteran needs to confirm/update their insurance information at OH sites so Veterans will need to that directly with the clerk. 
+- Are all cerner appointments echeckin enabled by default or do we need to enable/disable echeck-in for sites/clinics? - OPEN
+    - I think where this landed is that we only need to be able to enable/disable based on appointment type (video, in-person, telephone :point_left: not real statuses, for example use only) @Kay can you confirm this please?
+    - If eligibility going to be by appointment type, is vetext going to filter them or does it have to be handled by chip? - OPEN
+- Decision from business if insurance verification required for cerner appointments - CLOSED
+    - There is currently not a way to programmatically determine if a Veteran needs to confirm/update their insurance information at OH sites so Veterans will need to that directly with the clerk.
+ 
+## API Questions
+- **Mobile Proxy Service**
+  - What is the Mobile Proxy Service endpoint to call with MAP to access veteran's VA profile?
+  - What is the test client id to use for getting VA Profile data in staging until we get client id specific to check-in-experience application (CIE) for accessing VA Profile?
+    - Currently, we have a client id for CIE to access appointment data from VAOS; Would like to see if any test client id available to access data in staging until we receive an ID for accessing VA profile
+    - response from Chan:
+      > Mobile-profile-service:  https://coderepo.mobilehealth.va.gov/projects/VETS/repos/mobile-profile-service/browse/docs/SRVDD.md, but in your case, you will be using mobile-profile-v2 where it acts as a pass through.  You still will need to pass in the ID (for now, use “MAPTEST”) until VA Profile onboard you with the MAPPCI ID.  For mobile-profile-service v2 stagger: https://staff.apps-staging.va.gov/profile/v2
+- **VA Profile Service**
+  - Based on VA Profile share point doc, Demographics endpoint doesn’t seem to be sending relevant information but contact-information endpoint seem to be sending some data to confirm from CIE app
+    - API - ```GET /contact-information/{oid}/{idWithOaid}```,
+      - There is a sample string (organizational id in oid variable in the document; Is it going to be constant or is that going to change for each consumer? Do we need to request one?
+      - ```idWithOaid``` seem to be following some format for sending patientICN; Would be great to see more information on how to build this data
+  - ```contact-information``` API gives contact information like residential contact address & telephone numbers; Which API do we need to use for getting next of kin & emergency contact information?
+- **Oracle Health (OH) Service**
+  - How to call [OH appointment API](https://fhir.cerner.com/millennium/r4/base/workflow/appointment/#patch) from vets-api to set patient's appointment status to ARRIVED?
+- **Service level general questions**
+  - Does the API have only staging & prod environments?
+  - Swagger doc shows an URL with qa prefix (for staging); What is the prod URL? Is there any difference in calling these API in staging vs prod?
+  - How can we create/request test data to play with the MAP, VA Profile & OH Services?

@@ -4,6 +4,8 @@ Developed by the Accredited Representation Management team, the Appoint a Repres
 
 The MVP will include desktop & mobile experiences and the pathway is `/src/applications/representative-appoint`
 
+⚠️ Content below may be updated based on Midpoint Review feedback and Research findings, development is scheduled to begin in March 2024
+
 1. **Chapter 1**: Veteran Personal Information
    1. Unauth: Enter Veteran Name and Date of Birth
    2. Unauth: Enter Veteran Identification Information
@@ -27,6 +29,8 @@ The MVP will include desktop & mobile experiences and the pathway is `/src/appli
    2. Sections are expanded with option to edit
    3. Sections are expanded with editing and option to save
 7. **Download page (pages are the same for both unauth/auth)**
+8. Email notification to Veterans ([partner with VA Notify](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-notify#what-we-are))
+   1. The email would include next step for printing, signing, and uploading their form on VA.gov
 
 ## Future Iteration
 
@@ -36,7 +40,7 @@ The MVP will include desktop & mobile experiences and the pathway is `/src/appli
     1. Determine if we can support digital submission for attorneys and claim agents who often require fee agreements before accepting
     2. Identify how the insurance field impacts Power of Attorney
     3. Authenticated users only
- 1. Notifications
+ 1. Notifications (partner with VA Notify)
     1. Representative approved request
     1. Representative rejected request
 1. Manage requests (can the vet cancel a request)

@@ -4,22 +4,25 @@
 ---
 
 ## Overview
-Under the IDEA Act, all user facing forms need to be digitized. For Veterans who are outside the US and are eligible for health coverage for a service-related condition, providing the Foreign Medical Program registration form online would allow them to more easily and quickly apply rather than go through the current paper process.
+Under the [IDEA Act](https://digital.gov/resources/delivering-digital-first-public-experience/), all user facing forms need to be digitized. For Veterans who are residing or traveling outside the US and are eligible for health coverage for a service-related condition, providing the Foreign Medical Program registration form online would allow them to more easily and quickly apply rather than go through the [current process](https://www.va.gov/health-care/foreign-medical-program/).
 
 ## Problem Statement
-How might we improve the experience of Veterans living overseas who are applying for VA health care services? Veterans who are living or traveling outside the U.S. with a service connected disability are only able to apply for health care benefits through mail or fax. 
+Veterans who are living or traveling outside the U.S. with a service connected disability are only able to apply for health care benefits by filling out the paper form and sending it through mail or fax. 
+
+How might we improve the experience of Veterans living overseas who are applying for VA health care services? 
  
 ## Desired User Outcomes
 
 - Veterans are able to fill out the registration form online on VA.gov
-- Veterans reduce the time, effort and costs spent filling out and mailing paperwork
-- The time spent waiting to hear back on application status is reduced for the Veteran
+- Veterans spend less time, effort and money filling out and mailing paperwork
+- Veterans spend less time spent waiting to hear back on their application status 
 
 ## Undesired User Outcomes
 
-- Veterans are confused or uncertain around the steps in the process or how to apply online
-- Veterans encounter errors during the online application process or the application does not submit
+- Veterans are unaware that they can apply online
+- Veterans encounter errors during the online application process 
 - Veterans have low confidence in the online process or have concerns around online security
+- The response burden is increased for the user
 
 ## Desired Business Outcomes
 
@@ -28,71 +31,76 @@ How might we improve the experience of Veterans living overseas who are applying
 - Reduce the amount of resubmissions due to missing information or documents
 
 ## Undesired Business Outcomes
-
+- Veterans are unaware they can fill out the application online
+- The information entered online by Veterans is not successfully submitted to the VA
+- Online forms processing adds confusion and complicates workflows further
 
 ---
 ## Measuring Success
 
 
 ### Key Performance Indicators (KPIs)
-* *What data (qual or quant) will you look at to understand if your initial set of functionality is meeting your desired user and business outcomes, and not bringing about the undesired outcomes?*
-* _What are the most important metrics that track with this product/initiative's success?_
-* _Include links to Domo or Google Analytics Dashboards/Reports_
-* _**Limit 5-6 KPIs per product**__
-
-| Category | Ease of use | Service completion | Trust/Satisfaction | Health |
-|----------|-------------|--------------------|--------------------|--------|
-| KPI      |             |                    |                    |        |
-| KPI      |             |                    |                    |        |
+* _links to Domo or Google Analytics Dashboards/Reports_
 
 #### Baseline KPI Values
-* _Baseline values for those most critical metrics. These may come from other systems other than VA.gov e.g. eBenefits._
+- number of downloads
+- number of submissions 
+- processing time for paper forms
 
 ### Objectives and Key results (OKRs)
-_What are the measurable targets you're aiming for that delivers value for Veterans?_
 
-- Objective:
-  - Key result: 
-  - Key result: 
-
+- Objective: Veterans can easily apply for health care benefits online
+  - Key result: Measure number of Veterans who register for FMP online
+  - Key result: Reduce time it takes to fill out application
+  - Key result: Reduce processing time 
+- Objective: Veterans are updated and informed of statuses
+  - Key result: Ensure testing and alert monitoring is in place to catch any errors
+  - Key result: Accurate status is relayed to applicants
 
 ---
 
 ## Assumptions
-- *Include indication of which assumption you think is most risky. Your Solution Approach (next section) should describe how you'll validate that assumption w/your initial set of functionality*
+- Veterans will want to fill out their information online
+- Providing the form online will reduce the processing time for FMP applications and reduce the amount of manual work needed to process paper FMP forms.
 
 ## Solution Approach
-
-- *What are you going to build now, and why have you decided to start there?*
-- *Why this solution / approach over other solutions / approaches?*
-- *What have you explicitly decided to not include in this initial set of functionality, and why?*
-- *How will the solution / approach evolve after this initial build (knowing that this will likely change as you learn from users along the way)?*
-
-- In Scope
-- Out of Scope
-
-### Initiatives
-*Include initiatives (iterations, new features, etc.) to improve this product. See the [Initiative Brief Template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/product/initiative-brief-template.md)*
-
-- Initiative | [Link to Initiative Brief](#)
+Provide stand alone FMP registration form online with forms sent to PEGA for further processing. 
+- **In scope**:
+  - Fillable fields with pre fill for signed in users
+  - General flow, patterns and components follow existing standards in design system as well as accessibility standards
+  - Digital signature accepted by FMP team
+  - PDF output of complete form with required meta data
+  - Integration with PEGA for forms and documents
+  - Authenticated experience [*need to determine recommendation on level*]
+  - User notification of successful or failed submission
+- **Out of scope**:
+  - Integration with VES (this will need to be addressed in the future)
+  - Checking for eligibility requirements
+- **Risks or dependencies**:
+  - PEGA solution will need to be able to house files and handle the different workflows required for different documents and teams
+  - Integration with PEGA is still being developed and need better understanding of how files will be handled with this solution (more details [here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/ADR-PEGA%20integration%20for%20CHAMPVA.md))
+- **Other considerations**:
+  - Content migration effort to va.gov and expansion of family member benefits hub - coordinate on timing
+  - VA notify(?)
+  - handling for mobile app 
 
 --- 
 
 ## Launch Strategy
 - *How are Veterans and others using this product going to know it exists?*
 - *What marketing, outreach, or communications are necessary for this product to be successful?*
-- [Link to Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md)
+- [Link to Release Plan template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md)
 
 Collaboration Cycle
-- Collab Cycle ticket 
-- Design Intent
-- Content, Accessibility and IA -
-- Midpoint -
-- Research
-- Contact Center guide
-- Analytics
-- Staging 
-- Infrastructure, Privacy & Security
+- [x] [Collab Cycle ticket]https://github.com/department-of-veterans-affairs/va.gov-team/issues/74178
+- [ ] Design Intent: scheduled 1/29/24
+- [x] [Content, Accessibility and IA](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74190)
+- [ ] Midpoint 
+- [ ] Research
+- [ ] Contact Center guide
+- [ ] Analytics
+- [ ] Staging 
+- [ ] Infrastructure, Privacy & Security
  
 ## Launch Dates
 - *Target Launch Date*
@@ -107,18 +115,32 @@ Collaboration Cycle
 ## Solution Narrative
 
 ### Current Status
+Discovery and research planning efforts underway. Initial conversations with stakeholders to be scheduled.
+
 Key deliverables:
-- design
-- research
-- testing
+- design: 
+  - [user flows](https://www.figma.com/file/PzB1F5TYuBK5KQgPbuhAwH/10-7959f-1?type=design&node-id=1-18&mode=design)
+  - [wireframes](https://www.figma.com/file/PzB1F5TYuBK5KQgPbuhAwH/10-7959f-1?type=design&node-id=1-19&mode=design) 
+  - [source of truth on github](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/foreign-medical-program/10-7959f-1/content-source-of-truth.md)
+- research: [research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/foreign-medical-program/10-7959f-1/research/users/research-plan.md)
+- testing: plan
+
+### General Questions
+- For stakeholders: What is the current process/flow? Pain points? Which teams are involved?
+- How does this program intersect (or not) with other programs such as VR&E (Veterans Readiness and Employment)?
+  - A: VR&E is a minority
+
 ### Key Decisions
+
 ### Key Dates
+- Jan 2024: start discovery
+- Collaboration cycle kickoff: 1/22/24
+- Design intent: 1/29/24
 ---
    
 ## Screenshots
 
-- Before
-https://www.va.gov/find-forms/about-form-10-7959f-2/
+- [Before](https://www.va.gov/vaforms/medical/pdf/vha-10-7959f-1%20(1).pdf)
 - After
 
 ---
@@ -131,7 +153,7 @@ https://www.va.gov/find-forms/about-form-10-7959f-2/
 - GitHub Label: ivc-forms
 - Slack channel: ivc-forms
 - Product POCs: Mary Wang
-- Stakeholders: 
+- Stakeholders: Andy Szymczak, FMP Director
 
 </details>
 
@@ -142,7 +164,7 @@ https://www.va.gov/find-forms/about-form-10-7959f-2/
  - DEPO Lead: Premal Shah
  - PM: Mary Wang
  - Engineering: Rachel Eiting, Bryan Alexander
- - Research/Design: Steven Straily, Rachael Penfil, Brian Wilke
+ - Research/Design: Rachael Penfil, Brian Wilke, Steven Straily
  
 </details>
 
@@ -155,3 +177,14 @@ _What offices/departments are critical to make this initiative successful?_
  
 </details>
 
+#### Resources
+
+<details>
+ 
+- [FMP page](https://www.va.gov/health-care/foreign-medical-program/)
+- [Filing a claim](https://www.va.gov/resources/how-to-file-a-va-foreign-medical-program-claim/)
+- [Community care page](https://www.va.gov/communitycare/programs/veterans/fmp/)
+- [Benefits page](https://www.benefits.gov/benefit/567)
+- [Getting care through FMP](https://www.va.gov/resources/getting-care-through-the-foreign-medical-program/)
+
+ </details>

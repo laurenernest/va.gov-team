@@ -1,4 +1,4 @@
-# Travel Claim Status Visibility IA Research Plan DRAFT IN PROGRESS
+# Travel Claim Status Visibility IA Research Plan 
 
 
 ## **Background**
@@ -73,6 +73,7 @@ This study will give us insight into where we should put and how we should group
 2. We hypothesize that participants will look for older claims (6+ months ago) in the Claim status tool or Payments section.
 3. We hypothesize that participants will look for an overview of their past Travel Claims history in their Profile or Payments section.
 4. We hypothesize that participants will look for status updates on Travel Pay claims on its own its own distinct page
+5. We hypothesize that users will look information on Travel Claims - recent or historical - in the My VA health benefits section of MyHealtheVet 
 
 
 ## **Methodology**
@@ -80,14 +81,14 @@ This study will give us insight into where we should put and how we should group
 
 
 * Treejack Cohorts, 8 cohorts, 9 participants each, total 72 respondents. Minimum threshold of 60 responses split between the first tasks
-1. Cohort 1 - Users aged over 55 who have experience with Travel Pay
-2. Cohort 2 - Users aged over 55 who have experience with Travel Pay 
-3. Cohort 3 - Users aged over 55 who have **minimal** experience with Travel Pay 
-4. Cohort 4 - Users aged over 55 who have **minimal** experience with Travel Pay 
-5. Cohort 5 - Users aged under 54 who have experience with Travel Pay 
-6. Cohort 6 - Users aged under 54 who have experience with Travel Pay 
-7. Cohort 7 - Users aged under 54 who have **minimal** experience with Travel Pay 
-8. Cohort 8 - Users aged under 54 who have **minimal** experience with Travel Pay 
+1. Cohort A - Veteran Users aged over 55 who have extensive experience with Travel Pay
+2. Cohort B - Veteran Users aged over 55 who have moderate experience with Travel Pay 
+3. Cohort C - Veteran Users aged over 55 who have **no** experience with Travel Pay 
+4. Cohort D - Veteran Users aged over 55 who have **minimal** experience with Travel Pay 
+5. Cohort E - Veteran Users aged under 54 who have extensive experience with Travel Pay 
+6. Cohort F - Veteran Users aged under 54 who have moderate experience with Travel Pay 
+7. Cohort G - Veteran Users aged under 54 who have **no** experience with Travel Pay 
+8. Cohort H - Veteran Users aged under 54 who have **minimal** experience with Travel Pay 
 
 
 ### **Location**
@@ -101,21 +102,21 @@ Tasks **(split/alternate which participant sees first)**
 
 
 
-1. **[Recent claim task]** After you returned from your last VA doctor appointment on December 19, 2023, you submitted a travel reimbursement request on the Travel Pay portal. Where would you expect to find an update on what had happened to that reimbursement request?
-2. **[Historical claim task]** You had several post-op follow up visits to your local VA in Spring 2023. You submitted several travel reimbursements for these visits but you cannot remember if you ever received the reimbursement or what happened to the requests. Where would you expect to find an update on what had happened to these requests?
+1. **[Recent claim task]** You submitted a request to be paid back for gas after traveling to your last VA doctor visit on January 12, 2024 and want to get an update on that request.  Where would you find this information?
+2. **[Historical claim task]** You have submitted several requests to be reimbursed for gas for traveling to see your VA doctor multiple times following surgery in Spring 2023.  You want to know what happened to those requests. Where would you find this information?
 
 After each task, ask:
 
 
 
 1. Overall, how difficult did you find this task? Rating scale, 1 - Very difficult, 7 - Very easy
-2. Overall, how confident are you that you completed this task successfully? Rating scale, 1 - Very difficult, 7 - Very easy
+2. Overall, how confident are you that you completed this task successfully? Rating scale, 1 - Not at all confident, 7 - Extremely confident 
 
 Labeling questions
 
-Label Q1: Imagine that there was a page or place on[ VA.gov](http://VA.gov) where you could see up to date information on what was happening with a request for travel reimbursement after you submitted it. What would you call this page?
+Label Q1: Imagine that there was a page or place on[ VA.gov](http://VA.gov) where you could see up-to-date information on what was happening with a request for travel reimbursement after you submitted it. What would you call this page and why?
 
-LQ2: If you were to name that page on[ VA.gov](http://VA.gov) where you could see up to date information on what was happening with a request for travel reimbursement after you submitted it, what would you name it? Please rank from your fist choice at the top to your last choice on the bottom.
+LQ2: If you were to name that page on[ VA.gov](http://VA.gov) where you could see up-to-date information on what was happening with a request for travel reimbursement after you submitted it, what would you name it? Please rank from your fist choice at the top to your last choice on the bottom.
 
 Terms:
 
@@ -135,8 +136,14 @@ Baseline treejack (url goes here)
 
 
 * Email with instructions: see Appendix Item A below
-* [Link to prototype or OptimalSort session for Cohort 1](url goes here when ready)
-* [Link to prototype or OptimalSort session for Cohort 2](url goes here when ready)
+* Cohort A - https://dj540s05.optimalworkshop.com/treejack/travelpaystatusupdate?tag=A
+* Cohort B - https://dj540s05.optimalworkshop.com/treejack/travelpaystatusupdate?tag=B
+* Cohort C - https://dj540s05.optimalworkshop.com/treejack/travelpaystatusupdate?tag=C
+* Cohort D - https://dj540s05.optimalworkshop.com/treejack/travelpaystatusupdate?tag=D
+* Cohort E - https://dj540s05.optimalworkshop.com/treejack/travelpaystatusupdate?tag=E
+* Cohort F - https://dj540s05.optimalworkshop.com/treejack/travelpaystatusupdate?tag=F
+* Cohort G - https://dj540s05.optimalworkshop.com/treejack/travelpaystatusupdate?tag=G
+* Cohort H - https://dj540s05.optimalworkshop.com/treejack/travelpaystatusupdate?tag=H
 
 
 ## **Recruitment**
@@ -147,10 +154,10 @@ Baseline treejack (url goes here)
 
 
 1. In the past 5 years, how many times have you filed for travel reimbursement from the VA?
-    1. I have never submitted for travel reimbursement from the VA (qualify 3,4,7,8 depending on age)
-    2. 1 - 2 times in the past 5 years (qualify for qualify 3,4,7,8 depending on age)
-    3. 3 - 5 times in the past 5 years (qualify for 1,2,5,6 depending on age)
-    4. More than 6 times in the past 5 years (qualify for 1,2,5,6 depending on age)
+    1. I have never submitted for travel reimbursement from the VA (qualify C, G depending on age)
+    2. 1 - 2 times in the past 5 years (qualify for qualify D, H depending on age)
+    3. 3 - 5 times in the past 5 years (qualify for B, F depending on age)
+    4. More than 6 times in the past 5 years (qualify for A, E depending on age)
 
 
 ### **Recruitment approach**
@@ -162,21 +169,21 @@ Use the cohort model, defined below:
   <tr>
    <td><strong>REQ</strong>
    </td>
-   <td><strong>1</strong>
+   <td><strong>A</strong>
    </td>
-   <td>2
+   <td>B
    </td>
-   <td>3
+   <td>C
    </td>
-   <td>4
+   <td>D
    </td>
-   <td>5
+   <td>E
    </td>
-   <td>6
+   <td>F
    </td>
-   <td>7
+   <td>G
    </td>
-   <td>8
+   <td>H
    </td>
   </tr>
   <tr>
@@ -547,6 +554,8 @@ Use the cohort model, defined below:
 
 _Primary criteria (must-haves)_
 
+All have VA health care as a benefit 
+
 Half are familiar with Travel reimbursement
 
 Half are not familiar with Travel reimbursement
@@ -554,7 +563,7 @@ Half are not familiar with Travel reimbursement
 _Secondary criteria (nice-to-haves)_
 
 
-### **Timeline (Expected)**
+### **Timeline**
 
 Ending Friday 1/19: Finalize plan and research artifacts
 
@@ -564,10 +573,19 @@ Fri 2/2 - Fri 3/1: Studies in field (**close early if threshold met**)
 
 Mon 3/4 - Wed 3/13 : Analysis and reporting
 
+### **Availability for Perigean touchbase**
+
+Wednesday, 1/24 10am CST
+
+Wednesday, 1/24 1pm CST
+
+Thursday, 1/25 10am CST
+
+Thursday, 1/25 2pm CST
+
+Friday, 1/26 10am CST
 
 ### **Research sessions**
-
-
 
 * Study in field: Fri 2/2 - Fri 3/1
 

@@ -5,7 +5,6 @@
 - [Product impacts](#product-impacts)
 - [Roll-out approach](#roll-out)
 - [Stakeholders](#stakeholders)
-- [Communications plan](#communications)
 - [Next steps](#next-steps)
 
 
@@ -19,7 +18,7 @@ _All products, content areas, and navigation elements impacted by this effort th
   - How do visitors filter by audience and benefit?
 
 **Health care:**
-- **Caregiver form (10-10CG)** is in family member, but will have to move so will have a URL change.
+- **Caregiver form (10-10CG)** is in family member, but will have to move so will have a URL change. May be impacted by the broader build out of the area.
 - **CHAMPVA** form is in development. We'll need to make sure the form launches at the URL it will live at or will be able to move post-launch.
 - There will be more health care forms, but this work should be done before they launch.
 
@@ -81,7 +80,7 @@ Benefits hub pages/forms/tools will be roll-out hub by hub in the following roug
 4. Education
 5. Disability
 6. Pension
-7. Life insurance
+7. Life insurance (this does not involve any content moves and can be shifted where needed in the order)
 8. Careers
 9. Housing
 10. Burials
@@ -102,41 +101,46 @@ Benefits hub pages/forms/tools will be roll-out hub by hub in the following roug
 
 
 **Health and benefits stakeholders**
-- VHA Digital Comms: Jenny Hieland-Ludke
+- VHA Digital Comms: Jenny Hieland-Ludke, Blake, Justin
+- Integrated Veteran Care: Joe Schneider, Chris Cox, Kelly Farmer
+- VEO, Melissa Rebstock
+- Tammy
 
+## Next steps <a id="next-steps"></a>
 
-## Communication plan <a id="communications"></a>
+Content, IA, and design
+- [x] Finalize organizational structure - Mikki - Draft of IA reviewed and ready to pass on, completed 1/16/24
+- [ ] Incorporate into placement criteria and overall taxonomy definition - Mikki/Danielle
+- [ ] Identify additional research needs, pull in Amanda as needed - Mikki to review and schedule time with everyone as needed
+- [ ] Build out landing page drafts in Drupal - Danielle/Mikki
+- [ ] CAIA deep dive - Danielle/Mikki
+- [ ] Build out tickets for CAIA - Mikki/Danielle
 
 Communication to OCTO stakeholders
-- [x] Overview of effort so far and next steps at team meeting 
-- [ ] Research results and next steps at OCTO Monday design meeting
-- [ ] Share with benefits portfolia
-- [ ] Share with Chris
-- [ ] Share with health portfolio
+- [x] Overview of effort so far and next steps at OCTO team meeting - Done 1/11/24
+- [ ] Research results and next steps at OCTO Monday design meeting - scheduled for 3/18/24
+- [ ] Talk with to Jeff Barnes/IIR team re: moving education forms
+- [ ] Discussion with Beth/Randi on VBA/NCA contacts - Danielle
+- [x] Share with benefits portfolio - 1/23
+- [ ] Share with Chris - Danielle's 1:1
+- [ ] Share with health portfolio - 1/23
 - [ ] CAIA deep dive(s)
 
 Initial communication to all impacted stakeholders
 - [ ] Present to the survivor group (Danielle to reach out to Melissa R to schedule)
-- [ ] Share in next 1:1 with Jenny H-L from VHA digital media
+- [ ] Share in next 1:1 with Jenny H-L from VHA digital media - 1/30
 - [ ] Share with IVC program office
 - [ ] Share in kickoffs with each administrative group
 - [ ] Share in digital media syncs
 - [ ] Share with OPIA as a follow up to earlier meetings
-  
+
+
 Ongoing communication with stakeholders during roll-out
 - TBD
 
-## Next steps <a id="next-steps"></a>
 
-- [x] Present to OCTO team - Done 1/1//24
-- [x] Finalize organizational structure - Mikki - Draft of IA reviewed and ready to pass on, completed 1/16/24
-- [ ] Incorporate into placement criteria and overall taxonomy definition - Danielle/Mikki 
-- [ ] Identify additional research needs, pull in Amanda as needed - Mikki to review and schedule time with everyone as needed
-- [ ] Schedule and present work to Chris - Danielle to schedule
-- [ ] Identify key stakeholders for OCTO product teams and outside OCTO - Danielle/Mikki
-- [ ] Build out landing page drafts in Drupal - Danielle
-- [ ] Present in benefits check-in - Danielle/Mikki 1/24?
-- [ ] Schedule read out in Monday design meeting - Mikki, scheduled for 3/18/24
-- [ ] Plan/schedule CAIA deep dive - Danielle/Mikki
+
+
+
 
 

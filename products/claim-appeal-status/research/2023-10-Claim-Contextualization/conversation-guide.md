@@ -21,7 +21,7 @@ Slack for real-time feedback from observers.
 
 ## Intro - 5 minutes
 
-Thanks for joining us today! My name is [Skyler/Gary], and I'm going to be guiding you through the session today. Today we're going to talk about disability compensation claims and the Claim Status Tool.
+Thanks for joining us today! My name is [Skyler/Gary], and I'm going to be guiding you through the session today. I'm on a team that works with the VA on the VA.gov website. Today we're going to talk about disability compensation claims and the Claim Status Tool.
 
 Before we start, I have a few things that I want to go over with you:
 
@@ -67,7 +67,7 @@ So let's say you are signed into your VA.gov account and you're looking at this 
 
 - Do you know what this page is? If yes, what is it?
 - Describe to me what you're seeing here.
-- Let's say you're waiting for this top claim to be decided. What would you say is the status of the claim, based on what you see here? And what does that status mean to you?
+- Let's say you're waiting for this top claim to be decided. What would you say is the status of the claim, based on what you see here? (Point them towards "Step 3 of 8: Evidence gathering" if they don't reference it themselves.) And what does that status mean to you? 
 
 ### Things to watch for:
 
@@ -128,14 +128,13 @@ Now let's imagine you log out, a couple of weeks go by, and you log back in. You
 
 [Tap on anywhere on the control screen to advance to next task]
 
-- Where would you go to check for updates to the claim?
+- Tell me what you see here.
   
 [Status Tab]
 - Is there any information you're not seeing here that you'd like to see?
 - Is there anywhere else you would go to find more information about the claim?
 
 [Overview Tab]
-- Based on what you see here, how would you describe the state of this claim?
 - Is there any information you're not seeing here that you'd like to see?
 - What would you expect to happen next with the claim?
 
