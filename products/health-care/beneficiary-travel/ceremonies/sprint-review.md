@@ -6,6 +6,7 @@
 - Integration prep work (Kevin, Dan)
 - Research update (Cara)
 
+[Meeting Recording](https://adhocteam.sharepoint.com/:v:/s/BTSSSonVA.gov/Ec7_Wo-dRaxOk08BKFt5cXUBBmKjQ0eJGFsmu8Q1ABKDUw?e=ucbbkn)
 
 ## 12/18/2023 - 1/12/2024
 
