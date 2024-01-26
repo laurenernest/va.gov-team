@@ -1,11 +1,19 @@
 # BTSSS on VA.gov Sprint Goals
 
+## 1/15/2024 - 1/26/2024
+### Goals
+- Finalize research study artifacts and scheduling
+
+### Notes
+- Holiday 1/15/2024
+
 ## 1/1/2024 - 1/12/2024
 ### Goals
 - Prep for research study: research plan draft, conversation guide draft, coordination with Perigean
 - Decision: Assumption for where the status of a claim will display
 
 ### Notes
+- Holiday 1/2/2024
 - Collab cycle - partial Research Review (with Shane)
 
 ## 12/18/2023 - 12/29/2023
