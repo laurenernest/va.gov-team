@@ -1,8 +1,16 @@
 # BTSSS on VA.gov Sprint Goals
 
+## 1/29/2024 - 2/9/2024
+### Goals
+- 
+
+### Notes
+- 
+
+
 ## 1/15/2024 - 1/26/2024
 ### Goals
-- Finalize research study artifacts and scheduling
+- Finalize research artifacts and scheduling
 
 ### Notes
 - Holiday 1/15/2024
