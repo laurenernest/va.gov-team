@@ -135,29 +135,20 @@ To get started:
 
   - \[[Android screen share instructions](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)]
 
-- Figma Troubleshooting
-
-  - Mobile / TBD
-
-  - Desktop / TBD
-
 - Prototypes
 
-  - Link to mobile prototype A, legal accordion
+Link to mobile prototype A, legal accordion
+- https://www.figma.com/proto/bzbwObT9hiItve0q3cQX9c/Find-and-Appoint-a-Representative?page-id=455%3A76935&type=design&node-id=456-171489&viewport=3391%2C1991%2C0.13&t=lL78QLKh1zZ5nRG0-8&scaling=min-zoom&starting-point-node-id=456%3A171489&hotspot-hints=0&hide-ui=1 
 
-    - TBD
+Link to mobile prototype B, legal pop-up
+- https://www.figma.com/proto/bzbwObT9hiItve0q3cQX9c/Find-and-Appoint-a-Representative?page-id=455%3A76935&type=design&node-id=1190-129203&viewport=3391%2C1991%2C0.13&t=lL78QLKh1zZ5nRG0-8&scaling=min-zoom&starting-point-node-id=1190%3A129203&hotspot-hints=0&hide-ui=1 
 
-  - Link to mobile prototype B, legal pop-up
+Link to desktop prototype A, legal accordion
+- https://www.figma.com/proto/bzbwObT9hiItve0q3cQX9c/Find-and-Appoint-a-Representative?page-id=455%3A76935&type=design&node-id=455-148692&viewport=3391%2C1991%2C0.13&t=EzhRGJqqclkUh1Ix-8&scaling=min-zoom&starting-point-node-id=455%3A148692&hotspot-hints=0&hide-ui=1 
 
-    - TBD
+Link to desktop prototype B, legal pop-up
+- https://www.figma.com/proto/bzbwObT9hiItve0q3cQX9c/Find-and-Appoint-a-Representative?page-id=455%3A76935&type=design&node-id=1190-128495&viewport=3391%2C1991%2C0.13&t=EzhRGJqqclkUh1Ix-8&scaling=min-zoom&starting-point-node-id=1190%3A128495&hotspot-hints=0&hide-ui=1 
 
-  - Link to desktop prototype A, legal accordion
-
-    - TBD
-
-  - Link to desktop prototype B, legal pop-up
-
-    - TBD
 
 Imagine you’ve come to VA.gov to learn more about \[Veteran Service Officers / attorneys / claims agents] and how they can support you with your claims.
 
@@ -187,27 +178,30 @@ _Tell us who you are_
 
     1. _If missed; Click ‘No, I’m not the Veteran’ and ‘Continue’ to continue._
 
-_(1 of 5) Accredited representative information (2 pages)_
+_(1 of 5) Accredited representative information (3 pages)_
 
 20. Before we get started I want to point out the tracker at the top that says 1 of 5. I will be asking you to pause at the end of each part to ask additional questions. Otherwise use the prototype as you normally would.
 
-21. For part 1 of 5 imagine you’ve already found \[a DAV branch to help you]. Show how you would complete part 1. Stop when you get to part 2.
+21. For part 1 of 5 imagine you’ve already contacted Brian Daniel at Disabled American Veterans to help you. Show how you would complete part 1. Stop when you get to part 2.
 
     1. _Remember to say aloud what you’re thinking as you go._
 
-    2. _If missed; Click the ‘Enter the name of the accredited attorney or VSO’ field then ‘Disabled American Veterans’ option._
+    2. _If missed; Click the ‘Enter the name of the accredited attorney or VSO’ field then ‘Brian Daniel’ option._
 
-    3. _If missed; Click ‘Continue’ to continue._
+    3. _If missed; Select the ‘Disabled American Veterans’ option._
 
-22. _Ask if not answered;_
+    4. _If missed; Click ‘Continue’ to continue._
 
-    1. What feedback do you have on searching and selecting an organization to help you?
+23. _Ask if not answered;_
+
+    1. What feedback do you have on searching and selecting a Veteran Service Officer to help you?
 
     2. Was any of the information provided confusing?
 
     3. What do you think about being asked to contact your representative prior to completing this form?
 
     4. Do you have any additional thoughts or feedback on part 1 of 5?
+
 
 _(2 of 5) Your information (4 pages)_
 
@@ -217,6 +211,7 @@ _(2 of 5) Your information (4 pages)_
 
 24. Do you have any additional thoughts or feedback on part 2 of 5?
 
+
 _(3 of 5) Veteran information (4 pages)_
 
 25. Show how you would complete part 3 of 5. Stop when you get to part 4.
@@ -224,6 +219,7 @@ _(3 of 5) Veteran information (4 pages)_
     1. _Remember to say aloud what you’re thinking as you go._
 
 26. Do you have any additional thoughts or feedback on part 3 of 5?
+
 
 _(4 of 5) Accredited representative permissions (2 - 3 pages)_
 
@@ -241,13 +237,14 @@ _(4 of 5) Accredited representative permissions (2 - 3 pages)_
 
     3. Do you have any additional thoughts or feedback on part 4 of 5?
 
-_(5 of 5) Review_
+
+_(5 of 5) (5 of 5) Review the information for your form_
 
 29. Take a moment to review the page. What are your initial impressions?
 
-30. What would you expect to happen when you click the ‘Print form’ button?
+30. What would you expect to happen when you click the ‘Continue’ button?
 
-    1. _Click/tap the checkboxes and ‘Print form’ button to move on._
+    1. _Click/tap the checkboxes and ‘Continue’ button to move on._
 
 _Follow these steps to finish appointing the accredited representative_
 
