@@ -2,7 +2,8 @@
 
 ## 1/29/2024 - 2/9/2024
 ### Goals
-- 
+- Prep for integration
+- Monitor research progress
 
 ### Notes
 - 
