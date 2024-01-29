@@ -6,7 +6,9 @@
 - Monitor research progress
 
 ### Notes
-- 
+- Discussion 1/30/24 between VA.gov and API teams - impact of VA network requirements for integration
+  - Tickets resulting from meeting anticipated to be included in this sprint
+- Product Lead starting 2/1/24
 
 
 ## 1/15/2024 - 1/26/2024
