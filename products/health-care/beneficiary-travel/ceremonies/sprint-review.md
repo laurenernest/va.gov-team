@@ -6,7 +6,7 @@
 - Demo: CodePen updates (Micah)
 - Demo: localhost integration of veis auth and vagov access token (BE Eng)
 
-
+[Meeting Recording](https://adhocteam.sharepoint.com/:v:/s/BTSSSonVA.gov/EetbG_ilLyNAtzDcx-3UW1UB5ZP0BBcbRM4CuRutDrdNPw?e=yqqamJ)
 
 ## 1/15/2024 - 1/26/2024
 
