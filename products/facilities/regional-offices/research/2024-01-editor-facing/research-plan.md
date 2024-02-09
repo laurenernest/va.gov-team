@@ -1,25 +1,28 @@
 # Editor-facing research plan for Facilities, VBA regional offices, January 2024
 
-Publish final research plan in the [CMS research repo](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/research) and add a link in the [UX research airtable](https://airtable.com/appmAWA5qxKq9qxFX/tbldzfPsD87QtCmQK/viwFTiq16RNmlQ3GM?blocks=hide).
+Publish final research plan in the [CMS research repo](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/research) ~and add a link in the [UX research airtable]~
 
 ## Background
+
+[Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices)
+
 The Facilities team is ready to launch MVP VBA regional office pages in Drupal. A pilot group of VBA RO editors are currently (January-March 2024) attending training so they can start editing these pages. This is an opportune time to get early research insights about the editorial experience and Drupal training. Insights gained in this study will help us identify potential pain points before launching the national roll out of RO pages. 
 
 ## OCTO Objectives 
 
-### North stars [based on draft goals at time of writing]
+### North stars 
 - Increase the usage and throughput of VA services
 - Decrease the time Veterans spend waiting for an outcome
 
-### OCTO Goals [based on draft goals at time of writing]
-- Veterans and their families can find a single, authoritative source of information
-- Veterans and their families trust the security accuracy and relevancy of VA.gov
+### OCTO Goals 
+- Our platforms measure and improve the satisfaction of their internal users
 
 ### Increase 📈
 - **Usage of digital, self- service tools**
 - **Benefit use and enrollment, across all business lines**
 - **Number of VA.gov users as a function of total Veteran population**
 - **Veteran satisfaction with VA.gov**
+- Increase editor satisfaction with Drupal editing environment 
 
 ### Decrease 📉
 - **Call center volume, wait time, and time to resolution**
@@ -37,69 +40,80 @@ The findings from this research will influence design iterations before the nati
 For research goal one, "To determine whether the current design of the Drupal interface meets editors' needs":
 - Are labels, help text, error messaging, and other text in interface clear?
 - Are widget interactions intuitive (buttons, checkboxes, etc)?
-- How easy is it to get to the content they need to edit?
+- How easily can editors get to the content they need to edit?
 
 For research goal two, "To collect feedback on the training and support materials provided to new regional office editors":
-- How might we change the training (or the documentation) to better support new VBA editors?
+- Are Drupal trainings provided by the Facilities team providing editors enough information to get started?
+- Are editors able to access and use knowledge base articles to resolve issues they encounter during the editing process?
 
 ### Hypotheses
 - Editors will find content (including labels, error messages and help text) in the RO editing page clear and actionable.
 - Editors will find widget interactions in the RO editing page intuitive.
 - Editors will be able to easily navigate to the content they need to edit.
 - Editors will find the training offered adequate to complete their editing tasks.
-- Editors will find current knowledge base articles adequate to complete their editing tasks.
+- Editors will be able to resolve issues that arise using self-service knowledge base articles.
 
 ## Method	
-This study will use a hybrid approach, with a mix of interview questions and task observation, where participants will perform tasks that are part of the editorial process while being asked questions related to the task. This method is appropriate for the timing of the study and accounts for variation in tasks editors will be completing. 
+This study will use a hybrid approach, with a mix of interview questions and task observation. Participants will perform tasks that are part of the editorial process while being asked questions related to the task. This method is appropriate for the timing of the study and accounts for variation in tasks editors will be completing. 
 
 ### Location
 Sessions will be remote over Zoom. 
 
 ### Research materials
-*Note: your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.*
 
-Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
-
-For moderated interviews:
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/regional-offices/research/2024-01-editor-facing/conversation-guide.md)
-
 	
 ## Recruitment	
+
+### Recruitment criteria
+- Participants must be editors participating in the pilot MVP roll out of new VBA regional office pages.
+- There are approximately 14 editors in the recruitment pool. We would like to interview at least half of them (7).
 
 ### Recruitment approach
 Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them? 
 
-Pro tip:
-- For remote moderated studies with Veterans and caregivers, we recommend using Perigean to recruit participants. 
-- Perigean cannot recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
-- Perigean can also support remote, unmoderated studies, however, these studies require strict recruitment requirements. (Additional guidance forthcoming; reach out to #research-ops in the interim.)
+Participants will be recruited from the bi-weekly training sessions being conducted for regional office editors who are new to editing in Drupal. Bookings link will be shared at the end of the sessions and editors will be encouraged to sign up for one (see script below).
 
-Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Refer to the resources above to learn more. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and use the [recruitment checker (google sheets)](https://docs.google.com/spreadsheets/d/1pq7TSHZonfpzAQBJj6B2geGHlNUwZEs4DzEvxcRgu0o/edit?usp=sharing) to understand OCTO's targets for inclusivity.
+### Recruitment script for training sessions
+Hello, everyone! I'm Alexis, and I'm a researcher on the facilities team. Part of my job is to help make sure the products we create work well for both Veterans and for editors like yourselves. 
 
-### Recruitment criteria
-List the total number and type of participants for this study. What experience, geographic location, and scenarios do you need participants to meet to effectively run your study? 
+As part of that work, I'd love to meet with as many of you (individually) as possible as you begin editing facility information in Drupal. 
+Here's a little about what you can expect in these sessions:
+- They'll take **one hour or less**
+- You'll **complete actual tasks in Drupal while sharing your screen** and telling me what you think about the experience
+- I'll be seeking your **uncensored opinions**, so you can share whatever's on your mind without worrying about being diplomatic
+- There will typically be an observer or two that will join us, just to make sure I capture everything
+- ~We'll also **record** the session, but I'm the only one who will review the recordings and then they'll be deleted~
+- We'll use the data we gather from talking to you to **make improvements to the editing and training experience** before we roll the new sites out nationally
+
+If you're willing to help us with this important work, please use the link provided in chat to sign up for a time slot. Once you sign up, you can expect an email from me within a couple of days with more info about the session! 
+
+[Bookings page](https://outlook.office.com/bookwithme/user/200913e2d3394a81b950c33d967f9065@va.gov/?ge[…]GF59ZUEUiiwMA7idk6iIbCd-1XBLUkDQ&anonymous&ep=mLinkFromTile)
 
 
 ### Prepare
-When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).
-
-A pilot session is optional. Please indicate the date and name of a mock participant for a pilot session. 
-* Pilot participant email:
-* Date and time of pilot session: 
+Participants will log in to the live Drupal environment and perform real tasks related to the pages they're responsible for editing. They'll be observed while performing tasks and the interviewer will ask them questions.
 
 ### Research sessions
-* Planned dates of research:
+**Planned dates of research:** We'll conduct research sessions between training sessions, beginning some time after 2/6/2024 and ending the week following 3/19/2024.
+
+#### Training sessions and topics
+| Date | Topics covered |
+| --- | ----------- |
+| 2/6/24 | Operating status, Banner alerts, Facility photos (and alt text) |
+| 2/20/24 | Benefit office overview, Prepare for your visit |
+| 3/5/24 | Spotlights, Centralized content |
+| 3/19/24 | Services |
 
 ### Length of sessions
-* Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)
-* Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time) 
+* Session length: 60 minutes
+* Buffer time between sessions: Minimum of 30 minutes between sessions
 
 ## Team Roles	
 Please list the people who will be serving in each role. 	
-- Moderator:	
-- Research guide writing and task development (usually but not always same as moderator):	
-- Participant recruiting & screening:	
-- Project point of contact:	
-- Participant(s) for pilot test:	
-- Note-takers:	
+- Moderator: Alexis Logsdon
+- Research guide writing and task development: Alexis Logsdon
+- Participant recruiting & screening: Alexis Logsdon and Michelle Middaugh
+- Project point of contact: Alexis Logsdon		
+- Note-takers:	TBD
  

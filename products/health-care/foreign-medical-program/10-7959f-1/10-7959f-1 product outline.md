@@ -9,7 +9,7 @@ Under the [IDEA Act](https://digital.gov/resources/delivering-digital-first-publ
 ## Problem Statement
 Veterans who are living or traveling outside the U.S. with a service connected disability are only able to apply for health care benefits by filling out the paper form and sending it through mail or fax. 
 
-How might we improve the experience of Veterans living overseas who are applying for VA health care services? 
+How might we improve the experience of Veterans living or traveling overseas who are applying for VA health care services? 
  
 ## Desired User Outcomes
 
@@ -49,9 +49,9 @@ How might we improve the experience of Veterans living overseas who are applying
 
 ### Objectives and Key results (OKRs)
 
-- Objective: Veterans can easily apply for health care benefits online
+- Objective: Veterans can easily register for FMP online
   - Key result: Measure number of Veterans who register for FMP online
-  - Key result: Reduce time it takes to fill out application
+  - Key result: Reduce time it takes to fill out registration form
   - Key result: Reduce processing time 
 - Objective: Veterans are updated and informed of statuses
   - Key result: Ensure testing and alert monitoring is in place to catch any errors
@@ -66,22 +66,24 @@ How might we improve the experience of Veterans living overseas who are applying
 ## Solution Approach
 Provide stand alone FMP registration form online with forms sent to PEGA for further processing. 
 - **In scope**:
+  - General flow, patterns and components (v3) follow existing standards in design system as well as accessibility standards
   - Fillable fields with pre fill for signed in users
-  - General flow, patterns and components follow existing standards in design system as well as accessibility standards
-  - Digital signature accepted by FMP team
-  - PDF output of complete form with required meta data
+  - Digital signature with date stamp accepted by FMP team
+  - PDF output of completed form with required meta data and unique identifier
   - Integration with PEGA for forms and documents
-  - Authenticated experience [*need to determine recommendation on level*]
-  - User notification of successful or failed submission
+  - Authenticated experience
+  - End to end testing with PEGA
 - **Out of scope**:
   - Integration with VES (this will need to be addressed in the future)
   - Checking for eligibility requirements
+  - VBMS/VIS interoperability
 - **Risks or dependencies**:
   - PEGA solution will need to be able to house files and handle the different workflows required for different documents and teams
   - Integration with PEGA is still being developed and need better understanding of how files will be handled with this solution (more details [here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/ADR-PEGA%20integration%20for%20CHAMPVA.md))
 - **Other considerations**:
   - Content migration effort to va.gov and expansion of family member benefits hub - coordinate on timing
   - VA notify(?)
+  - notifications in general
   - handling for mobile app 
 
 --- 
@@ -93,7 +95,7 @@ Provide stand alone FMP registration form online with forms sent to PEGA for fur
 
 Collaboration Cycle
 - [x] [Collab Cycle ticket]https://github.com/department-of-veterans-affairs/va.gov-team/issues/74178
-- [ ] Design Intent: scheduled 1/29/24
+- [x] Design Intent: 1/29/24
 - [x] [Content, Accessibility and IA](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74190)
 - [ ] Midpoint 
 - [ ] Research
@@ -115,7 +117,7 @@ Collaboration Cycle
 ## Solution Narrative
 
 ### Current Status
-Discovery and research planning efforts underway. Initial conversations with stakeholders to be scheduled.
+Discovery and research planning efforts underway. Initial conversations with stakeholders scheduled through 2/9.
 
 Key deliverables:
 - design: 
@@ -131,6 +133,7 @@ Key deliverables:
   - A: VR&E is a minority
 
 ### Key Decisions
+- 2/7/24 - even though it seems that the actual registration form is unnecessary (per stakeholder interviews conducted through 1/31/24-2/9/24), moving forward with digitization of the form with the understanding that the long term recommendation is to 1) make registration automatic and 2) have VBMS (Veteran Benefit Management System) and VIS/VISTA (Veterans Health Information Systems and Technology Architecture) communicate with each other.
 
 ### Key Dates
 - Jan 2024: start discovery

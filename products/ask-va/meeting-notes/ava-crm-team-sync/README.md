@@ -1,3 +1,108 @@
+## Meeting Notes for CRM Sync on 01/30/2024
+
+Short Meeting; Standup; Stand Down; Lionel Richie
+
+### Attendees:
+
+* **AVA FE Team:** ...
+* **AVA CRM Team:** ...
+
+### Key Takeaways:
+
+1. New format for meeting, standup at start:
+   * [API Integration Status document](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/integration) updated
+2. The agenda called for a discussion about LoE for CRM field changes. But meeting was already scheduled for 1/31 to cover this topic.
+3. Some housekeeping for Teams was discussed, agreed upon, no impact on the AVA on VA.gov team.
+  
+### Action Items:
+
+- [ ] NATALIE provide update to Medallia after speaking with ISSO and Medallia team
+- [ ] BECKY to help escalate NATALIE's issue with accessing ZenHub (**BLOCKED** - licenses)
+- [ ] JOE/TYLER to get with SHELBY/CHRIS/KYLE, RE: LoE for status changes, on 1/31/2024
+- [ ] HOLLY to sing covers of _Say You, Say Me_; _Hello_; and _Stuck on You_ at next meeting
+
+
+
+
+## Meeting Notes for CRM Sync on 01/25/2024
+
+ATO, 508, Streamlined Meetings, Housekeeping
+
+### Attendees:
+
+* **AVA FE Team:** ...
+* **AVA CRM Team:** ...
+
+### Key Takeaways:
+
+1. James: Platform has some 508 work to complete before addressing AVA's changes
+   * Becky to re-send email w/summary of our status
+2. Meetings for both teams streamlined, updates made to calendars
+3. Joe/Tyler to get with Chris/Shelby/Kyle RE: LoE for status changes, ...
+  
+### Action Items:
+
+- [ ] Natalie provide update to Medallia after speaking with ISSO and Medallia team
+- [ ] Becky to help escalate Natalie's issue with accessing ZenHub
+- [ ] Add James Blaine to the invite list for this meeting (JOE - add to both meetings)
+- [ ] Joe/Tyler to get with Chris/Shelby/Kyle RE: LoE for status changes, ...
+
+
+
+
+## Meeting Notes for CRM Sync on 01/23/2024
+
+Zero Tokens, GI Bill for Ed. Facility Search
+
+### Attendees:
+
+* **AVA FE Team:** ...
+* **AVA CRM Team:** ...
+
+### Key Takeaways:
+
+1. Updates on AVA on VA.gov's zero token status
+2. New app will use GI Bill's data service for school facility code lookups.
+3. Cleaned up Action Items
+  
+### Action Items:
+
+- [ ] Natalie provide update to Medallia after speaking with ISSO and Medallia team
+- [ ] Becky to help escalate Natalie's issue with accessing ZenHub
+- [ ] Natalie + team to provide name of research observers from CRM team by EOD 1/17
+- [ ] Add James Blaine to the invite list for this meeting (JOE - add to both meetings)
+
+
+
+
+## Meeting Notes for CRM Sync on 01/18/2024
+
+Timeline
+
+### Attendees:
+
+* **AVA FE Team:** ...
+* **AVA CRM Team:** ...
+
+### Key Takeaways:
+
+1. Holly presented the ZenHub-based timeline for the AVA on VA.gov project.
+  
+### Action Items:
+
+- [ ] Natalie provide update to Medallia after speaking with ISSO and Medallia team
+- [ ] Becky to help escalate Natalie's issue with accessing ZenHub
+- [ ] Natalie + team to provide name of research observers from CRM team by EOD 1/17
+
+- [ ] JOE: Rename Tuesday Sync to FE/CRM rather than AVA/AVA CRM (in Google & VA Calendars)
+   * Blocked - still working on final naming that better reflects our teams’ roles
+- [ ] Shelby: Check in with dev team & aiming for next sync call (1/16) for answers on form changes
+- [ ] Adding field to form (“Missing field in CRM” slide)
+- [ ] Adding an option to a list (“Relationship lists” slide)
+- [ ] Update gender field with optionset or could be a new field (“Changed Gender value” slide)
+
+
+
 ## Meeting Notes for CRM Sync on 01/16/2024
 
 Medallia Updates

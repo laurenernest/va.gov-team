@@ -4,9 +4,11 @@
  - Over document, comment and communicate on needs, work, concerns proactively 
  - If something feels off / strange speak up
  - Timely ticket updates and ticket management
- - Don't wait till standups to bring up concerns
+ - Attend standups and be prepared to share updates on your tickets
+    - Don't wait till standups to bring up concerns
  - Active participant in sprint and quarterly planning to ensure QA capacity is accounted for and not overbooked 
- - QA and Release PM has an open door for any concerns, thoughts, needs 
+ - QA and Release PM has an open door for any concerns, thoughts, needs
+ - Monitor Slack / Comment for @ messages and respond timely 
 
 ## Ticket Management 
 - **Proactively be aware of the tickets that are assigned to you** 
@@ -20,9 +22,10 @@
 
 
 ## Working tickets: 
- - **QA should only work on tickets - no ticket no work**
+ - **Teams asking QA to complete work must have a ticket - no ticket no work**
    - Ensure the ticket is assigned appropriately, the correct pipeline/status, and has details QA needs
-   - If no ticket work with your PM to create one 
+   - If no ticket work with your PM to create one
+   - Small tickets <2 QA is working on their on (administrative, other) does not necessarily require a ticket
  - **QA should size the ticket** 
    - Any ticket being tested by QA needs a QA label to indicate the testing effort
    - Labels include 1, 2, 3, 5, 8 - anything larger than an 8 needs to be tickets broken out
@@ -34,4 +37,9 @@
    - If not able to completed, comment on the ticket with reasoning 
  - **Once you pick it up follow the ticket through till its closed - move statuses timely**
    - If ticket is not going to be closed during the sprint notate it on the ticket and ensure Team PM
+   - Examples of why things may not be closed in 3 days other tickets a higher priority, fire fighting, blockers (test accounts / data prep not ready, ACs not clear), started working but had findings that need fixed and have to retest, etc 
+ - **Comments are you best friends on tickets**
+   - Use comments to put your updates - will be referenced historically
+   - Find a method to monitor comments people sent you
+     - Email, Github Notifications  
 

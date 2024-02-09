@@ -2,57 +2,115 @@
 🟦 BE 🟩 FE 🟥 UX 🟪 PM ✔️ Done ❗ Priority ⛔ Blocked 🚧 Rolling Over
 
 <details>
-<summary>FUTURE SPRINT - 2/7 through 2/20</summary>
+<summary>FUTURE SPRINT - 2/21 through 3/5</summary>
 ______________________________________________________________________________________________________________________________________________________
 
-## 2/7/2024 - 2/20/2024  ------- FUTURE FUTURE / TENTATIVE ------
+## 2/21/2024 - 3/5/2024  ------- FUTURE FUTURE / TENTATIVE ------
 #### SPRINT GOALS
+ - **GOAL: Onboard New Team Members**
  - **GOAL: Support Production**  
  - **GOAL: Integrate with CERNER**
-     - **Sub Goal: Support eCheck-in for CERNER Sites**
- - **GOAL: Address Usage Issues**
-     - **Sub Goal: Change wording for wait time after checking in** 
+     - **Sub Goal: Support Travel for CERNER Sites**
 - **GOAL: Increase PCI Usage**
-     - **Sub Goal: Cross-Product Discovery - Complete Multiple Tasks**
      - **Sub Goal: Analyze current metrics to see what they tell us** 
 - **GOAL: Address Tech Debt**
-     - **Sub Goal: Migrate Sktech Files to Figma**
-     - **Sub Goal: Adhere to VA Content Guidelines for heading character counts**     
 
 #### PLANNED RELEASES 
 - NONE
   
 #### SPRINT TICKETS
+- **GOAL: Onboard New Team Members**
+    - Create Platform onboarding tickets for each
 - **GOAL: Support Production**
-    - ❗ 🟦🟩 [[ONGOING] Production Support](https://github.com/department-of-veterans-affairs/va.gov-team/issues/44446)
+    - ❗ 🟦🟩 [[ONGOING] Production Support](https://github.com/department-of-veterans-affairs/va.gov-team/issues/44446)    
 - **GOAL: Integrate with CERNER**
-    - **Sub Goal: Support eCheck-in for CERNER Sites**
-        - 🟥 TBD        
-        - 🟩 TBD
-        - 🟦 TBD                    
+    - **Sub Goal: Support Travel for CERNER Sites**  
+        - ❗ 🟥 [[Research] Create Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75402)
+        - ❗ 🟥 [[Content] Create Content for SMS for VistA site that receives a "travel" text to 53079](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/75424)
+        - ❗ 🟩 TBD
+        - ❗ 🟦 TBD
 - **GOAL: Address Usage Issues**
-     - **Sub Goal: Change wording for wait time after checking in**
-         - 🟥 TBD
-         - 🟩 TBD
-- **GOAL: Increase Usage of PCI**
-    - **Sub Goal: Cross-Product Discovery - Complete Multiple Tasks**
-        - 🟥 TBD
-  - **Sub Goal: Analyze current metrics to see what they tell us**               
+    - **Sub Goal: Change wording for wait time after checking in**
+- **GOAL: Increase Usage of PCI**    
+    - **Sub Goal: Analyze current metrics to see what they tell us**               
        - 🟥 [Research] Analyze GA Metrics
-       - 🟥 [[Research] Analyze VSignals Data](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/71834)
+       - 🟥 [[Research] Analyze VSignals Data](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/75197)
 - **GOAL: Address Tech Debt**            
-     
 
 ------- END FUTURE / TENTATIVE ------
 </details>
 
 ______________________________________________________________________________________________________________________________________________________
 
-## 1/24/2023 - 2/6/2024  ------- FUTURE FUTURE / TENTATIVE ------
+## 2/7/2024 - 2/18/2024  
+#### SPRINT GOALS
+ - **GOAL: Offboard Team Members**
+ - **GOAL: Support Production**  
+ - **GOAL: Integrate with CERNER**
+     - **Sub Goal: Support Travel for CERNER Sites**
+- **GOAL: Address Usage Issues**
+    - **Sub Goal: Change wording for wait time after checking in**
+    - **Sub Goal: Content & Design Discovery for adding VVC and CVT Support**
+- **GOAL: Increase Usage of PCI**
+    - **Sub Goal: Cross-Product Discovery - Complete Multiple Tasks**
+    - **Sub Goal: Analyze current metrics to see what they tell us** 
+- **GOAL: Address Tech Debt**
+
+#### PLANNED RELEASES 
+- NONE
+  
+#### SPRINT TICKETS
+ - **GOAL: Offboard Team Members**
+     - 🟥 [UX Transition off CIE](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/75423)
+     - [Offboarding of [Kelly Smith]](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74936)
+     - [Offboarding of [Ya-Ching Tsao]](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74938)
+- **GOAL: Support Production**
+    - ❗ 🟩 [[CHIP] - High Severity security alert for lodash](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75743)
+        - Brought in after planning because of a security scan
+    - ❗ 🟦🟩 [[ONGOING] Production Support](https://github.com/department-of-veterans-affairs/va.gov-team/issues/44446)
+    - ❗ 🟦🟩 [[AWS DEVOPS] - IAM key permissions and rotation doc](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/75443)
+- **GOAL: Integrate with CERNER**
+    - **Sub Goal: Support Travel for CERNER Sites**  
+        - ❗ 🟥 [[UX] Update PCI Service Blueprint to add row(s) for OH check-ins](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74025)
+        - ❗ 🟥 [[Content] Create SMS Notifications for OH BT reminders and notifications](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/75127)
+        - ❗ 🟥 [[Content] Create (make edits to) content for Intro page](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75191)
+        - ❗ 🟥 [[Content] Create (or version out) content for Need Help component](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75163)
+        - ❗ 🟥 [[Design][Content] Create final frames with content for error pages](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/75206)
+        - ❗ 🟥 [[Design] Create Final Wireframes to handle selecting an appt for Veterans that might have appts at multiple facilities](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75544)
+        - ❗ 🟥 [[Research] Create Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75401)
+        - ❗ 🟥 [Update Product Artifacts for Release](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74024)
+        - ❗ 🟥 Schedule Midpoint Review
+        - ❗ 🟥 Pull in tickets fro CAIA feedback if time permits
+        - ❗ 🟩 🟦 [[FE][BE] Create all Task Tickets & Point](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75463)
+        - ❗ 🟩 [[FE] - Create basic pages and router for travel app](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75269)
+        - ❗ 🟩 [[FE] - Stub out new travel claim app](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75268)
+        - ❗ 🟩 [[CHIP] - Create initiateTravelClaim function](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75106)
+- **GOAL: Address Usage Issues**
+    - **Sub Goal: Change wording for wait time after checking in**
+        - 🟥 [[UX][VistA appts] Update PCI Service Blueprint w changes to userflow](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/73965)
+    - **Sub Goal: Content & Design Discovery for adding VVC and CVT Support**
+        - 🟥 [Create Final Wireframes and content for modality-agnostic accordions #74107](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74107)
+        - 🟥 [Create Final Wireframes and content for modality-agnostic error pages](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74108)   
+- **GOAL: Increase Usage of PCI**
+    - **Sub Goal: Cross-Product Discovery - Complete Multiple Tasks**
+        - 🟥 [[UX][Design] Create Design Options for an experimental notification collection pattern](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72101)
+    - **Sub Goal: Analyze current metrics to see what they tell us**               
+       - 🟥 [Research] Analyze GA Metrics
+       - 🟥 [[Research] Analyze VSignals Data](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/75197)
+- **GOAL: Address Tech Debt**            
+    - 🟩 [[CHIP][BUG] Resolve emfile errors in pre-checkin](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75182)
+    - 🟩 [[CHIP] - Remove calls to vista during initiatePreCheckIn](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/75446)
+
+______________________________________________________________________________________________________________________________________________________
+
+## 1/24/2023 - 2/6/2024 
+#### NOTES
+- Not all goals were achieved because of the shifting requirements for integrating with Oracle Health
+
 #### SPRINT GOALS
  - **GOAL: Support Production**  
  - **GOAL: Integrate with CERNER**
-     - **Sub Goal: Support eCheck-in for CERNER Sites**
+     - **Sub Goal: Support Travel for CERNER Sites**
  - **GOAL: Address Usage Issues**
      - **Sub Goal: Change wording for wait time after checking in** 
 - **GOAL: Increase PCI Usage**
@@ -66,45 +124,42 @@ ________________________________________________________________________________
   
 #### SPRINT TICKETS
 - **GOAL: Support Production**
-    - ❗ 🟦🟩 [[ONGOING] Production Support](https://github.com/department-of-veterans-affairs/va.gov-team/issues/44446)
+    - ✔️ ❗ 🟦🟩 [[ONGOING] Production Support](https://github.com/department-of-veterans-affairs/va.gov-team/issues/44446)
 - **GOAL: Integrate with CERNER**
     - **Sub Goal: Support eCheck-in for CERNER Sites**
-        - ❗ 🟩 [[CHIP] SPIKE - figure out what is needed with a refresh endpoint](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73854)
-        - ❗ 🟩 [[CHIP] SPIKE - Research new cerner payload from vetext](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73636)
-        - ❗ 🟦 [[BE] Spike on Mobile Profile Service to call VA Profile using MAP token](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73685)
-        - ❗ 🟦 [[BE] Spike on API to set arrived status in cerner appointment](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73688)        
-        - ❗ 🟥 [[UX] Update PCI Service Blueprint to add row(s) for OH check-ins](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74025)
-        - ❗ 🟥 [[UX] [Design] Create Final Wireframes with content for OH userflow appt statuses and button action](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74682)
-        - ❗ 🟥 [[UX] [Design] Create Final Wireframes with content for OH userflow option 1](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74680)
-        - ❗ 🟥 [[UX] [Design] Create Final Wireframes with content for OH userflow option 2](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74681)
-        - ❗ 🟥 [Update Product Artifacts for Release](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74024)
-        - ❗ 🟥 [[UX] [Placeholder] Set up Metrics to Measure Success for OH check ins](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74027)                      
+        - ✔️ ❗ 🟩 [[CHIP] SPIKE - figure out what is needed with a refresh endpoint](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73854)
+        - ✔️ ❗ 🟩 [[CHIP] SPIKE - Research new cerner payload from vetext](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73636)
+        - ✔️ ❗ 🟦 [[BE] Spike on Mobile Profile Service to call VA Profile using MAP token](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73685)
+        - ✔️ ❗ 🟦 [[BE] Spike on API to set arrived status in cerner appointment](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73688)        
+        - 🚧 ❗ 🟥 [[UX] Update PCI Service Blueprint to add row(s) for OH check-ins](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74025)
+        - ~❗ 🟥 [[UX] [Design] Create Final Wireframes with content for OH userflow appt statuses and button action](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74682)~
+        - ~❗ 🟥 [[UX] [Design] Create Final Wireframes with content for OH userflow option 1](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74680)~
+        - ✔️ ❗ 🟥 [[UX] [Design] Create Final Wireframes with content for OH userflow option 3](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74681)
+        - 🚧 ❗ 🟥 [Update Product Artifacts for Release](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74024)
+        - 🚧 ❗ 🟥 [[UX] [Placeholder] Set up Metrics to Measure Success for OH check ins](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74027)                      
 - **GOAL: Address Usage Issues**
      - **Sub Goal: Change wording for wait time after checking in**
-         - 🟥 [[Content][VistA appts] Create content for new "Which of these best describes how far you are from the clinic?" page and body content for 2-3 variations of the "You're checked in" page](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74008)
-         - 🟥 [[Design][VistA appts] Create Final Wireframes for the new "Which of these best describes how far you are from the clinic?" page and 2-3 variations of the "You're checked in" page](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74010)
-         - 🟥 [[UX][VistA appts] Update PCI Service Blueprint w changes to userflow](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/73965)
+         - ✔️ 🟥 [[Content][VistA appts] Create content for new "Which of these best describes how far you are from the clinic?" page and body content for 2-3 variations of the "You're checked in" page](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74008)
+         - ✔️ 🟥 [[Design][VistA appts] Create Final Wireframes for the new "Which of these best describes how far you are from the clinic?" page and 2-3 variations of the "You're checked in" page](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74010)
+         - 🚧 🟥 [[UX][VistA appts] Update PCI Service Blueprint w changes to userflow](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/73965)
          - ✔️ 🟥 [[UX][VistA appts] Update User Flow Based on Feedback](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74272)
-         - 🟥 [[Content][VistA appts] Update SMS Notifications for check in to address Veterans not being present after checking in online](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72851)
+         - ✔️ 🟥 [[Content][VistA appts] Update SMS Notifications for check in to address Veterans not being present after checking in online](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72851)
 - **GOAL: Increase Usage of PCI**
     - **Sub Goal: Cross-Product Discovery - Complete Multiple Tasks**
-        - 🟥 [[UX] Identify scenario(s) and entrance path(s) to use for exploration of notification collection pattern](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72100)
-        - 🟥 [[UX][Design] Create Design Options for an experimental notification collection pattern](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72101)
-   - **Sub Goal: [Content & Design Discovery for adding VVC and CVT Support](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72581)**
-       -  🟥 [Create Final Wireframes and content for modality-agnostic error pages](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74108)
-       -  🟥 [Create Final Wireframes and content for modality-agnostic accordions](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74107)  
+        - ✔️ 🟥 [[UX] Identify scenario(s) and entrance path(s) to use for exploration of notification collection pattern](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72100)
+        - 🚧 🟥 [[UX][Design] Create Design Options for an experimental notification collection pattern](https://github.com/department-of-veterans-affairs/va.gov-team/issues/72101)
    - **Sub Goal: Analyze current metrics to see what they tell us**               
-       - 🟥 [Research] Analyze GA Metrics
-       - 🟥 [[Research] Analyze VSignals Data](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/71834)
+       - ✔️ 🟥 [Research] Analyze GA Metrics
+       - ✔️ 🟥 [[Research] Analyze VSignals Data](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/71834)
 - **GOAL: Address Tech Debt**            
-     - 🟩 [[FE] Switch icons to v3](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71840)
+     - 🚧 🟩 [[FE] Switch icons to v3](https://github.com/department-of-veterans-affairs/va.gov-team/issues/71840)
          - We are waiting on the DS to address the ticket we created for them before we finish this
-     - 🟩 [Add an allDemographicsCurrentUUID Mock UUID for check-in](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72829)
+     - 🚧 🟩 [Add an allDemographicsCurrentUUID Mock UUID for check-in](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/72829)
      - **Sub Goal: Migrate Sktech Files to Figma**
-        - 🟥 [[Design] Clean up pages in Figma Production file](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73002)
-        - 🟥 [[Design] Create remaining components for MHV UA Library for production file](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74282) 
-        - 🟥 [[Design] Replace all local components in production frames to use components from MHV UA Library](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/73878)
-        - 🟥 [[Design] Clean up pages in Figma Unified Check In file](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73559)
+        - ✔️ 🟥 [[Design] Clean up pages in Figma Production file](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73002)
+        - ✔️ 🟥 [[Design] Create remaining components for MHV UA Library for production file](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/74282) 
+        - ✔️ 🟥  [[Design] Replace all local components in production frames to use components from MHV UA Library](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/issues/gh/department-of-veterans-affairs/va.gov-team/73878)
+        - ✔️ 🟥 [[Design] Clean up pages in Figma Unified Check In file](https://github.com/department-of-veterans-affairs/va.gov-team/issues/73559)
      
 
 ______________________________________________________________________________________________________________________________________________________

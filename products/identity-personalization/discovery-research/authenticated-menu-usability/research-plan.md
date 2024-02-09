@@ -7,7 +7,7 @@ VA.gov is piloting a new design for a standard header later this year, which inc
 This new design coincides with continued expansion work our team is planning for this menu. Last year, we observed high engagement with two links we added: Letters and Dependents. We want to explore how we can further increase engagement and improve Veteran’s access to their most important tasks.
 
 - [Standardized header/footer product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/initiatives/2024-federal-standardized-header-footer/README.md), and [Phase 2 research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase2-AT/research-plan.md)
-- [Authenticated menu product brief](%5B%EF%BF%BC%5D%28https%3A//github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/authenticated-menu/README.md%29)
+- [Authenticated menu product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/authenticated-menu/README.md)
 
 ### OCTO Priorities 
 
@@ -53,6 +53,8 @@ The sessions will be conducted remotely via Zoom.
 ### Research materials
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/discovery-research/authenticated-menu-usability/conversation-guide.md)
 - [Link to prototype](https://cdpn.io/pen/debug/JjzNWbR)
+
+**Note:** The convo guide linked above was used for the first 6 participants in our study. Midway through our study, we had had to pivot. We revised the order of tasks to try to determine if our research protocol was impacting people's ability to find the authenticated menu. The sessions for P7, P8, and P12 used [this conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/discovery-research/authenticated-menu-usability/conversation-guide-revised-task-order.md).  We extended our study and decided to remove the task to find letters, since that could be in so many various parts of the site, and we wanted to focus remaining sessions on the auth menu. Sessions for P13-P16 used [this version](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/discovery-research/authenticated-menu-usability/conversation-guide-revised-removed-task.md) of the guide.
 
 ## Recruitment	
 

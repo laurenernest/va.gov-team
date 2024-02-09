@@ -26,13 +26,23 @@
           - PENDING
 - [x] 7. Same question, but for those with 10-40% - should they answer the exposure questions or will that not impact their enrollment prioritization?
      - Answered in Question 4
+     
+- [ ] 8. If a Veteran has not filed a disability claim (Form 526), and HEC cannot verify Toxic Exposure, how will HEC staff work through verification process?
 
-**Jessie 1/18/24** - Believe that VHA will be getting access to ILER, to help with research (This is not confirmed)
-**Tacarra 1/18/24** - Can view VBA adjudications, but not aware of any VBA/VHA system integrations
-**Jessie 1/18/24** - Expect to have the draft verbiage to 10-10 team soon, it will be submitted to OMB at that time as well
+- **Jessie 1/18/24** - Believe that VHA will be getting access to ILER, to help with research (This is not confirmed)
+- **Tacarra 1/18/24** - Can view VBA adjudications, but not aware of any VBA/VHA system integrations
+- **Jessie 1/18/24** - Expect to have the draft verbiage to 10-10 team soon, it will be submitted to OMB at that time as well
 
 ### System behavior
 - [ ] Did we get confirmation that the enrollment system will be set up to receive this info?
      -  **Jessica 1/18/24** needs to check with Simone
      -  **Shana 1/18/24** said she thinks there is already a request for this - forecasted for March but not sure, she will verify
      
+**EZR**
+**Military Info**
+1) How does Military Information currently get updated after a Veteran has already enrolled in Healthcare?
+2) Why are we having a Veteran manually update their Military Info if it is already being updated automatically?
+3) How will the information updated by the Veteran on the EZR be verified? And what happens when there are discrepencies?
+4) What happens if VBA is used to verify and the VBA questions are different to the VHA ones
+5) Is there a way to automatically udpate this information for the Veteran?
+6) What dictates access to VA healthcare/update of Priority Group? Who does this review? 

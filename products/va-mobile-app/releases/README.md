@@ -53,6 +53,8 @@ See full release calendar <a href="https://docs.google.com/spreadsheets/d/14jYcB
    <td>
 <ul>
 
+<li> Team PM approval assume pre or implied approval from involved non-Mobile POs - no need for non-Mobile OCTO POs to be involved with the Release Process or Steps 
+	
 <li> App Store for Va.gov image and content updates - outside of Release ticket  <a href="https://github.com/department-of-veterans-affairs/va-mobile-app/issues/2555])">App Store Process Doc</a>
   
 <li> App Store (Apple, Android) image updates - outside of Release ticket  <a href="https://github.com/department-of-veterans-affairs/va-mobile-app/issues/2555])">App Store Process Doc</a>
@@ -166,6 +168,27 @@ See full release calendar <a href="https://docs.google.com/spreadsheets/d/14jYcB
 </ul>
    </td>
   </tr>
+  <td>
+    <strong>OCTO POs</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ul>
+
+<li> Mobile OCTO POs (Rachel Han, Ryan Thurwell, Chris Johnston) approval required for every release and supersedes any other approvals. 
+ 
+<li> Non-Mobile OCTO POs - POs that are responsible for features in the app (ex RX, Appointments, SM, etc) will coordinate with the VAHB Mobile Team PM on go live requirements and needs. 
+
+<li> Non-Mobile OCTO POs approvals for the release are implied through the Mobile Team's PM's release approval. Thus no need for non-Mobile OCTO POs to participate in the Release Process, Steps or Approvals. 
+
+
+</li> 
+</ul>
+</li> 
+</ul>
+   </td>
+  </tr>  
 </table>
 
 

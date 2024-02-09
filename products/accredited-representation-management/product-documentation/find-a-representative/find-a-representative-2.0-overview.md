@@ -17,15 +17,14 @@ The following overview demonstrates the changes we'll be implementing for versio
             1. Single consolidated field that accepts address 1, city, state, zip code
             2. `Use my location` feature to populate this location field
    3. Optional fields
-      1. Search by organization and/or name
-         1. Organization = Veteran Service Organization or law firm
-         2. Name = Veteran Service Officer 🆕 or attorney 
+      1. Name of accredited representative (accepts individual representative first/last names and organization names)
 2. Display search results
    1. List display
       1. Distance in miles
       2. Name
       3. Address
       4. Phone number
+      5. Email 🆕
    3. Filter results by
       1. Distance (Closest to farthest)
       2. Representative Name / Organization Name (First/last name A to Z and Z to A)
