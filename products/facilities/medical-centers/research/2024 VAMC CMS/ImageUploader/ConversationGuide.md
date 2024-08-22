@@ -58,7 +58,7 @@ Before we start, I have a few things that I want to go over with you:
 
 Can you please open your CMS and log in.
 
-- **Prompt:** Imagine you've just created a new page for an upcoming event [this can be adapted to another example if that’s what they most frequently build] and need to add an event photo. Please think aloud as you complete the task. Tell me what you're doing and thinking as you go along. **RQ1, RQ2**
+- **Prompt:** Imagine you're creating a new page for an upcoming event [this can be adapted to another example if that’s what they most frequently build] and need to add an event photo. Please think aloud as you complete the task. Tell me what you're doing and thinking as you go along. **RQ1, RQ2**
     - *Consider having the participant use a previous image they were sent, if not share the sample image.*
 - *Observe participant's actions and provide prompts as needed:*
     - Can you walk me through what you're doing now? **RQ1**
@@ -113,9 +113,11 @@ Great, now I'd like to show you a potential redesign of the image upload system.
 - Is it easier or more difficult to navigate?
 - Is the copy clear and understandable?
 
-## **Post-Task Interview - 5 minutes**
+## **Drupal CMS Questions - 5-10 minutes**
 
-- Thank you for your time and valuable input. Your feedback will help us improve the image upload and management process for all VA.gov editors.
+- Is there anything in the current Drupal CMS that you feel is missing?
+- Are there types of information which VAMC editors want to add or need to communicate to the Veteran/beneficiary population they serve which they are currently `unable` to do?
+- What health system or facility information is currently `very difficult` for PAOs to add to their pages?
 - Is there anything else you would like to share about your experience with the current system or the prototype?
 - Any questions for me?
 
