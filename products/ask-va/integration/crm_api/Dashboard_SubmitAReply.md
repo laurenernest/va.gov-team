@@ -4,7 +4,7 @@
 
 **Method**: PUT
 
-**Path**: /inquiries/:id:/reply/new
+**Path**: /ask_va_api/v0/inquiries/:id:/reply/new
 
 **Parameters**:
 | Name | Type | Description |
@@ -81,6 +81,34 @@
 </td>
 </tr>
 </table>
+
+## UPDATES FROM CRM HANDOFF
+
+Example (DEV) API endpoint URL:
+
+https://dev.integration.d365.va.gov/eis/vagov.lob.ava/api/Inquiries/A-20230305-306178/reply/new
+
+### Example Response
+
+```
+{
+    "Data": {
+        "Id": "329fd2d1-01e2-ee11-904d-001dd8306a72"
+    },
+    "Message": "",
+    "ExceptionOccurred": false,
+    "ExceptionMessage": "",
+    "MessageId": "a30baf4b-72ec-41ef-9150-e334ed102939"
+}
+```
+
+### Example Body
+
+```
+{
+    "Reply": "Test123"
+}
+```
 
 ## Notes
 

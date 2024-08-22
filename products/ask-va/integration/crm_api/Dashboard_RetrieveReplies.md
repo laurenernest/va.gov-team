@@ -4,7 +4,7 @@
 
 **Method**: GET
 
-**Path**:  /inquiry/{id}/replies
+**Path**:  /ask_va_api/v0/inquiry/:id:/replies
 
 **Parameters**:
 | Name | Type | Description |
@@ -86,6 +86,16 @@
 </td>
 </tr>
 </table>
+
+## Technical Updates
+
+### Success Result
+
+Example 200 response: [examples/GetCorrespondenceResponse.json](./examples/GetCorrespondenceResponse.json)
+
+### Postman Screenshot
+
+![image](https://github.com/department-of-veterans-affairs/va.gov-team/assets/89649306/ef43e0c8-aab0-41b4-9080-860d5a794467)
 
 ## Notes
 

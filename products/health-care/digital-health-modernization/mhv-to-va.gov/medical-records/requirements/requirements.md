@@ -4,12 +4,14 @@
 
 | Date           | Changed By       | Description of Change |
 |----------------| ---------------- | ----------------------|
-| 1/2/24       | Marci Mcguire  |Created document as an update to [old requirements document](https://github.com/department-of-veterans-affairs/va.gov-team/blob/8293da406b1fd0beedd23db81823012a2415831f/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/requirements/requirements-archive.md)    |
-|1/2/24        | Coulton Bunney   | Set up structure |
-|1/3/24        | Coulton Bunney   | Updated allergies and vaccines information |
+| 1/2/24| Marci Mcguire  |Created document as an update to [old requirements document](https://github.com/department-of-veterans-affairs/va.gov-team/blob/8293da406b1fd0beedd23db81823012a2415831f/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/requirements/requirements-archive.md)    |
+|1/2/24| Coulton Bunney   | Set up structure |
+|1/3/24| Coulton Bunney   | Updated allergies and vaccines information |
 |1/4/24 | Coulton Bunney | Added key research and data documents|
 |1/9/24 | Coulton Bunney | Added conditions information, Added lab results information|
 |1/11/24 | Coulton Bunney | Added download all medical reocrds, landing page, and medical records settings|
+|2/23/24 | Kaitlin Fink | Added care summaries and notes|
+|5/16/24 | Kaitlin Fink | Added vitals and updated health conditions|
 
 
 
@@ -30,6 +32,7 @@ Medical records v1.0 consists of 6 data domains, as well as a way to download al
 * Care summaries and notes
   * Progress notes
   * Discharge summaries
+  * Consult results
 * Lab and test results
   * Lab results (Chem/Hem)
   * Pathology reports
@@ -264,10 +267,6 @@ Shipped product should reflect [Phase 0 content document](https://dvagov.sharepo
 #### Functionality
 * List should be paginated, with 10 health conditions per page
 * For each condition, a user should be able to click on the first line of the card (condition name) to view detailed information about that condition
-* Ability to download a full list of conditions as a PDF
-   * PDF should include detailed information about each conditions
-* Ability to print all conditions
-   * Print out should include detailed information about each condition
 ---
 
 </details>
@@ -315,87 +314,92 @@ Shipped product should reflect [Phase 0 content document](https://dvagov.sharepo
 
 * [Phase 0 launch Figma file](https://www.figma.com/file/mGZRdLypKGaFsHo5xp2kaZ/Medical-Records?type=design&node-id=65-17315&mode=design&t=jZJVIL5EphhcLSCf-0)
 * [Subject matter expert review details](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Primary%20care/Primary%20Care%20Information%20on%20VA.gov.docx?d=w36e12bce2ee347eead9d9bd109f32a5d&csf=1&web=1&e=F548Gc&nav=eyJoIjoiODE5OTM2Njc4In0)
-
-
-### Vitals
-
-> [!NOTE]
-> To be completed by Kaitlin Fink
-
-<details>
-<summary>List view requirements</summary>
- 
----
-#### IA
-
-#### Content
-
-#### Functionality
----
-</details>
-
-<details>
-<summary>Details view requirements</summary>
- 
----
-#### IA
-
-#### Content
-
-#### Functionality
----
-</details>
-
-<details>
-<summary>Design decisions</summary>
-</br>
-  
-| Decision | Reasoning |
-|-----------------------------------------------------------------------------------------------|-----------------|
-| | |
-</details>
-
 ### Care summaries and notes
-
-> [!NOTE]
-> To be completed by Kaitlin Fink
+Launched to Phase 0 on 2/26/24
 
 <details>
 <summary>List view requirements</summary>
   
 ---
 #### IA
+URL: `/my-health/medical-records/summaries-and-notes`  
+Breadcrumb: No  
+Back button: Yes, `< Back to medical records`
 
 #### Content
+Shipped product should reflect [Phase 0 content document](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/Content%20documents/Phase%200%20all%20domains%20except%20lab%20results,%20no%20blue%20button,%20no%20settings%20page.docx?d=wc94f788df7fc4279b0b49a7baa311219&csf=1&web=1&e=pYhfj6&nav=eyJoIjoiMTgwNjM2MTY5MiJ9).
+
+* H1 for this page should be `Care summaries and notes`
+* Intro text at top of page that explains what you will find in this section of the medical record, including 36 hour hold
+* For each progress note and consultation note in list, include the following information
+  * Note name
+  * Date entered into the record
+  * Location name
+  * Signed by
+* For each admission and discharge summaries in list, include the following information
+  * Note name
+  * Admitted on date
+  * Location name
+  * Discharged by
 
 #### Functionality
 ---
+* List should be paginated, with 10 notes per page in reverse chronological order
+* For each note, a user should be able to click on the first line of the card (note name) to view complete note
+ ---
+
 </details>
 
 <details>
 <summary>Details view requirements</summary>
- 
----
+
 #### IA
+URL: `/my-health/medical-records/summaries-and-notes/note_id`  
+Breadcrumb: No  
+Back button: Yes, `< Back to Care summaries and notes`
 
 #### Content
+Shipped product should reflect [Phase 0 content document](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/Content%20documents/Phase%200%20all%20domains%20except%20lab%20results,%20no%20blue%20button,%20no%20settings%20page.docx?d=wc94f788df7fc4279b0b49a7baa311219&csf=1&web=1&e=OKyEnB&nav=eyJoIjoiNDIzNzY4MTE0In0%3D).
+* Progress and consult notes 
+ * H1 for this page should be note name
+ * Below should include entered on date 
+ * H2 should be details including the following
+   * Location
+   * Signed by
+   * Cosigned by
+   * Date signed
+ * H2 for note with unstrutured note data below
+* Admission and discharge summaries notes
+ * H1 for this page should be note name
+ * Below should include admission date and details about the summary of this page
+ * H2 should be details including the following
+   * Location
+   * Discharged date 
+   * Discharged by
+ * H2 for summary with unstrutured note data below
 
 #### Functionality
+* Ability to download currently in view details of note as a PDF or TXT
+* Ability to print the currently in view details of note
 ---
 </details>
 
 <details>
 <summary>Design decisions</summary>
 </br>
-  
+
 | Decision | Reasoning |
 |-----------------------------------------------------------------------------------------------|-----------------|
-| | |
+|We will call this section of the record care summaries and notes. |This section has been referred to as VA Admission and Discharges and VA Notes in Blue Button download on MHV.  This section will include progress notes, admission and discharge summaries and consultation notes. In the future if other note types are determined valuable we will reevalutate if they should be included here.|
+|Notes and admission and discharge summaries can have multiple addenda. Addenda will be presented as part of the original note to which they were added.|We discussed addenda with the SMEs and agreed that they should be treated as they are today in MHV.  When a provider writes an addendum today they are related to the context of the note. The unstructured text of the original progress note includes an alert at the top that says, “This note has addenda” and then the addendum is added to the note.|
+|The following fields will not be shown to users at first on notes, but may be if verified: Status| SMEs gave input that this field may be helpful, if this includes additional values besides completed. But if completed is the only status then it will not be valuable.|
+|The following fields will not be shown to users at first on admission and discharge summaries, but may be if verified: Date signed, Status, Attending physcian | SMEs gave input that status may be helpful, if this includes additional values besides completed. But if completed is the only status then it will not be valuable. Attending physcian will replace “person who discharged the patient” if available, if not we will keep as is.|
+
 </details>
 
 * [Phase 0 launch Figma file](https://www.figma.com/file/mGZRdLypKGaFsHo5xp2kaZ/Medical-Records?type=design&node-id=65-17315&mode=design&t=jZJVIL5EphhcLSCf-0)
-* [Subject matter expert review - Progress notes](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Primary%20care/Primary%20Care%20Information%20on%20VA.gov.docx?d=w36e12bce2ee347eead9d9bd109f32a5d&csf=1&web=1&e=0oCrbC&nav=eyJoIjoiMTAzNzUwNzk3NSJ9)
-* [Subject matter expert review - Discharge summaries](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Primary%20care/Primary%20Care%20Information%20on%20VA.gov.docx?d=w36e12bce2ee347eead9d9bd109f32a5d&csf=1&web=1&e=JmbRri&nav=eyJoIjoiNTY4MDE0NDc0In0%3D)
+* [Subject matter expert review - Progress and consultation notes](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Primary%20care/Primary%20Care%20Information%20on%20VA.gov.docx?d=w36e12bce2ee347eead9d9bd109f32a5d&csf=1&web=1&e=0oCrbC&nav=eyJoIjoiMTAzNzUwNzk3NSJ9)
+* [Subject matter expert review - Admission and discharge summaries](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Primary%20care/Primary%20Care%20Information%20on%20VA.gov.docx?d=w36e12bce2ee347eead9d9bd109f32a5d&csf=1&web=1&e=JmbRri&nav=eyJoIjoiNTY4MDE0NDc0In0%3D)
 
 
 ### Lab and test results
@@ -422,14 +426,9 @@ Back button: Yes, `< Back to medical records`
   * Test name
      *  If specific test name not available, use test category such as Microbiology
   * Date
-     * Chem/Hem, Microbiology, Pathology: Date specimen was collected
+     * Chem/Hem, Microbiology, Pathology: Date and time collected
      * Imaging: Date imaging test was performed
-  * Test category
-     * Chemistry and hematology
-     * Pathology (if not used as test name)
-     * Microbiology (if not used as test name)
-     * X-ray and imaging results (Radiology)
-  * Provider who ordered the lab or test
+  * Chem/Hem, Microbiology: Provider who ordered the lab or test
 
 #### Functionality
 * List should be paginated, with 10 results per page
@@ -462,7 +461,6 @@ Back button: Yes, `< Back to lab and test results`
    * Date and time that the specimen for this test was collected
    * The location at which the specimen was collected
    * The provider who ordered the test
-   * The location of the provider who ordered the test
    * Site or sample tested
    * Comments entered by the lab
 * Information about understanding your results, presented within an additional info component
@@ -501,11 +499,10 @@ Back button: Yes, `< Back to lab and test results`
    * Date and time that the specimen for this test was collected
    * The location at which the specimen was collected
    * The provider who ordered the test
-   * The location of the provider who ordered the test
    * Site or sample tested
    * Collection sample - e.g. swab
    * Performing lab location - where the sample was tested/evaluated
-   * Date and time that the sample evaluation was completed
+   * Date that the sample evaluation was completed
    * The actual resulting microbiology report - presented in monospaced font to preserve spacing
    * Information about understanding your results, presented within an additional info component
 
@@ -537,7 +534,7 @@ Back button: Yes, `< Back to lab and test results`
    * Type of test - e.g. Surgical pathology _(backup for H1)_
    * Date and time that the specimen for this test was collected
    * Performing lab location - where the sample was tested/evaluated
-   * Date and time that the sample evaluation was completed
+   * Date that the sample evaluation was completed
    * The actual resulting pathology report - presented in monospaced font to preserve spacing
    * Information about understanding your results, presented within an additional info component
 
@@ -597,7 +594,47 @@ Back button: Yes, `< Back to lab and test results`
 * [Subject matter expert review - Lab results](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Lab%20results/Lab%20results%20information%20on%20VA.gov.docx?d=wfedc587c450b4d79afeda296ac1cc29a&csf=1&web=1&e=PwDTCE)
 * [Subject matter expert review - Imaging results](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/SME%20Reviews/Imaging%20results/Imaging%20results%20information%20on%20VA.gov.docx?d=w0887da3bbedb4994b48d7f90c9d93461&csf=1&web=1&e=e2JHoM)
 
-### Download all medical records
+### Vitals
+
+<details>
+<summary>List view requirements</summary>
+ 
+---
+#### IA
+URL: `/my-health/medical-records/vitals`  
+Breadcrumb: No  
+Back button: Yes, `< Back to medical records`
+#### Content
+
+#### Functionality
+---
+</details>
+
+<details>
+<summary>Details view requirements</summary>
+ 
+---
+#### IA
+
+#### Content
+
+#### Functionality
+---
+</details>
+
+<details>
+<summary>Design decisions</summary>
+</br>
+  
+| Decision | Reasoning |
+|-----------------------------------------------------------------------------------------------|-----------------|
+|We will only show the following vitals: blood pressure, heart rate, breathing rate, blood oxygen level (pulse oximetry), temperature, weight, and height, weight. | Reason why|
+|We will not the following vitals: show pain, BMI| Reason why|
+|The following fields will not be shown to users:  | SMEs gave input that these fields are not necessary to show to patients and may not be reliable.|
+|The following fields will not be shown to users at first, but may be if verified: | SMEs gave input that this field may be helpful, but since it is not shown in MHV today, needs to be verified.|
+
+</br>
+### Download all medical records (Blue Button Reports)
 <details>
 <summary>Requirements</summary>
 
@@ -621,6 +658,7 @@ Back button: Yes, `< Back to medical records`
 #### Functionality 
 * Ability to download all records available on MHV as a single PDF
 * Ability to download all records available on MHV as a single text file
+* Historical PGHD will be included in the downloaded medical records report. 
 
 ---
 </details>
@@ -684,8 +722,50 @@ Shipped product should reflect [Phase 0 content document](https://dvagov.sharepo
 * [Phase 0 launch design file](https://www.figma.com/file/mGZRdLypKGaFsHo5xp2kaZ/Medical-Records?type=design&node-id=65-17315&mode=design&t=jZJVIL5EphhcLSCf-0)
 * [Phase 0 content document](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Medical%20Records/Content%20documents/MR%20sharing%20settings%20content%20(VHIE).docx?d=wac25c016d3b24e649e0c607ff8cc33f9&csf=1&web=1&e=nfXSFv)
 
+### Vitals
 
+<details>
+<summary>List view requirements</summary>
+ 
+---
+#### IA
+URL: `/my-health/medical-records/vitals`  
+Breadcrumb: No  
+Back button: Yes, `< Back to medical records`
+#### Content
+
+#### Functionality
+---
+</details>
+
+<details>
+<summary>Details view requirements</summary>
+ 
+---
+#### IA
+
+#### Content
+
+#### Functionality
+---
+</details>
+
+<details>
+<summary>Design decisions</summary>
+</br>
+  
+| Decision | Reasoning |
+|-----------------------------------------------------------------------------------------------|-----------------|
+|We will only show the following vitals: blood pressure, heart rate, breathing rate, blood oxygen level (pulse oximetry), temperature, weight, and height, weight. | Reason why|
+|We will not the following vitals: show pain, BMI| Reason why|
+|The following fields will not be shown to users:  | SMEs gave input that these fields are not necessary to show to patients and may not be reliable.|
+|The following fields will not be shown to users at first, but may be if verified: | SMEs gave input that this field may be helpful, but since it is not shown in MHV today, needs to be verified.|
+
+</br>
 ## Phase 1
 
 ## Phase 2
+
+
+
 

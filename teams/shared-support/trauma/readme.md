@@ -7,8 +7,9 @@ For more on our purpose, check out our [takeaways from a collaborative discussio
 Anyone can join, regardless of role, title, or status. There's no "official" way of joining, but we usually recommend to:
 - [ ] Join our Slack channel at `#trauma-practice`. Or reach out to Martha (martha.wilkes@va.gov) if you don't have Slack.
 - [ ] Read [how we work together and our community guidelines](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/shared-support/trauma/community-guidelines.md).
-- [ ] Introduce yourself in `#trauma-practice` or at a Community of Practice meeting. This is 100% optional. 💙
-- [ ] Reach out on `#trauma-practice` to be added to our next Community of Practice meeting. These gatherings are open to anyone. You can also [read or add to our shared agenda (Google docs)](https://docs.google.com/document/d/1z5OsfMtlnVp-ntPUi3zPUzw__1mwECqR9bMJygN04h0/edit?usp=sharing) before you join.
+- [ ] Introduce yourself in `#trauma-practice`. This is 100% optional. 💙
+- [ ] Learn more about our [gatherings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/shared-support/trauma/gatherings.md).
+- [ ] Reach out on `#trauma-practice` and tag Martha Wilkes if you'd like an invite to our gatherings.
 - [ ] In your own time, we encourage you to check out this [introduction to trauma (and resource list)](https://docs.google.com/document/d/11W66cjxCgguF_ulVOxet-CszfJB3aTBl-OxJTEeloGg/edit?usp=sharing) and skim through our [past shared learnings in our notes folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/shared-support/trauma/notes).
 
 ## Participate and connect with our community
@@ -73,6 +74,10 @@ Attended a Community of Practice meeting or Practice Circle? Lurk on our Slack c
 **Charlotte Cesana**, Researcher, VA Debt Resolution Team
 - charlotte@cityfriends.tech, [LinkedIn](https://www.linkedin.com/in/charlottecesana/)
 - Interviews are an opportunity to connect with Veterans, to listen, and to learn. I'm interested in growing our community of practice to ensure that we cultivate an environment of safety and comfort for our participants at all times. 
+
+**Christine Rose Steiffer**, Designer / Researcher, Disability Benefits Employee Experience Team
+- csteiffer@gmail.com, [LinkedIn](https://www.linkedin.com/in/christinesteiffer/)
+- I am here to learn from this group of passionate individuals about how to speak with and design for those who have experienced trauma. I am also pursuing my Masters degree in Social Work as a means of deepening my understanding of what trauma-informed care looks like in a parallel field of community-based changemaking.
 
 <hr/>
 

@@ -1,6 +1,54 @@
 This meeting is to discuss and address any dependencies between the VA Mobile Shared Systems teams and the Flagship teams that are using their systems.
 
 **Agenda/Notes**
+04/30/24
+* **This Meeting Format**
+   * We'd like to change this back to an SoS type meeting and invite the POs.  
+ 
+     
+04/16/24
+* **Q2 Planning**
+   * Discuss Dependencies
+   * Ensure we are ready for read-out with POs
+* **Updating Epic cards (Kelly)**
+   * Timing has been determined to be at the end/beginning of each Sprint
+   * Slack reminder?  Calendar invite? How should we remind ourselves
+
+  
+04/2/24
+* **Q2 Planning**
+   * Look at Next columns for teams
+* **Updating Epic cards (Kelly)**
+   * Epic Template review [Slack link](https://adhoc.slack.com/archives/C05S1S1MQ3G/p1711737772078459)
+* **Design System Team Feedback Survey (Kelly)**
+   * [Survey Link](https://forms.gle/3aDLgTbdK3m2koQy6)
+
+03/19/24
+* **DS Link Component in Flagship app (Kelly)**
+   * Have at it!
+   * [H&B Epic](https://app.zenhub.com/workspaces/va-mobile-60f1a34998bc75000f2a489f/issues/gh/department-of-veterans-affairs/va-mobile-app/7669)
+   * [Global Epic](https://app.zenhub.com/workspaces/va-mobile-60f1a34998bc75000f2a489f/issues/gh/department-of-veterans-affairs/va-mobile-app/7668)
+* **Updating Epic cards (Kelly)**
+   * How can we build into our process a way for us to keep Epic cards updated consistently?
+       * Kelly to create new Epic template to discuss with our team then get Rachel's feedback.
+* **Team Health (Jen, Tim, Matt)**
+   * How to measure the health of our teams?
+       * PMs to work with their team to fill this out by 4/2/24
+       * Form: https://docs.google.com/forms/d/e/1FAIpQLSdW8pfT1Tk-lbpsRFFPCxwXR-6lyZw4gKv9d680zn_SW3ycZA/viewform 
+
+
+02/20/24
+* **DS Button Component in Flagship app (Kelly)**
+   * All Stories are closed, are we all done?
+       * Binny confirmed "VAButton and Button do not exist as components in the current develop branch so I think that’s a safe assumption as to 100% adoption."
+* **Lovell/Oracle Transition (Alayna)** 
+  *  Coordinating AF and backened changes
+  *  See epic: https://github.com/department-of-veterans-affairs/va-mobile-app/issues/7828
+
+  
+
+
+  
 02/06/24
 * **Removing White Button Variant and old colors from Flagship app (Kelly)**
    * [Colors ticket](https://app.zenhub.com/workspaces/va-mobile-60f1a34998bc75000f2a489f/issues/gh/department-of-veterans-affairs/va-mobile-library/120)

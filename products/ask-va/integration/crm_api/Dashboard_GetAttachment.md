@@ -4,7 +4,7 @@
 
 **Method**: GET
 
-**Path**: /attachment?:id:
+**Path**: /ask_va_api/v0/download_attachment?:id:
 
 **Parameters**:
 | Name | Type | Description |
@@ -65,6 +65,25 @@
 </td>
 </tr>
 </table>
+
+## Example Response from Testing
+
+```
+{
+    "Data": {
+        "FileContent": "VUVzFBBQUFBQUFBQUl5b0FBR1J2WTFCeWIzQnpMMkZ3Y0M1NGJXeFFTd1VHQUFBQUFBc0FDd0RCQWdBQWJpMEFBQUFB",
+        "FileName": "AttachmenttoVA1.docx"
+    },
+    "Message": null,
+    "ExceptionOccurred": false,
+    "ExceptionMessage": null,
+    "MessageId": "9470b566-2afe-4599-a0ba-16dad2b98cf1"
+}
+
+https://dev.integration.d365.va.gov/vagov.lob.ava/api/Attachment?OrganizationName=iris-dev&id=4EC15448-1BE9-ED11-A7C6-001DD806AAE7
+```
+
+![image](https://github.com/department-of-veterans-affairs/va.gov-team/assets/89649306/abe006bc-d2ba-46d9-b35c-ea0d986606c1)
 
 ## Notes
 

@@ -3,16 +3,40 @@
 ---
 
 ## Overview
-The VA.gov header and footer are key navigational elements for VA.gov. They go beyond just a feature of the modernized VA.gov as the header and footer are also 'injected' to many non-modernized sites via script. Examples include: 
-- https://www.cem.va.gov/ 
+The VA.gov header and footer are key navigational elements for VA.gov. 
+
+The header and footer are not used exclusively on the modernized VA.gov, and are also 'injected' into many non-modernized TeamSites via a javascript application (proxy-rewrite). Example sites using the injected header/footer include: 
 - https://benefits.va.gov/benefits/ 
 - https://www.va.gov/health/
+- https://www.cem.va.gov/ 
 
 Note: Be aware that there are also "copycat" injected headers such as https://www.research.va.gov/ (as of 4/17/2023) that exist because the injection script cannot work on that site.
 
+
+## Product Ownership
+| | VA.gov header & footer | Injected header/footer | 
+| --- | --- | --- |
+| Content | Sitewide Content | N/A
+| Design  | Sitewide Product team | N/A |
+| Build & compiled presentation | Design System, including Analytics and Components | Design System | 
+| Delivery | Design System | Sitewide Product team (proxy-rewrite app) | 
+
+**Sitewide Content**
+- OCTO Lead: Danielle Thierry
+- OCTO Slack channel: #sitewide-content-accessibility-ia
+
+**Sitewide Product team**
+ - OCTO Sitewide Lead: Michelle Middaugh
+ - VA Design lead: Amanda Klausmeier
+ - OCTO Slack channel: #sitewide-public-websites
+
+**VA Design System Team**
+ - OCTO Design System Team lead: Matt Dingee
+ - OCTO Slack channel: #platform-design-system
+
 ## Problem Statement
 
-- How might we create and maintain a header that supports Veterans "browse" behaviors on the site that accurately reflect flows and information architecture?
+- How might we create and maintain a header that supports Veteran "browse" behaviors that accurately reflect flows and information architecture?
 - How might this header support the identity of VA?
 - How might we create and maintain a header that increases the usage and throughput of VA services - especially that of self-service?
  
@@ -32,8 +56,8 @@ Note: Be aware that there are also "copycat" injected headers such as https://ww
 ## Desired Business Outcomes
 
 - Facilitates the IA of VA.gov
-- Easily maintained content that leverages the CMS and content publishing releases rather than code releases for most maintenance activities.
-- Contains mandated information (e.g. FOIA, Privacy, No FEAR, etc) and supports Federal and VA policy (e.g. 21st century idea act, etc)
+- Easily maintained content that leverages the Drupal content management system and content publishing releases for most maintenance activities (rather than hard coded behavior that requires code release and deployment).
+- Contains mandated information (e.g. FOIA, Privacy, No FEAR, etc) and supports Federal and VA policy (e.g. 21st century IDEA act, etc)
 - Supports VA.gov design system needs
 - Supports USWDS design system needs
 
@@ -69,11 +93,6 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 ## Assumptions
 - 
 
-
-### Initiatives
-
-- [2021 New Mobile Header](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/initiatives/2021-new-mobile-header/Initiative%20Briefing.md)
-- [2024 Federal Standardized Header and Footer](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/header-footer/initiatives/2024-federal-standardized-header-footer)
 --- 
 
 ## Launch Strategy
@@ -88,7 +107,20 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 
 ## Solution Narrative
 
-### Current Status
+
+
+---
+
+### Artifacts
+
+#### Initiatives
+- [2021 New Mobile Header](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/initiatives/2021-new-mobile-header/Initiative%20Briefing.md)
+- [2024 Federal Standardized Header and Footer](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/header-footer/initiatives/2024-federal-standardized-header-footer) - discontinued, did not ship
+
+#### Research
+- [2024 Federal Standardized Header/Footer Usability Testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/initiatives/2024-federal-standardized-header-footer/research)
+
+---
 
 ### Key Decisions
 
@@ -102,28 +134,5 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 
 ---
 
-#### Communications
-
-- Team Name: Sitewide-Public-Websites
-- Slack channel: #sitewide-public-websites
-- Stakeholders:
-
-
-#### Team Members
-
- - OCTO Lead: Dave Conlon
- - PM: Fran Cross
- - Engineering: Randi Mays et al
- - Design: Jordan Woods and Amanda Klausmeier
- - Research: Cindy Merrill
-
- 
 
 #### Stakeholders
-
-<details>
- 
-_What offices/departments are critical to make this initiative successful?_
- 
-</details>
-

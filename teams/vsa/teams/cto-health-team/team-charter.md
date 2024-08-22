@@ -26,16 +26,18 @@ CTO Health Team
 Team Name - Cartographers
 - [ ] Lauren Alexanderson (OCTO Product Sponsor) - please work with [Alicia Proctor](https://dsva.slack.com/team/U022MUJ2NAJ), Lauren's executive assistant to schedule meetings.
 - [ ] Patrick Bateman (OCTO Product Lead)
+- [ ] Kaitlin Fink (OCTO Design Lead)
+- [ ] Kaitlin Fink (OCTO Design Lead)
 - [ ] Lynne Johnson (Delivery Manager)
 - [ ] Wes Rowe (Product Manager)
 - [ ] Florence McCafferty (Design Lead)
 - [ ] Jonathan Nelson (Designer)
-- [ ] Keith Cheung (Designer)
+- [ ] Kat Brinkley (Researcher/Designer)
 - [ ] Carlos Felix (Technical Architect)
 - [ ] Jim Zaccardo (Full stack developer)
 - [ ] Richard Davis (Full stack developer)
 - [ ] Daniel Cloud (Full stack developer)
-- [ ] Dan Bivins (Accessibilty Specialist)
+- [ ] Vacant (Accessibilty Specialist)
 - [ ] Sara Sterkenberg (Information Architect)
 
 ---
@@ -58,24 +60,27 @@ Team Name - Cartographers
 
 ### Sprint board columns
 
-As of 4/4/2023, the current columns on our sprint board columns are:
+As of 4/1/2024, the current columns on our sprint board columns are:
 
 | Column |Description| 
 |:--:| :-- |
-|**Icebox**	|Tasks here are nice to haves, blue sky ideas, or ideas that need more thought. These tasks may or may not be well defined and not estimated. Usually, big idea task will start here|
-|**Epics**|	Epics are high-level tasks. These have details, and. are usually well defined. Epics have subtasks that run through the process. An epic is closed when all the subtasks are closed|
-|**Backlog**|	The backlog is the holding pen for tasks. This column contains tickets that are a granular task that is well defined, but may or may not be estimated yet. A new task is usually created and stored here. Even if pointed we should use backlog to hold pointed tickets until sprint planning or we are confident that it should go in upcoming sprint. Before being estimated or worked on, all tickets must have tasks and acceptance criteria defined. |
-|**Ready**|	Ready tickets are tickets that come from the backlog. Once a Backlog ticket is estimated, it gets moved into the Ready column. These tickets are ready to go (well defined, estimated, approved by the team), but not in any current sprint.|
-|**Current Sprint**	|These tickets are taken from the Ready column and are queued to be completed in the current sprint. This is the "to do" column for the current sprint.|
-|**In Progress**|	These tickets represent the work that is going on currently. Active work (development, documentation, etc) should be reflected in a ticket in this column. This is one of the few columns that every ticket should be in at one point. A ticket's assignee should be putting notes and updates on currently worked on tickets.|
-|**Blocked**|	Tickets in the blocked column can not be worked on for some reason. That reason should be documented on the ticket, and if a ticket exists that fixes that blocker, that ticket should be linked.|
-|**Validate**|	This column represents tickets that no longer being actively worked on, but are going through some review process. This review process can be, but not limited to, meetings or code reviews.|
-|**Closed**|	These tickets are complete and are confirmed to be completed.|
+|**Icebox**	|Default status when a new issue is created. Low priority Issues that do not need to be addressed in the near future.|
+|**Epics**|	Group issues into epics to easily track long-term goals.|
+|**Backlog**|	New issues that have not been broken down or estimated. |
+|**Ready**|	Issues that have been assigned, estimated, prioritized, and are ready to be worked on.|
+|**Current Sprint**	|Issues ready to be worked on in the sprint, prioritized top-to-bottom.|
+|**In Progress**|	Issue is being worked on by one or more team members.|
+|**Blocked**|	Issues that have dependencies or are otherwise blocked from being completed.|
+|**Review/QA**|	Issue is in review - inside and/or outside of the team. The work is complete but undergoing a second set of eyes and/or stakeholder approval.|
+|**Closed**| Issue is complete & merged.|
 
 <br/>
 
 #### Program Increment Planning
-Since our work is closely related, we may attend PI planning with the My HealtheVet National Portal teams doing work for OCC.  These are 3.5 day sessions typically held in March, June, September, and December.  The organizer for that activity will send out invitations several weeks prior.  As our team members shift, the PO or PM should let the organizer know to add/remove people.
+Since our work is closely related, the DM and PM may attend PI planning with the My HealtheVet National Portal teams doing work for OCC.  These are 3.5 day sessions typically held in March, June, September, and December.  The organizer for that activity will send out invitations several weeks prior.  As our team members shift, the PO or PM should let the organizer know to add/remove people.
+
+#### Roadmap
+- [MHV on VA.gov roadmap](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1698864295789/df06ec660f12babff6b6853333e1e02ac7c280d9?wid=0-1698874401184&sender=48ab5afe-fa6e-43bd-b956-400f9ca2c627)
 
 #### Sprint Planning
 Outline work to be done this sprint in order to accomplish the team's goals.
@@ -94,12 +99,12 @@ Assess and update workload for remainder of sprint
 
 | Point | Task Size | Complexity | Description |
 |-|-|-|-|
-| 1 | Easy  | Very Simple | Work is known, can be executed quickly |
-| 2 | Small | Simple | Work is known, and can be completed with minimal hours |
-| 3 | Medium | Average | Work is known, and can be completed in a couple days |
-| 5 | Large  | Complex | Work is known and can be completed in half a sprint | 
-| 8 | XLarge | Very Complex | Work is complex and/or there might be unknown factors that need to be discussed prior to planning. Once further information is known, break down into smaller tickets that can be completed in a sprint with certantity. |
-| 13 | XXLarge |  | Needs discovery before it can be planned for a sprint. If a story is estimated as 13, it should be broken down into smaller tickets that can be completed in the sprint. |
+| 1 | Easy  | Very Simple | No unknowns, very specific, no dependiencies, can be executed quickly (a day or less) |
+| 2 | Small | Simple | Very specific, relatively trivial but may take longer than a day to complete, like a 1 but may have other tasks  or dependencies that take more time.|
+| 3 | Medium | Average | May be some unknowns, not easy but we've done this king of work in the past, there may be 2-3 closely related tasks, each of which is simple, and I can fit this task in my head at one time.|
+| 5 | Large  | Complex | We have to learn some new things but are confident in how long that would take. May be cognitively demanding work, like synthesis. Small group of closely related tasks that cannot be separated.| 
+| 8 | XLarge | Very Complex | Some unknowns, hard to tell how much work will be involved from the start. Large group of related tasks that may be able to be separated.|
+| 13 | XXLarge | Very Complex | Cannot be completed in one sprint by one person, needs multiple people. May need discovery before it can be planned for a sprint. Should be broke down unless there is a good reason not to. |
 
 Most of the team's tickets are larger initiatives that include tasks from multiple disciplines (engineering, design, research, QA). When estimating these tickets, typically team members estimate only for their discipline's work. To get the estimate for the entire ticket, add the discipline estimates and assign it the nearest fibonacci value. 
 
@@ -114,6 +119,7 @@ Review and demonstrate accomplishments and work completed.
 
 - Every other Wednesday @ 1:05 PM ET
 - 45 minutes
+- Link to sprint demo recordings: VA network SharePoint site
 
 #### Team Norms
 - Team crosses all US time zones so core business/meeting hours are 12-4PM ET.
@@ -125,6 +131,7 @@ Review and demonstrate accomplishments and work completed.
 - Communication and collaboration
 - Action over discussion
 - Ask for help when needed - from your team members as well as OCTO.
+- Making a difference and providing value to veterans.
 
 ##### Program Meetings
 
@@ -134,7 +141,7 @@ Review and demonstrate accomplishments and work completed.
 | MHV on VA.gov Weekly Stand Up | Wednesday (weekly) | Provide MHV on VA.gov updates to all MHV on VA.gov adjacent teams | Patrick; Lynne back up |
 | MHV Weekly Design Review | Wednesday (weekly) | Provide MHV on VA.gov updates (UCD/UX, Developers, Testers, Product, and Stakeholder updates) | Designers | 
 
-#### Slack:
+#### VA Slack:
 - Slack is our primary form of communication outside meetings.  It is encouraged that we communicate in public channels rather than private channels or direct messages, except when necessary.  Please thread your replies, and @ whoever you need to specifically provide info to, or need feedback from.  Channels:
   -  [#mhv-on-vagov-portal-home](https://dsva.slack.com/archives/C04GDQSHD1R) - Discovery & architectural discovery, development of auth & unauth "MHV on VA.gov" landing page.
   -  [#health-portal-backchannel](https://dsva.slack.com/archives/C02TKHQCF9U)- Private invitation-only channel for discussing topics that are not yet ready for public disclosure.

@@ -23,8 +23,7 @@ What is Veterans’ familiarity with this tool? Is this a new product or an iter
 ### OCTO Priorities 
 Which OCTO priorities does this research support? 
 
-- Enhance accessibility, reliability, and security of Veteran's digital services
-- Reduce the time it takes for Veterans to find, use, and receive services
+- Our digital experiences are the best way to access VA health care and benefits.
 
 **Increase**
 - Usage of digital, self-service tools
@@ -47,7 +46,7 @@ The purpose of this research is to get user feedback on design and accessibility
 
 **From existing search page**
 
-What do Veterans and others expect from the location mapping tool?
+1. What do Veterans and others expect from the location mapping tool?
 - Do they interact with the map before trying to search?
 - Are instructions for improving search results clear?
 - How do they navigate search results if they want to learn about multiple locations?
@@ -55,18 +54,18 @@ What do Veterans and others expect from the location mapping tool?
 
 **From the map prototype in staging**
 
-Do Veterans and others understand the distinction between map and list view?  
+2. Do Veterans and others understand the distinction between map and list view?  
 - Do they understand how to toggle between the two views?
 - Is the numbering of search results clear?
 - Do they understand what will happen if they select a numbered result on the map?
 - Do they understand that interacting with the map directly will alter the list of results in list view?
 
-Do Veterans and others understand how to refine and alter map view?  Do they use the zoom functionality? 
+3. Do Veterans and others understand how to refine and alter map view?  Do they use the zoom functionality? 
 - Do they use "Use my location" feature?
 - Do they notice and/or select numbered results on the map? 
 - What do they expect will happen when they do?
 
-Do Veterans and others find the location-specific information relevant and actionable?  
+4. Do Veterans and others find the location-specific information relevant and actionable?  
 - Can they identify which facilities are closest to their desired location?
 - Do they know which phone number to call for general information?
 - Do they understand the purpose of each phone number listed?
@@ -81,14 +80,14 @@ Veterans and others will understand:
 - How to take the next action after picking their desired location (click on website, call, get directions etc)
 
 ## Methodology	
-We will conduct usability testing to guide research participants through a coded prototype. 
-- All users must be on mobile devices
-- Half of participants should be assistive tech (AT) users
+We will conduct **remote moderated usability testing** to observe research participants using a coded protoype on mobile devices. 
+- All users must be on **mobile devices**
+- Half of participants should be **screen reader users**
 - Sessions will be conducted over Zoom, and we would like Zoom transcripts
 
 ### Research materials
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment. 
-- Link to conversation guide
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/2024-01-mobile-map/conversation-guide.md)
 - [Link to prototype](url goes here)
 
 ### Location
@@ -101,17 +100,19 @@ Remote, via Zoom
 The target audience for our research is Veterans and others. 
 
 ### Recruitment criteria
-Our research participants will be veterans and others, and we will use Perigean to recruit for this moderated study. We’d like to recruit 12 participants for a total of 10 completed sessions:
+Our research participants will be veterans and others, and we will use Perigean to recruit for this moderated study. We’d like to **recruit 12 participants** for a total of **10 completed sessions**:
 
-**Primary criteria (must-haves)**
-- 5 people who use assistive tech
-- Must be Veterans, spouses, or caregivers
-- Must have a mobile phone and be willing to complete their sessions on this device
-- Must be willing to share their screen on the Zoom call
-- Must have a working microphone
-- Must have Zoom downloaded to their mobile phone prior to the session and know how to share their screen
+**Required criteria (in decreasing order of priority)**
+- All must be Veterans, spouses, or caregivers
+- All must have a mobile phone and be willing to complete their sessions on this device
+- All must be willing to share their screen on the Zoom call
+- All must have a working microphone
+- All must have Zoom downloaded to their mobile phone prior to the session and know how to share their screen
+- 5 should be **people who use screen readers**
+- **At least 8** should be Veterans
 
-**Secondary criteria (would-like-to-haves)**
+  
+**Secondary criteria**
 - At least 2 people are age 55 or older 
 - At least 2 people 35 or under 
 - At least 2 people don't have any degree or vocational training after high school 
@@ -120,6 +121,28 @@ Our research participants will be veterans and others, and we will use Perigean 
 - At least 3 people of color 
 - At least 2 women 
 - At least 2 people are LGBTQ+ 
+
+### Screening Questions
+
+1. For this meeting, you'll need a mobile device with Zoom installed that can screen share and has a working microphone. What kind of device will you be using? *(RECORD)*
+    a. Smartphone  
+    b. Tablet
+
+2. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with experiences like these.
+     a. No
+     b. Yes *(RECRUIT 2 and RECORD as having a cognitive disability)*
+
+3. Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve. 
+     a. No  
+     b. Yes *(RECRUIT 2 and RECORD as LGBTQ+)*
+
+4. Do you use a screen reader while using your mobile device? We ask this question because we want to make sure that our website works for people who use this type of technology.
+    a. No *(RECRUIT 5)
+    b. Yes *(ask next question)*
+
+5. Are you willing to join the Zoom session using your screen reader? 
+    a. No *(DISQUALIFY)* 
+    b. Yes *(RECRUIT 5)*  
 
 
 ## Timeline
@@ -144,13 +167,25 @@ A pilot session is required. Please indicate the date and name of a mock partici
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. *Note: we recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S.* 
 
 Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. (e.g. Monday 9-1, 3-6; Tuesday 9-6, etc.; ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
-	
+
+Team Availability | Time Slots (ET)
+------------------|--------------
+Date | times
+Date | times
+Date | times
+Date | times
+Date | times
+Date | times
+Date | times
+Date | times
+
+
 ## Team Roles	
 Please list the people who will be serving in each role. **Include the primary phone number for moderator and the emails for moderator, notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker** 	
 - Moderator: Alexis Logsdon
-- Research guide writing and task development (usually but not always same as moderator):	
-- Participant recruiting & screening:	
-- Project point of contact:	
+- Research guide writing and task development (usually but not always same as moderator): Alexis Logsdon	
+- Participant recruiting & screening: Perigean	
+- Project point of contact: Alexis Logsdon	
 - Participant(s) for pilot test:
 - Accessibility specialist (for sessions where support for assistive technology may be needed):	
 - Note-takers:	

@@ -13,7 +13,7 @@ Veterans submitting online form 28-1900 have a positive experience and can trust
 
 - The 28-1900 online form generates and submits the most recent version of the claim pdf to increase processing efficiency
 - The 28-1900 online form collects all required information from the Veteran to ensure successful claim processing
-- Veterans encounter fewer critical accessibility issues with completing the online form
+- Veterans encounter fewer critical accessibility issues (level 0-2) with completing the online form
 
 ## Undesired User Outcomes
 - The online form has errors or issues that lead to processing delays
@@ -59,23 +59,21 @@ Veterans submitting online form 28-1900 have a positive experience and can trust
 - Future: An assessment of the complete VR&E online form experience will be done to identify and prioritize form improvements and additional accessibility work.
 
 #### Go-to-market 
-- We will be working closely with VBA and REW stakeholders to ensure the payload for the form results in efficient processing
+- We will be working closely with VBA and RES stakeholders to ensure the payload for the form results in efficient processing
 
 --- 
 
 ## Launch Planning
 ### Collaboration Cycle
-> 💡 *Use for any Collab Cycle tracking, questions.*
-
-- [Kickoff ticket](TBD)
-- CAIA Ticket
+- [Kickoff ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/74141)
+- [CAIA Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/75169)
 
 ### Timeline 
-> Collab cycle kick off:
-> CAIA kick off:
-> Design Intent:
-> Midpoint Review:
-> Staging Review:
+- Collab cycle kick off: 1/22/2024
+- CAIA kick off: 2/14/2024
+- Design Intent: 2/5/2024
+- Midpoint Review:
+- Staging Review:
 
 * [Link to Release Plan for this Initiative](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md)
 

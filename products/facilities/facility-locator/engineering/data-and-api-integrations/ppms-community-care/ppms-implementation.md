@@ -20,10 +20,12 @@ Facility Locator integrates with Community Care data, to display Community Care 
 ## Owners / Support
 PPMS team own the PPMS data / endpoints. 
 
-PPMS hosts PPMS Integration Office Hours:
-* Weekly on Tuesdays
-* 1pm ET
-* [MS Teams call link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODA4M2RkOTItM2E4OS00MzY4LWFhZjctYjM1MTdhYTQ5NjI1%40thread.v2/0?context=%7b%22Tid%22%3a%22e95f1b23-abaf-45ee-821d-b7ab251ab3bf%22%2c%22Oid%22%3a%220af18ed8-f144-4baf-ae78-4bb0789af688%22%7d)
+[May 2024]
+* PPMS hosts **PPMS Integration Office Hours**:
+  * Meeting owner: ornella.gomez1@va.gov
+  * Weekly on Tuesdays, 1pm ET
+  * [MS Teams call link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWE3NjBmNTAtNDlhYS00ZTdjLWI1MWEtNzhiNzMwM2EzNmE0%40thread.v2/0?context=%7b%22Tid%22%3a%22e95f1b23-abaf-45ee-821d-b7ab251ab3bf%22%2c%22Oid%22%3a%222d38b465-c51a-412c-8e6b-a9d4843eff2b%22%7d)
+* **MS Team chat** for questions / updates: [Provider Profile Management System (PPMS) Community | General | Microsoft Teams](https://teams.microsoft.com/l/team/19%3A2zu7xoewCffgNQryaIqmG03z9SUhsGoJUPUSWa2vZUE1%40thread.tacv2/conversations?groupId=68e7db21-a328-4d8c-8275-78f4e736b046&tenantId=e95f1b23-abaf-45ee-821d-b7ab251ab3bf)
 
 
 ## Provider Core Training
@@ -44,19 +46,24 @@ Epic = https://github.com/department-of-veterans-affairs/va.gov-cms/issues/14225
 ## Development for PPMS
 Requires vets-api console access. File a ticket to request, e.g. https://github.com/department-of-veterans-affairs/va.gov-team/issues/59791
 
+### Local dev work 
+[PPMS: How to connect vets-api to PPMS for local development](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facilities-api/how-to-connect-vets-api-to-PPMS-for-local-development.md)
+
 
 ## PPMS Endpoints
 The PPMS endpoints are available only on the VA network or through CAG. They are as follows:
 
 ### DEV
-- https://dws-dev-ppms.devtest.vaec.va.gov/swagger/ui/index
-- Swagger
+DEVELOPMENT APIM Root URL: dws-dev.pmt.vaec.va.gov
+Swagger: https://dws-dev-ppms.devtest.vaec.va.gov/swagger/ui/index (the Dev root URL changed in 6/2024 to the URL above. This Swagger URL has probably changed -- I haven't been able to verify) 
 
 ### NPROD
-https://nprod-apim.developer.ppms.va.gov/
+PREPROD APIM Root URL: https://api.preprod.pmt.vaec.va.gov/dws/v1.0/ 
 -  Microsoft Azure API Management - developer portal (va.gov), subscription key required
 
 ### PROD EAST
+PRODUCTION APIM Root URL: **CHANGING 8/4/2024**
+
 https://api-east.apim.developer.ppms.va.gov/
 -  Microsoft Azure API Management - developer portal (va.gov), subscription key required
 
@@ -106,6 +113,17 @@ Course Expiration Date
        - `curl` will log the request its attempting to make to `STDOUT`
        - `logger` logs the body of the response to `STDOUT`
     - The [TIC](https://github.com/department-of-veterans-affairs/devops/blob/master/docs%2Faws-dx-transit-spoke-architecture%2Farchitecture.md)
+
+### PPMS How to get data that vets-api is sending to PPMS
+PPMS Swagger - Allows you to get the raw data from PPMS but is limited because you can't alter requests except for the options that Swagger gives you.
+Alternative 
+- [Get access to ArgoCD vets-api rails console](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new/choose)
+- Adding logs with limitations to show only on dev to vets-api - get merged into dev
+- Go into ArgoCD
+- Go into pod
+- Go into rails console and look at logs to compare what was being sent
+  
+Max suggested if you make changes to vets-api models write down what you're changing and what you need from the data so that you can repeat steps and recover changes.
 
 ### PPMS is making a change to their API (when??)
 TODO: 2023-12-28: IS the below still real?  VCR TAPES??

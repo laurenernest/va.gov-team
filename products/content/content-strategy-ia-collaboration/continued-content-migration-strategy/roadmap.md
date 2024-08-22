@@ -4,8 +4,8 @@
 [Supporting work](#Supporting-work) <br>
 [Criteria for prioritization](#Criteria-for-prioritization) <br>
 [Recently completed migration efforts](#Recently-completed-migration-efforts) <br>
-[Currently in progress migration initiatives](Currently-in-progress-migration-initiatives) <br>
-[Up next migration efforts](Up-next-migration-efforts)
+[Currently in progress migration initiatives](#Currently-in-progress-migration-initiatives) <br>
+[Up next migration efforts](#Up-next-migration-efforts)
 
 ## Purpose of migration
 
@@ -29,7 +29,7 @@ The remaining content that must migrate to the modernized VA.gov is highly nuanc
 
 - **Need:** Clear content placement criteria based on audiences and content types. This will allow our OCTO team and our partners to align around a shared understanding of where to migrate content in the modernized environment and make faster, more consistent decisions. 
   - **Completed work:** We have established content placement criteria for the benefit hubs vs. resources and support, and a [working process for determining content placement within benefit hubs vs. R&S](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/resources-and-support-author-pilot/process.md)
-  - **In-progress work:** We are working on broader content placement criteria as part of the 6102 work. This is a sitewide crew priority for 2024.
+  - **In-progress work:** We are working on broader content placement criteria in partnership with the web governance board and members across VA. This is a sitewide crew priority for 2024-2025.
 - **Need:** Criteria for prioritization of content for migration. This will help guide us in focusing on the most high-value content first.
   - **Completed work:** Refer to prioritization criteria in the following section of this document.
 - **Need:** A high-level audit and analysis of websites for consideration. This will give us an understanding of all the content that remains to be migrated so that we can apply our criteria for prioritization. [**21st Century IDEA Act Action 2: Identify public-facing websites**]
@@ -55,12 +55,12 @@ The remaining content that must migrate to the modernized VA.gov is highly nuanc
   
 ## Recently completed migration efforts
 
-**Note:** These are high-engagement content sections within the top 1,000 pages across VA websites. These are also tied to, and being tracked by, the VA CIO's accessibility remediation efforts.
+**Note:** These are high-engagement content sections within the top 1,000 pages across VA websites. These are also tied to, and being tracked by, the VA CIO's accessibility remediation efforts. We are migrating **Veteran and beneficary content only** at this time.
 
-- Veteran community care content
-- Foreign medical program content
-- Board of Veterans Appeals content
-- Education rates content
+- Veteran community care content (https://www.va.gov/communitycare/programs/veterans/index.asp and subpages full section)
+- Foreign medical program content (within https://www.va.gov/communitycare/programs/veterans/index.asp)
+- Board of Veterans Appeals content (https://www.bva.va.gov/)
+- Education rates content (rates content within https://benefits.va.gov/gibill)
 - VEText FAQs (va.gov/health/vetext_faqs.asp)
 - Dental program (va.gov/healthbenefits/vadip/)
 - Some persona pages on main TeamSite nav (others need more extensive work/planning)
@@ -70,7 +70,7 @@ The remaining content that must migrate to the modernized VA.gov is highly nuanc
   
 ## Currently in progress migration initiatives
 
-### VBA fact sheet library
+### VBA fact sheet library (benefits.va.gov/benefits/factsheets.asp)
 
 - **Status:** Audit of all fact sheets with recommendations complete and handed off to VBA digital media. Majority of fact sheets replaced with links.  
 

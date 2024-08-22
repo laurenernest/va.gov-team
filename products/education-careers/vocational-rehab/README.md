@@ -2,7 +2,7 @@
 # Product Outline: Veteran Readiness & Employement (Chapter 31), Form 28-1900
 
 ## Overview
-Fromerly called Vocational Rehabilitation and Employment, the online 28-1900 form allows Veterans with a service-connected disability that limits their ability to work or prevents them from working helps them explore employment options and address education or training needs. In some cases, the Veteran's family members may also qualify for certain benefits.
+Formerly called Vocational Rehabilitation and Employment, the online 28-1900 form allows Veterans with a service-connected disability that limits their ability to work or prevents them from working helps them explore employment options and address education or training needs. In some cases, the Veteran's family members may also qualify for certain benefits.
 
 There are several [VR&E support-and-service "tracks"](https://www.va.gov/careers-employment/vocational-rehabilitation/programs/) Veterans utilize.
 
@@ -10,6 +10,14 @@ There are several [VR&E support-and-service "tracks"](https://www.va.gov/careers
 - [Start wizard questionnare](https://www.va.gov/careers-employment/vocational-rehabilitation/apply-vre-form-28-1900/start)
 - [Online form tool](https://www.va.gov/careers-employment/vocational-rehabilitation/apply-vre-form-28-1900/introduction)
 
+### The VR&E Process
+- Someone applies for VR&E (VA.gov or paper)
+- A Program Support Specialist (PSS) determines eligibility, and processes 28-1900 application.
+- If applicant is eligible, PSS will send the Veteran a EVA@VA.gov/Text message asking the Veteran if they want to opt into using e-VA.
+- PSS assigns veteran to Vocational Rehabilitation Counselor (VRC).
+- If the Veteran opts into e-VA, they'll start receiving emails to fill out their orientation documents and to schedule their initial evaluation with a VRC
+- Veteran has initial evaluation with a VRC to determine their level of VR&E benefit over the phone/e-VA link.
+- The PSS or VRC does not call the Veteran over the phone -- they only send email/textst from e-VA. The Counselor calls on the day of evaluation appointment.
  
 ## Desired User Outcomes
 
@@ -89,8 +97,8 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 
 #### Communications
 - Team Name: Benefits Non-Disability Experience Team (Team Umbrella)
-- GitHub Team Label: Umbrella
-- GitHub Product Label: CH31
+- GitHub Team Label: non-disability-benefits
+- GitHub Product Label: CH31, vr&e
 - Slack channel: benefits-non-disability
 - Product POCs: Laura Steele (product manager), Emily Theis (OCTO Lead)
 

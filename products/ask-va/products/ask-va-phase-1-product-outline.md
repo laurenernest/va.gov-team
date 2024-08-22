@@ -12,7 +12,7 @@ Last updated by @beckyphung on January 8, 2024
 - [Team and Stakeholders](#team-and-stakeholders)
 
 ## Overview
-AVA on the modernized VA.gov platform will be a digital support channel that works with other tools and features on VA.gov and VA ecosystems to quickly and accurately answer submitters' questions. Submitters should feel it is easy and intuitive to submit their issues and receive adequate updates and information that results in a final resolution. Ultimately, we want AVA to feel part of a cohesive and submitter-centered approach to support.
+Ask VA (AVA) on the modernized VA.gov platform will be a digital support channel that works with other tools and features on VA.gov and VA ecosystems to quickly and accurately answer submitters' questions. Submitters should feel it is easy and intuitive to submit their issues and receive adequate updates and information that results in a final resolution. Ultimately, we want AVA to feel part of a cohesive and submitter-centered approach to support.
 
 ## Problem Statement
 Submitter should easily and intuitively be able to ask a question through Ask VA on VA.gov.
@@ -27,8 +27,8 @@ Submitter should easily and intuitively be able to ask a question through Ask VA
 We expect Veterans and other submitters to meet these outcomes after we launch Phase 1: 
 
 ### Desired submitter outcomes
-1. **Better submission experience**: It's easier for Veterans and other submitters to send questions on VA.gov through AVA. (Learn more about [our design strategy](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Design%20strategy%3A%20Phase%201.md#design-strategy).)
-2. **Better dashboard experience**: While signed in on VA.gov, it's easier for Veterans and other submitters to view and reply to past AVA questions. (Learn more about [our design strategy](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Design%20strategy%3A%20Phase%201.md#design-strategy).)
+1. **Better submission experience**: It's easier for Veterans and other submitters to send questions on VA.gov through AVA. (Learn more about [our design strategy](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/Strategy))
+2. **Better dashboard experience**: While signed in on VA.gov, it's easier for Veterans and other submitters to view and reply to past AVA questions. (Learn more about [our design strategy](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/Strategy).
 3. **More seamless experience**: Veterans’ and other submitters’ AVA experience and data is more consistent and seamless with other VA channels.
 4. **CRM integration**: Veterans and other submitters continue to reliably communicate with VA through AVA.
 
@@ -53,7 +53,7 @@ Key Performance Indicators (KPIs) help us understand how Ask VA is meeting expec
 
 View our KPIs in this [KPI Measurement doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/products/Phase%201%20KPIs.md)
 
-### Objectives and Key results (OKRs)
+### Objectives and key results (OKRs)
 These OKRs measure the success of our Phase 1 launch.
 
 ####  Objective 1: Bring form and dashboard up to VA.gov design, accessibility, content, and information architecture standards
@@ -61,8 +61,6 @@ These OKRs measure the success of our Phase 1 launch.
 - Key result 1.2: **Satisfaction** - Increase customer satisfaction score (CSAT) from the current ask.va.gov benchmark
 - Key result 1.3: **Task completion** - Increase the percentage of successful sent questions from the current ask.va.gov benchmark
 - Key result 1.4: **Rerouting** - Decrease the percentage of questions that are rerouted at least once by agents to another queue from the current ask.va.gov benchmark
-- Key result 1.5: **Resolution time** - Decrease the average time it takes for a Veteran to get their question resolved by an agent from the current ask.va.gov benchmark
-
 
 #### Objective 2: Integrate with enterprise assets, such as VA Profile, as necessary and possible for Phase 1
 - Key result 2.1: Explore integrations with enterprise assets (VANotify, VA Profile, My VA, Medallia feedback surveys)
@@ -109,8 +107,8 @@ Transitioning the Ask VA front-end to VA.gov design, content, and accessibility 
 
 ### Our High Level Plan for Phase 1
 1. Discovery Spikes - Conducted quick, timeboxed explorations to determine effort for potential features
-2. **Create Prototype** (Current Status) - Develop coded prototype on staging.va.gov for usability test
-3. Usability Testing - Conduct usability tests with Veterans and dependents 
+2. **Create Prototype** - Develop coded prototype on staging.va.gov for usability test (in progress)
+3. **Usability Testings/ Research** - Conduct usability tests with Veterans and dependents using Figma and Coded Prototype (in progress)
 4. Launch Phase 1 - Launch the Ask VA front-end form and dashboard on VA.gov
   
 ### Additional references
@@ -129,7 +127,7 @@ Transitioning the Ask VA front-end to VA.gov design, content, and accessibility 
 
 ### Launch Dates
 - *Target Launch Date*
-  - TBD until further conversation with dependent teams
+  - Tennatively January 2025
 - *Actual Launch Date* 
   - TBD
 - *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
@@ -137,11 +135,11 @@ Transitioning the Ask VA front-end to VA.gov design, content, and accessibility 
    
 ## Examples of Design Updates
 
-These examples represent our designs as of December 15, 2023.
+These examples represent our designs as of April 30th, 2024.
 
-![Homepage-design-changes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/research/Notes/Images/Homepage-design-changes-Dec-23.png)
-![Topic-design-changes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/research/Notes/Images/Topic-design-changes-Dec-23.png)
-![Dashboard-design-changes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/research/Notes/Images/Dashboard-design-changes-Dec-23.png)
+- [Who is Your Question about?](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Images/04-2024-Who-is-your-question-about-design.jpg)
+- [Dashboard with Cards](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Images/04-2024-Dashboard-with-cards.jpg)
+- [Your Question](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Images/04-2024-Your-question-edu-design.jpg)
 
 ## Team and Stakeholders
 ### Communications

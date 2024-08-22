@@ -38,24 +38,23 @@
 
 ## Status
 
-| Artifact | Endpoint | Source | AVA CRM | AVA FE | Phase | Notes |
-|---|---|---|:---:|:---:|---|---|
-Status | [GET /ping](crm_api/Status_Ping.md) | Dynamics | 🟩 | 🟩 | integration |  | 
-Form | [GET /topics?{id}](crm_api/Form_GetTopics.md) | Dynamics | 🟩 | 🟩 | integration |  | 
-Form | [GET /optionset?{name}](crm_api/Form_GetOptionSet.md) | Dynamics | 🟩 | 🟩 | integration | | 
-Form | [GET /profile](crm_api/AVA_Profile.md) from AVA | Dynamics | 🟩 | 🟨 | development | CRM has handed off to AVA VA.gov team | 
-Form | [GET /announcements](crm_api/Form_RetrieveAnnouncements.md) | Dynamics | 🟡 | ⬜ | ready for dev | | 
-Dashboard | [GET /inquiries](crm_api/Dashboard_RetrieveInquiries.md) | Dynamics | 🟡 | ⬜ | ready for dev | | 
-Form | [GET /inquirystatus?{inquiryNumber}](crm_api/Form_GetInquiryStatus.md) | Dynamics | 🟡 | ⬜ | ready for dev | | 
-Dashboard | [GET /inquiry/{id}/replies](crm_api/Dashboard_RetrieveReplies.md) | Dynamics | 🟡 | ⬜ | ready for dev | |
-Form | [PUT /inquiry/new](crm_api/Form_SubmitInquiry.md)  | Dynamics | 🟡 | ⬜ | ready for dev | |  
-Dashboard | [PUT /inquiry/{id}/reply/new](crm_api/Dashboard_SubmitAReply.md) | Dynamics | 🟡 | ⬜ | ready for dev |  | 
-Dashboard | [PUT /attachment/new?{inquiryNumber}](crm_api/Dashboard_UploadFile.md) | Dynamics | 🟡 | ⬜ | ready for dev |  | 
-Dashboard | [GET /attachment?{id}](crm_api/Dashboard_GetAttachment.md) | Dynamics | 🟡 | ⬜ | ready for dev | | 
-Form | [GET /zipcodes?{prefix}](lighthouse/Form_ZipCodes.md) | Lighthouse | N/A | 🟡 | ready for dev |  | 
-Form | [GET /states](lighthouse/Form_States.md) | Lighthouse | N/A | 🟡 | ready for dev | |  
-Form | [GET /countries](lighthouse/Form_GetCountries.md) | Lighthouse | N/A | 🟡 | ready for dev | | 
-Form | [GET /facilities?{code}](lighthouse/Form_MedicalFacilities.md)  | Lighthouse | N/A | 🟡 | ready for dev |  | 
-Form | [GET /schools?{facilityId}](crm_api/Form_SchoolFacilityCodes.md) | GI Bill Comparison Tool (GIBCT) | N/A | 🟡 | ready for dev |  | 
-Form | [GET /profile](va_profile/profile_processes.md) from VA | VA Profile | N/A | 🟡 | ready for dev | ?? | 
+| Artifact | Endpoint | Source | AVA CRM | VA.gov Static | VA.gov Live | VA.gov UI | E2E Testing | Notes |
+|---|---|---|:---:|:---:|:---:|:---:|:---:|---|
+Status | [GET /ping](crm_api/Status_Ping.md) | CRM | 🟩 | 🟩 | 🟩 | N/A | N/A |  | 
+Form | [GET /topics?{id}](crm_api/Form_GetTopics.md) | CRM | 🟩 | 🟩 | 🟩 | 🟩 | ⬜ |  | 
+Form | [GET /optionset?{name}](crm_api/Form_GetOptionSet.md) | CRM | 🟩 | 🟩 | 🟩 | 🟩 | ⬜ | | 
+Form | [GET /profile](crm_api/AVA_Profile.md) from AVA | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ | Needed after all; Adding back in 6/3 | 
+Form | [GET /announcements](crm_api/Form_RetrieveAnnouncements.md) | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ | Review with Design 6/6 | 
+Dashboard | [GET /inquiries](crm_api/Dashboard_RetrieveInquiries.md) | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ | CRM handed off this endpoint on 02/27 | 
+Form | [POST /inquiries/auth](crm_api/Form_SubmitInquiry.md)  | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ | integration into UI is in backlog |  
+Form | [POST /inquiries](crm_api/Form_SubmitInquiry.md)  | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ | integration into UI is in backlog |  
+Dashboard | [GET /attachment?{id}](crm_api/Dashboard_GetAttachment.md) | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ |  | 
+Form | [GET /inquirystatus?{inquiryNumber}](crm_api/Form_GetInquiryStatus.md) | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ |  | 
+Dashboard | [GET /inquiry/{id}/replies](crm_api/Dashboard_RetrieveReplies.md) | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ |  |
+Dashboard | [POST /inquiry/{id}/reply/new](crm_api/Dashboard_SubmitAReply.md) | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ |  | 
+Dashboard | [POST /attachment/new?{inquiryNumber}](crm_api/Dashboard_UploadFile.md) | CRM | 🟩 | 🟩 | 🟩 | 🟡 | ⬜ | CRM handed off this endpoint on 03/11 | 
+Form | [GET /health_facilities/{id}](lighthouse/Form_MedicalFacilities.md)  | Lighthouse | N/A | 🟩 | 🟩 | 🟩 | ⬜ |  | 
+Form | [GET /education_facilities](crm_api/Form_SchoolFacilityCodes.md) | GI Bill Comparison Tool (GIBCT) | N/A | N/A | 🟩 | 🟩 | ⬜ |  | 
+Form | GET /branch_of_service | VA Profile | N/A | N/A | 🟩 | 🟩 | ⬜ |  | 
+Form | ~[GET /profile](va_profile/profile_processes.md) from VA~ | ~VA Profile~ | ~N/A~ | ~N/A~ | ~N/A~ | ~N/A~ | ~N/A~ | login provides profile data, no need to separate call to API | 
 

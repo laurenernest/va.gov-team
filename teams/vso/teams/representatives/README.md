@@ -1,3 +1,0 @@
-# VSO Representatives
----
-WIP

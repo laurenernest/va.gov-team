@@ -30,16 +30,17 @@ A scheduled telehealth appointment that the Veteran attends through VA Video Car
 | Status: Past                                               |          | ✅    |          |
 | Status: Canceled                                           |          |      | ✅        |
 | Type of Care                                               | ✅        | ✅    | ✅        |
+| Provider Name                                              | 1          |  1    |  1       |
 | Modality                                                   | ✅        | ✅    | ✅        |
 | Joining Instructions                                       | ✅        |      |          |
 | Link to Join                                               | ✅        |      |          |
-| Provider Name                                              | ✅        | ✅    | ✅        |
-| [Instructions](../../../appointments-reference/data-reference/data-definitions.md#instructions-how-to-join): [prepare for video visit](../../../appointments-reference/data-reference/data-definitions.md#video-visit-preparation---video-at-home)
-| ✅        |      |          |
+| [Instructions](../../../appointments-reference/data-reference/data-definitions.md#instructions-how-to-join): [prepare for video visit](../../../appointments-reference/data-reference/data-definitions.md#video-visit-preparation---video-at-home) | ✅        |      |          |
 | Call to Reschedule Alert                                   | ✅        |      |          |
 | [Add to Calendar Action](../tools/tool-add-to-calendar.md) | ✅        |      |          |
 | [Print Action](../tools/tool-print.md)                     | ✅        | ✅    | ✅        |
 
+Notes:
+1: 02/23/2024 - Requirement not yet met
 
 ### Technical notes
 
